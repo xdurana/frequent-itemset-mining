@@ -1,0 +1,11 @@
+trsact: sample/sample_item.csv.4lcm53 ,#transactions 15 ,#items 5 ,size 25 extracted database: #transactions 15 ,#items 4 ,size 25
+separated at 0
+iters=8
+II->lamp_stat: 1, II->lamp_alpha: 0.500000
+frq_lb: 1, topk_k: 1,  th(0): 0.500000 ->th: 1.071429
+frq_lb: 2.000000
+frq_lb: 2, topk_k: 2,  th(1): 1.071429 ->th: 2.500000
+frq_lb: 3.000000
+frq_lb: 3, topk_k: 3,  th(2): 2.500000 ->th: 6.500000
+frq_lb: 4.000000
+frq= 4 ,#sol.= 6

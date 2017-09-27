@@ -1,0 +1,1 @@
+/imppc/labs/dnalab/xduran/fim/bin/lamplink/lamplink-linux-1.11 --allow-no-sex --bfile /imppc/labs/dnalab/xduran/fim/data/lung/assoc/lung --pheno /imppc/labs/dnalab/xduran/fim/data/lung/phenol.txt --pheno-name progres --lamp --model-dom --sglev 0.05 --upper 0.01 --out /imppc/labs/dnalab/xduran/fim/output/lung/assoc_0.5_no_cluster/assoc --fisher
