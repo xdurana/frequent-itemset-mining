@@ -1,0 +1,37 @@
+# Non-redundant combinations
+# LAMP ver. 2.0.3
+# item-file: /imppc/labs/dnalab/xduran/fim/data/ingr/data.csv
+# value-file: /imppc/labs/dnalab/xduran/fim/data/ingr/values.csv
+# significance-level: 0.05
+# P-value computing procedure: fisher (greater)
+# # of tested elements: 292, # of samples: 73405, # of positive samples: 5575
+# Adjusted significance level: 2.1389e-09, Correction factor: 23376573 (# of target rows >= 12)
+# # of significant combinations: 3489060 -> 26
+Rank	Raw p-value	Adjusted p-value	Combination	Arity	# of target rows	# of positives in the targets
+1	0.0	0	hist_index	1	37740	4510
+2	1.02765654335e-321	2.4023e-314	EdatMajor50,hist_DuradaIngres,Urgent	3	10001	1948
+3	1.02765654335e-321	2.4023e-314	EdatMajor50,hist_DuradaIngres,hist_Urgent	3	10001	1948
+4	1.10670704668e-321	2.5871e-314	index	1	35543	4294
+5	3.54739133714e-321	8.2926e-314	hist_DV58,Urgent	2	5618	1305
+6	3.54739133714e-321	8.2926e-314	hist_DV58,hist_Urgent	2	5618	1305
+7	3.67584840506e-321	8.5929e-314	hist_DuradaIngres,EdatMajor25,IngresMajor0,Urgent	4	9890	1867
+8	3.67584840506e-321	8.5929e-314	hist_DuradaIngres,hist_Urgent,EdatMajor25,IngresMajor0	4	9890	1867
+9	1.0053e-285	2.3501e-278	hist_D518,EdatMajor25	2	4561	1101
+10	1.9767e-235	4.6207e-228	hist_D041	1	3565	886
+11	4.5688e-220	1.068e-212	hist_D584	1	3057	790
+12	4.0867e-206	9.5532e-199	hist_D276	1	2450	679
+13	1.6252e-178	3.7992e-171	hist_D285,EdatMajor25	2	3207	747
+14	3.6252e-178	8.4745e-171	hist_D599	1	2733	680
+15	1.3229e-145	3.0925e-138	hist_D519,EdatMajor25	2	2271	563
+16	5.8043e-93	1.3569e-85	hist_D486	1	1309	340
+17	3.907e-90	9.1332e-83	EdatMajor25,hist_D564	2	1032	293
+18	5.448e-67	1.2736e-59	hist_D787	1	1148	275
+19	2.68e-60	6.265e-53	hist_D998,EdatMajor25	2	1122	260
+20	1.309e-47	3.0599e-40	EdatMajor25,hist_D788	2	1061	229
+21	3.5421e-46	8.2802e-39	hist_D560,EdatMajor25	2	742	182
+22	8.5095e-43	1.9892e-35	hist_dementia	1	2292	367
+23	2.3362e-27	5.4612e-20	IngresMajor1,D294	2	1325	218
+24	1.9845e-26	4.639e-19	IngresMajor1,D196	2	1120	192
+25	8.9441e-26	2.0908e-18	hist_D784	1	682	137
+26	2.3649e-19	5.5283e-12	hist_D389	1	488	99
+Time (sec.): Computing correction factor 2022.215, Enumerating significant combinations 43002.950, Total 45025.164

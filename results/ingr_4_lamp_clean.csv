@@ -1,0 +1,54 @@
+# Non-redundant combinations
+# LAMP ver. 2.0.3
+# item-file: /imppc/labs/dnalab/xduran/fim/data/ingr/data.csv
+# value-file: /imppc/labs/dnalab/xduran/fim/data/ingr/values.csv
+# significance-level: 0.05
+# P-value computing procedure: fisher (greater)
+# # of tested elements: 256, # of samples: 73405, # of positive samples: 5575
+# Adjusted significance level: 4.3813e-09, Correction factor: 11412017 (# of target rows >= 12)
+# # of significant combinations: 1682241 -> 43
+Rank	Raw p-value	Adjusted p-value	Combination	Arity	# of target rows	# of positives in the targets
+1	1.02765654335e-321	1.1728e-314	HistDuradaIngres,EdatMajor50,Urgent	3	10001	1948
+2	1.02765654335e-321	1.1728e-314	HistDuradaIngres,HistUrgent,EdatMajor50	3	10001	1948
+3	3.54739133714e-321	4.0483e-314	HistICD9_V58,Urgent	2	5618	1305
+4	3.54739133714e-321	4.0483e-314	HistICD9_V58,HistUrgent	2	5618	1305
+5	3.67584840506e-321	4.1949e-314	HistDuradaIngres,EdatMajor25,IngresMajor0,Urgent	4	9890	1867
+6	3.67584840506e-321	4.1949e-314	HistDuradaIngres,HistUrgent,EdatMajor25,IngresMajor0	4	9890	1867
+7	3.9920504184e-321	4.5557e-314	HistDuradaIngres,HistClasseAltaDomicili,Urgent	3	9826	1855
+8	3.9920504184e-321	4.5557e-314	HistDuradaIngres,HistUrgent,HistClasseAltaDomicili	3	9826	1855
+9	5.09875746508e-321	5.8187e-314	Urgent,HistClasseAltaDomicili,EdatMajor50	3	9324	1792
+10	5.09875746508e-321	5.8187e-314	EdatMajor50,HistUrgent,HistClasseAltaDomicili	3	9324	1792
+11	1.0053e-285	1.1473e-278	HistICD9_518,EdatMajor25	2	4561	1101
+12	1.9383e-278	2.2119e-271	HistProcedenciaIngres.1,EdatMajor25,IngresMajor0	3	8786	1609
+13	1.9767e-235	2.2558e-228	HistICD9_041	1	3565	886
+14	4.5688e-220	5.2139e-213	HistICD9_584	1	3057	790
+15	4.0867e-206	4.6637e-199	HistICD9_276	1	2450	679
+16	2.4618e-184	2.8094e-177	HistICD9_403	1	3096	741
+17	1.6252e-178	1.8547e-171	EdatMajor25,HistICD9_285	2	3207	747
+18	3.6252e-178	4.1371e-171	HistICD9_599	1	2733	680
+19	5.0407e-175	5.7524e-168	EdatMajor50,ICD9_518	2	5894	1077
+20	3.7643e-161	4.2958e-154	EdatMajor50,HistICD9_491	2	2198	576
+21	1.3229e-145	1.5097e-138	HistICD9_519,EdatMajor25	2	2271	563
+22	1.3577e-102	1.5494e-95	HistICD9_466	1	2033	459
+23	5.8043e-93	6.6239e-86	HistICD9_486	1	1309	340
+24	3.907e-90	4.4587e-83	EdatMajor25,HistICD9_564	2	1032	293
+25	2.7596e-74	3.1493e-67	HistICD9_507	1	1028	269
+26	1.4523e-70	1.6574e-63	HistICD9_995,EdatMajor25	2	769	223
+27	1.4368e-69	1.6397e-62	ICD9_584	1	3806	604
+28	5.448e-67	6.2173e-60	HistICD9_787	1	1148	275
+29	3.3803e-66	3.8576e-59	EdatMajor25,HistICD9_197	2	1060	261
+30	1.8266e-63	2.0845e-56	HistICD9_492	1	854	226
+31	1.5537e-62	1.7731e-55	HistICD9_038	1	697	200
+32	1.0901e-61	1.244e-54	HistICD9_785	1	839	221
+33	2.68e-60	3.0584e-53	EdatMajor25,HistICD9_998	2	1122	260
+34	2.1614e-58	2.4665e-51	ICD9_197	1	1717	335
+35	5.1848e-52	5.917e-45	ICD9_599,EdatMajor25	2	3880	564
+36	1.309e-47	1.4938e-40	EdatMajor25,HistICD9_788	2	1061	229
+37	1.6093e-46	1.8366e-39	HistICD9_198	1	664	171
+38	3.5421e-46	4.0423e-39	EdatMajor25,HistICD9_560	2	742	182
+39	2.3362e-27	2.6661e-20	ICD9_294,IngresMajor1	2	1325	218
+40	1.9845e-26	2.2647e-19	IngresMajor1,ICD9_196	2	1120	192
+41	8.9441e-26	1.0207e-18	HistICD9_784	1	682	137
+42	1.9857e-23	2.266e-16	HistICD9_V42,IngresMajor1	2	482	106
+43	2.3649e-19	2.6988e-12	HistICD9_389	1	488	99
+Time (sec.): Computing correction factor 898.756, Enumerating significant combinations 24493.924, Total 25392.681

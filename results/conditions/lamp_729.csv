@@ -1,0 +1,22 @@
+# LAMP ver. 2.0.3
+# item-file: data/conditions/data_729.csv
+# value-file: data/conditions/values_729.csv
+# significance-level: 0.05
+# P-value computing procedure: fisher (greater)
+# # of tested elements: 106, # of samples: 16228, # of positive samples: 138
+# Adjusted significance level: 2.6233e-05, Correction factor: 1906 (# of target rows >= 3)
+# # of significant combinations: 12
+Rank	Raw p-value	Adjusted p-value	Combination	Arity	# of target rows	# of positives in the targets
+1	5.1742e-16	9.862e-13	311	1	907	37
+2	1.5376e-11	2.9306e-08	311,346	2	170	15
+3	2.2536e-10	4.2953e-07	346	1	1393	37
+4	4.7894e-09	9.1287e-06	311,272	2	256	15
+5	1.5193e-07	0.00028958	311,346,401	3	48	7
+6	3.4157e-07	0.00065103	338	1	141	10
+7	4.5222e-07	0.00086194	733,311	2	56	7
+8	1.0105e-06	0.001926	414,346	2	10	4
+9	1.5774e-06	0.0030066	733,311,401	3	11	4
+10	1.6359e-06	0.003118	311,401	2	208	11
+11	1.0316e-05	0.019662	346,401	2	252	11
+12	1.1811e-05	0.022513	414,346,272	3	6	3
+Time (sec.): Computing correction factor 0.156, Enumerating significant combinations 1.389, Total 1.545

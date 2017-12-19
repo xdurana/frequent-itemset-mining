@@ -1,0 +1,71 @@
+Raw p-value,Adjusted p-value,# of target rows,# of positives in the targets,icd,icd_descr,C1,C1_descr,C2,C2_descr,C3,C3_descr,C4,C4_descr
+1.395e-265,9.9742e-263,1225,709,995,Determinades reaccions adverses no classificades a cap altre lloc,472,Faringitis i rinofaringitis cròniques,,NA,,NA,,NA
+1.395e-265,1.6475e-262,2664,709,472,Faringitis i rinofaringitis cròniques,995,Determinades reaccions adverses no classificades a cap altre lloc,,NA,,NA,,NA
+6.3096e-219,4.5114e-216,839,530,995,Determinades reaccions adverses no classificades a cap altre lloc,493,Asma,,NA,,NA,,NA
+6.3096e-219,8.1015e-216,2664,530,493,Asma,995,Determinades reaccions adverses no classificades a cap altre lloc,,NA,,NA,,NA
+9.1717e-101,6.4569e-98,2422,802,272,Trastorns del metabolisme dels lípids,401,Hipertensió essencial,,NA,,NA,,NA
+9.1717e-101,6.8971e-98,2755,802,401,Hipertensió essencial,272,Trastorns del metabolisme dels lípids,,NA,,NA,,NA
+2.7772000000000002e-55,2.0885e-52,546,230,401,Hipertensió essencial,250,Diabetis mellitus,,NA,,NA,,NA
+2.7772000000000002e-55,3.7659e-52,2422,230,250,Diabetis mellitus,401,Hipertensió essencial,,NA,,NA,,NA
+5.4326e-49,6.8993e-46,1225,184,692,Dermatitis de contacte i altres èczemes,472,Faringitis i rinofaringitis cròniques,,NA,,NA,,NA
+1.0557e-42,1.3408e-39,2664,276,692,Dermatitis de contacte i altres èczemes,995,Determinades reaccions adverses no classificades a cap altre lloc,,NA,,NA,,NA
+1.7479e-23,1.6972e-20,907,170,346,Migranya,311,Trastorn depressiu no classificat a cap altre lloc,,NA,,NA,,NA
+1.7479e-23,2.1255e-20,1393,170,311,Trastorn depressiu no classificat a cap altre lloc,346,Migranya,,NA,,NA,,NA
+6.4397e-20,8.2621e-17,620,83,041,Infeccions bacterianes en afeccions classificades en un altre lloc i de localització no especificada,569,Altres trastorns d'intestí,,NA,,NA,,NA
+6.4397e-20,8.4746e-17,717,83,569,Altres trastorns d'intestí,041,Infeccions bacterianes en afeccions classificades en un altre lloc i de localització no especificada,,NA,,NA,,NA
+2.3161e-18,2.8164e-15,2755,256,311,Trastorn depressiu no classificat a cap altre lloc,272,Trastorns del metabolisme dels lípids,,NA,,NA,,NA
+8.8792e-18,6.251e-15,620,190,272,Trastorns del metabolisme dels lípids,569,Altres trastorns d'intestí,,NA,,NA,,NA
+8.8792e-18,1.1685e-14,2755,190,569,Altres trastorns d'intestí,272,Trastorns del metabolisme dels lípids,,NA,,NA,,NA
+5.1742e-16,6.2918e-13,138,37,311,Trastorn depressiu no classificat a cap altre lloc,729,Altres trastorns dels teixits tous,,NA,,NA,,NA
+7.3317e-16,9.3113e-13,593,76,692,Dermatitis de contacte i altres èczemes,696,Psoriasi i trastorns semblants,,NA,,NA,,NA
+5.1742e-16,9.862e-13,907,37,729,Altres trastorns dels teixits tous,311,Trastorn depressiu no classificat a cap altre lloc,,NA,,NA,,NA
+7.3317e-16,1e-12,758,76,696,Psoriasi i trastorns semblants,692,Dermatitis de contacte i altres èczemes,,NA,,NA,,NA
+1.1464e-15,2.0108e-12,530,54,714,Artritis reumatoide i altres poliartropaties inflamatòries,733,Altres trastorns de l'os i el cartílag,,NA,,NA,,NA
+1.1464e-15,2.0418e-12,477,54,733,Altres trastorns de l'os i el cartílag,714,Artritis reumatoide i altres poliartropaties inflamatòries,,NA,,NA,,NA
+1.6965e-15,2.1766e-12,2755,205,041,Infeccions bacterianes en afeccions classificades en un altre lloc i de localització no especificada,272,Trastorns del metabolisme dels lípids,,NA,,NA,,NA
+1.6092e-14,1.5625e-11,758,129,346,Migranya,692,Dermatitis de contacte i altres èczemes,,NA,,NA,,NA
+1.8217e-14,1.7689e-11,1225,183,346,Migranya,472,Faringitis i rinofaringitis cròniques,,NA,,NA,,NA
+2.5157e-13,2.4428e-10,2664,329,346,Migranya,995,Determinades reaccions adverses no classificades a cap altre lloc,,NA,,NA,,NA
+5.5875e-11,3.9336e-8,530,149,272,Trastorns del metabolisme dels lípids,733,Altres trastorns de l'os i el cartílag,,NA,,NA,,NA
+3.3215e-11,5.8259e-8,2755,138,714,Artritis reumatoide i altres poliartropaties inflamatòries,272,Trastorns del metabolisme dels lípids,,NA,,NA,,NA
+5.6227e-11,6.8372e-8,477,64,311,Trastorn depressiu no classificat a cap altre lloc,714,Artritis reumatoide i altres poliartropaties inflamatòries,,NA,,NA,,NA
+5.6227e-11,9.8621e-8,907,64,714,Artritis reumatoide i altres poliartropaties inflamatòries,311,Trastorn depressiu no classificat a cap altre lloc,,NA,,NA,,NA
+5.5875e-11,9.9514e-8,2755,149,733,Altres trastorns de l'os i el cartílag,272,Trastorns del metabolisme dels lípids,,NA,,NA,,NA
+1.414e-10,1.8609e-7,530,53,569,Altres trastorns d'intestí,733,Altres trastorns de l'os i el cartílag,,NA,,NA,,NA
+2.2536e-10,2.1882e-7,138,37,346,Migranya,729,Altres trastorns dels teixits tous,,NA,,NA,,NA
+1.414e-10,2.5184e-7,620,53,733,Altres trastorns de l'os i el cartílag,569,Altres trastorns d'intestí,,NA,,NA,,NA
+6.2331e-10,8.502e-7,477,47,696,Psoriasi i trastorns semblants,714,Artritis reumatoide i altres poliartropaties inflamatòries,,NA,,NA,,NA
+6.2331e-10,1.0933e-6,593,47,714,Artritis reumatoide i altres poliartropaties inflamatòries,696,Psoriasi i trastorns semblants,,NA,,NA,,NA
+1.527e-9,1.1483e-6,61,29,401,Hipertensió essencial,410,Infart de miocardi agut,,NA,,NA,,NA
+1.1043e-9,1.3428e-6,758,84,311,Trastorn depressiu no classificat a cap altre lloc,692,Dermatitis de contacte i altres èczemes,,NA,,NA,,NA
+1.527e-9,4.2374e-6,2422,29,410,Infart de miocardi agut,401,Hipertensió essencial,,NA,,NA,,NA
+2.2516e-8,2.7379e-5,162,29,311,Trastorn depressiu no classificat a cap altre lloc,244,Hipotiroïdisme adquirit,,NA,,NA,,NA
+1.3847e-8,3.8426e-5,44,6,410,Infart de miocardi agut,414,Altres formes de cardiopatia isquèmica crònica,,NA,,NA,,NA
+1.3847e-8,3.8523e-5,61,6,414,Altres formes de cardiopatia isquèmica crònica,410,Infart de miocardi agut,,NA,,NA,,NA
+2.2516e-8,4.3411e-5,907,29,244,Hipotiroïdisme adquirit,311,Trastorn depressiu no classificat a cap altre lloc,,NA,,NA,,NA
+3.6816e-8,4.7236e-5,2664,173,041,Infeccions bacterianes en afeccions classificades en un altre lloc i de localització no especificada,995,Determinades reaccions adverses no classificades a cap altre lloc,,NA,,NA,,NA
+6.4213e-8,7.8083e-5,141,26,311,Trastorn depressiu no classificat a cap altre lloc,338,Dolor no classificat a cap altre lloc,,NA,,NA,,NA
+1.3682e-7,9.632e-5,61,28,272,Trastorns del metabolisme dels lípids,410,Infart de miocardi agut,,NA,,NA,,NA
+6.4213e-8,1.2393e-4,907,26,338,Dolor no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,,NA,,NA,,NA
+3.4157e-7,6.5103e-4,141,10,729,Altres trastorns dels teixits tous,338,Dolor no classificat a cap altre lloc,,NA,,NA,,NA
+3.4157e-7,6.5923e-4,138,10,338,Dolor no classificat a cap altre lloc,729,Altres trastorns dels teixits tous,,NA,,NA,,NA
+7.0467e-7,6.8423e-4,717,100,346,Migranya,041,Infeccions bacterianes en afeccions classificades en un altre lloc i de localització no especificada,,NA,,NA,,NA
+1.4848e-6,0.0011165,79,29,401,Hipertensió essencial,602,Altres trastorns de la pròstata,,NA,,NA,,NA
+8.1139e-7,0.0014451,1393,79,733,Altres trastorns de l'os i el cartílag,346,Migranya,,NA,,NA,,NA
+1.9494e-6,0.0025011,530,48,041,Infeccions bacterianes en afeccions classificades en un altre lloc i de localització no especificada,733,Altres trastorns de l'os i el cartílag,,NA,,NA,,NA
+1.9494e-6,0.0034719,717,48,733,Altres trastorns de l'os i el cartílag,041,Infeccions bacterianes en afeccions classificades en un altre lloc i de localització no especificada,,NA,,NA,,NA
+1.4848e-6,0.0041648,2422,29,602,Altres trastorns de la pròstata,401,Hipertensió essencial,,NA,,NA,,NA
+1.5445e-6,0.0042968,9,3,414,Altres formes de cardiopatia isquèmica crònica,346,Migranya,272,Trastorns del metabolisme dels lípids,729,Altres trastorns dels teixits tous,,NA
+8.505e-6,0.0059875,54,23,272,Trastorns del metabolisme dels lípids,274,Gota,,NA,,NA,,NA
+3.9787e-6,0.0069786,141,16,714,Artritis reumatoide i altres poliartropaties inflamatòries,338,Dolor no classificat a cap altre lloc,,NA,,NA,,NA
+3.9787e-6,0.0076788,477,16,338,Dolor no classificat a cap altre lloc,714,Artritis reumatoide i altres poliartropaties inflamatòries,,NA,,NA,,NA
+9.4553e-6,0.0091811,61,17,346,Migranya,780,Símptomes generals,,NA,,NA,,NA
+3.5463e-6,0.0099297,8,3,724,Altres trastorns de l'esquena i trastorns de l'esquena no especificats,311,Trastorn depressiu no classificat a cap altre lloc,272,Trastorns del metabolisme dels lípids,493,Asma,401,Hipertensió essencial
+1.4583e-5,0.010966,54,21,401,Hipertensió essencial,274,Gota,,NA,,NA,,NA
+7.5551e-6,0.021154,10,3,724,Altres trastorns de l'esquena i trastorns de l'esquena no especificats,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,493,Asma,,NA,,NA
+8.505e-6,0.023891,2755,23,274,Gota,272,Trastorns del metabolisme dels lípids,,NA,,NA,,NA
+9.4553e-6,0.026172,1393,17,780,Símptomes generals,346,Migranya,,NA,,NA,,NA
+1.5416e-5,0.030093,9,3,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,724,Altres trastorns de l'esquena i trastorns de l'esquena no especificats,493,Asma,,NA,,NA
+4.4022e-5,0.030991,94,32,272,Trastorns del metabolisme dels lípids,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,,NA,,NA,,NA
+1.8656e-5,0.035969,149,9,244,Hipotiroïdisme adquirit,733,Altres trastorns de l'os i el cartílag,272,Trastorns del metabolisme dels lípids,,NA,,NA
+1.4583e-5,0.040963,2422,21,274,Gota,401,Hipertensió essencial,,NA,,NA,,NA

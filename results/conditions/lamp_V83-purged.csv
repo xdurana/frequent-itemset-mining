@@ -1,0 +1,10 @@
+# Non-redundant combinations
+# LAMP ver. 2.0.3
+# item-file: data/conditions/data_V83.csv
+# value-file: data/conditions/values_V83.csv
+# significance-level: 0.05
+# P-value computing procedure: fisher (greater)
+# # of tested elements: 106, # of samples: 16228, # of positive samples: 144
+# Adjusted significance level: 2.5681e-05, Correction factor: 1947 (# of target rows >= 3)
+# # of significant combinations: 0 -> 0
+Time (sec.): Computing correction factor 0.171, Enumerating significant combinations 1.445, Total 1.616

@@ -1,0 +1,12 @@
+# Non-redundant combinations
+# LAMP ver. 2.0.3
+# item-file: data/conditions/data_472.csv
+# value-file: data/conditions/values_472.csv
+# significance-level: 0.05
+# P-value computing procedure: fisher (greater)
+# # of tested elements: 106, # of samples: 16228, # of positive samples: 1225
+# Adjusted significance level: 4.2337e-05, Correction factor: 1181 (# of target rows >= 4)
+# # of significant combinations: 110 -> 1
+Rank	Raw p-value	Adjusted p-value	Combination	Arity	# of target rows	# of positives in the targets
+1	1.395e-265	1.6475e-262	995	1	2664	709
+Time (sec.): Computing correction factor 0.153, Enumerating significant combinations 5.205, Total 5.359

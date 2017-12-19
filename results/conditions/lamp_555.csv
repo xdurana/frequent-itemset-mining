@@ -1,0 +1,9 @@
+# LAMP ver. 2.0.3
+# item-file: data/conditions/data_555.csv
+# value-file: data/conditions/values_555.csv
+# significance-level: 0.05
+# P-value computing procedure: fisher (greater)
+# # of tested elements: 106, # of samples: 16228, # of positive samples: 16
+# Adjusted significance level: 1.7712e-05, Correction factor: 2823 (# of target rows >= 2)
+# # of significant combinations: 0
+Time (sec.): Computing correction factor 0.187, Enumerating significant combinations 0.231, Total 0.418

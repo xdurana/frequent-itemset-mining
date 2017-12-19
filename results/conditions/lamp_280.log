@@ -1,0 +1,2843 @@
+trsact: data/conditions/data_280.csv.4lcm53 ,#transactions 16228 ,#items 107 ,size 19582 extracted database: #transactions 16228 ,#items 103 ,size 19579
+ output to: data/conditions/data_280.csv.4lcm53.results.lcm/data_280.csv.4lcm53.lowsup2.closed
+separated at 0
+iters=3181
+2829
+1
+102
+646
+1040
+732
+253
+48
+7
+finish calculation of K: 2828
+2
+--- testing 1 : set([14])p: 0.774346950408
+--- testing 2 : set([105])p: 0.00429297081903
+--- testing 3 : set([105, 14])p: 0.227446927201
+--- testing 4 : set([37])p: 0.725658531429
+--- testing 5 : set([37, 14])p: 1.0
+--- testing 6 : set([105, 37])p: 0.166844095511
+--- testing 7 : set([105, 37, 14])p: 1.0
+--- testing 8 : set([33])p: 0.145852557883
+--- testing 9 : set([33, 14])p: 0.133491153043
+--- testing 10 : set([33, 105])p: 0.0105834114515
+--- testing 11 : set([33, 14, 105])p: 0.0373425609533
+--- testing 12 : set([33, 37])p: 1.0
+--- testing 13 : set([33, 37, 14])p: 1.0
+--- testing 14 : set([33, 37, 105])p: 1.0
+--- testing 15 : set([33, 37, 14, 105])p: 1.0
+--- testing 16 : set([49])p: 0.0180133848383
+--- testing 17 : set([49, 14])p: 1.0
+--- testing 18 : set([49, 105])p: 0.00394320461337
+--- testing 19 : set([49, 14, 105])p: 1.0
+--- testing 20 : set([49, 37])p: 0.0890256814911
+--- testing 21 : set([49, 37, 14])p: 1.0
+--- testing 22 : set([49, 37, 105])p: 0.0473126628305
+--- testing 23 : set([49, 37, 14, 105])p: 1.0
+--- testing 24 : set([49, 33])p: 0.0867509480577
+--- testing 25 : set([49, 14, 33])p: 1.0
+--- testing 26 : set([49, 105, 33])p: 0.0510869617658
+--- testing 27 : set([49, 105, 14, 33])p: 1.0
+--- testing 28 : set([49, 37, 33])p: 1.0
+--- testing 29 : set([49, 37, 14, 33])p: 1.0
+--- testing 30 : set([49, 105, 37, 33])p: 1.0
+--- testing 31 : set([49, 105, 37, 14, 33])p: 1.0
+--- testing 32 : set([25])p: 0.00788339897425
+--- testing 33 : set([25, 14])p: 1.0
+--- testing 34 : set([25, 105])p: 0.00375865655674
+--- testing 35 : set([25, 14, 105])p: 1.0
+--- testing 36 : set([25, 37])p: 0.0980751154559
+--- testing 37 : set([25, 37, 14])p: 1.0
+--- testing 38 : set([25, 37, 105])p: 0.0234242805036
+--- testing 39 : set([25, 37, 14, 105])p: 1.0
+--- testing 40 : set([25, 33])p: 0.08081336522
+--- testing 41 : set([25, 14, 33])p: 1.0
+--- testing 42 : set([25, 105, 33])p: 0.0243897830569
+--- testing 43 : set([25, 105, 14, 33])p: 1.0
+--- testing 44 : set([25, 37, 33])p: 1.0
+--- testing 45 : set([25, 37, 14, 33])p: 1.0
+--- testing 46 : set([25, 105, 37, 33])p: 1.0
+--- testing 47 : set([25, 49])p: 0.00126383306224
+--- testing 48 : set([25, 14, 49])p: 1.0
+--- testing 49 : set([25, 105, 49])p: 0.000409121669853
+--- testing 50 : set([25, 105, 14, 49])p: 1.0
+--- testing 51 : set([25, 37, 49])p: 0.0146970648607
+--- testing 52 : set([25, 37, 14, 49])p: 1.0
+--- testing 53 : set([25, 105, 37, 49])p: 0.00884107907522
+--- testing 54 : set([25, 105, 37, 14, 49])p: 1.0
+--- testing 55 : set([25, 33, 49])p: 0.0156701134066
+--- testing 56 : set([25, 33, 14, 49])p: 1.0
+--- testing 57 : set([25, 105, 33, 49])p: 0.00884107907522
+--- testing 58 : set([25, 37, 33, 49])p: 1.0
+--- testing 59 : set([52])p: 0.0607442094325
+--- testing 60 : set([52, 14])p: 0.0734592209995
+--- testing 61 : set([105, 52])p: 0.0261596497414
+--- testing 62 : set([105, 52, 14])p: 0.0468399531178
+--- testing 63 : set([52, 37])p: 1.0
+--- testing 64 : set([52, 37, 14])p: 1.0
+--- testing 65 : set([105, 52, 37])p: 1.0
+--- testing 66 : set([105, 52, 37, 14])p: 1.0
+--- testing 67 : set([33, 52])p: 0.0487295614115
+--- testing 68 : set([33, 52, 14])p: 0.0137231747594
+--- testing 69 : set([33, 52, 105])p: 0.0287242161704
+--- testing 70 : set([33, 52, 14, 105])p: 0.00884107907522
+--- testing 71 : set([33, 52, 37])p: 1.0
+--- testing 72 : set([33, 52, 37, 14])p: 1.0
+--- testing 73 : set([33, 52, 37, 105])p: 1.0
+--- testing 74 : set([49, 52])p: 0.120796076145
+--- testing 75 : set([49, 52, 14])p: 1.0
+--- testing 76 : set([49, 52, 105])p: 0.106599120678
+--- testing 77 : set([49, 52, 14, 105])p: 1.0
+--- testing 78 : set([49, 52, 37])p: 1.0
+--- testing 79 : set([49, 52, 37, 14])p: 1.0
+--- testing 80 : set([49, 52, 37, 105])p: 1.0
+--- testing 81 : set([49, 52, 37, 14, 105])p: 1.0
+--- testing 82 : set([49, 52, 33])p: 1.0
+--- testing 83 : set([49, 52, 14, 33])p: 1.0
+--- testing 84 : set([49, 52, 105, 33])p: 1.0
+--- testing 85 : set([49, 52, 105, 14, 33])p: 1.0
+--- testing 86 : set([25, 52])p: 1.0
+--- testing 87 : set([25, 52, 14])p: 1.0
+--- testing 88 : set([25, 52, 105])p: 1.0
+--- testing 89 : set([25, 52, 14, 105])p: 1.0
+--- testing 90 : set([25, 52, 37])p: 1.0
+--- testing 91 : set([25, 52, 37, 14])p: 1.0
+--- testing 92 : set([25, 52, 37, 105])p: 1.0
+--- testing 93 : set([25, 52, 33])p: 1.0
+--- testing 94 : set([25, 52, 105, 33])p: 1.0
+--- testing 95 : set([25, 52, 49])p: 1.0
+--- testing 96 : set([25, 52, 105, 49])p: 1.0
+--- testing 97 : set([25, 52, 105, 14, 49])p: 1.0
+--- testing 98 : set([25, 52, 37, 49])p: 1.0
+--- testing 99 : set([78])p: 0.0505861899937
+--- testing 100 : set([14, 78])p: 1.0
+--- testing 101 : set([105, 78])p: 0.00754219716807
+--- testing 102 : set([105, 14, 78])p: 1.0
+--- testing 103 : set([37, 78])p: 0.055786431941
+--- testing 104 : set([14, 37, 78])p: 1.0
+--- testing 105 : set([105, 37, 78])p: 0.0185842159435
+--- testing 106 : set([105, 14, 37, 78])p: 1.0
+--- testing 107 : set([33, 78])p: 1.0
+--- testing 108 : set([33, 14, 78])p: 1.0
+--- testing 109 : set([33, 78, 105])p: 1.0
+--- testing 110 : set([33, 14, 78, 105])p: 1.0
+--- testing 111 : set([33, 37, 78])p: 1.0
+--- testing 112 : set([33, 14, 37, 78])p: 1.0
+--- testing 113 : set([33, 37, 78, 105])p: 1.0
+--- testing 114 : set([49, 78])p: 0.00342301960372
+--- testing 115 : set([49, 14, 78])p: 1.0
+--- testing 116 : set([49, 78, 105])p: 0.0014992293442
+--- testing 117 : set([49, 14, 78, 105])p: 1.0
+--- testing 118 : set([49, 37, 78])p: 0.0122607603263
+--- testing 119 : set([49, 14, 37, 78])p: 1.0
+--- testing 120 : set([49, 37, 78, 105])p: 0.00835170850388
+--- testing 121 : set([49, 78, 33])p: 1.0
+--- testing 122 : set([49, 105, 78, 33])p: 1.0
+--- testing 123 : set([25, 78])p: 0.04067602401
+--- testing 124 : set([25, 14, 78])p: 1.0
+--- testing 125 : set([25, 78, 105])p: 0.0156701134066
+--- testing 126 : set([25, 14, 78, 105])p: 1.0
+--- testing 127 : set([25, 37, 78])p: 0.00884107907522
+--- testing 128 : set([25, 37, 78, 105])p: 0.0049201908013
+--- testing 129 : set([25, 78, 33])p: 1.0
+--- testing 130 : set([25, 14, 78, 33])p: 1.0
+--- testing 131 : set([25, 105, 78, 33])p: 1.0
+--- testing 132 : set([25, 78, 49])p: 0.00884107907522
+--- testing 133 : set([25, 105, 78, 49])p: 0.00639211139346
+--- testing 134 : set([52, 78])p: 0.0411514075462
+--- testing 135 : set([52, 14, 78])p: 1.0
+--- testing 136 : set([105, 52, 78])p: 0.0344772445813
+--- testing 137 : set([105, 52, 14, 78])p: 1.0
+--- testing 138 : set([52, 37, 78])p: 1.0
+--- testing 139 : set([105, 52, 37, 78])p: 1.0
+--- testing 140 : set([33, 52, 78])p: 1.0
+--- testing 141 : set([33, 52, 78, 105])p: 1.0
+--- testing 142 : set([49, 52, 78])p: 0.0224579419915
+--- testing 143 : set([49, 52, 78, 105])p: 0.0219744590571
+--- testing 144 : set([49, 52, 14, 78, 105])p: 1.0
+--- testing 145 : set([25, 52, 78])p: 1.0
+--- testing 146 : set([25, 52, 78, 105])p: 1.0
+--- testing 147 : set([25, 52, 78, 49])p: 1.0
+--- testing 148 : set([2])p: 0.303431643988
+--- testing 149 : set([2, 14])p: 0.0967227354932
+--- testing 150 : set([105, 2])p: 0.0821865663181
+--- testing 151 : set([105, 2, 14])p: 0.0224579419915
+--- testing 152 : set([2, 37])p: 1.0
+--- testing 153 : set([2, 37, 14])p: 1.0
+--- testing 154 : set([105, 2, 37])p: 1.0
+--- testing 155 : set([105, 2, 37, 14])p: 1.0
+--- testing 156 : set([33, 2])p: 0.048257466901
+--- testing 157 : set([33, 2, 14])p: 0.0156701134066
+--- testing 158 : set([33, 2, 105])p: 0.0171281096725
+--- testing 159 : set([33, 2, 14, 105])p: 0.00688232805142
+--- testing 160 : set([33, 2, 37])p: 1.0
+--- testing 161 : set([33, 2, 37, 14])p: 1.0
+--- testing 162 : set([33, 2, 37, 105])p: 1.0
+--- testing 163 : set([49, 2])p: 1.0
+--- testing 164 : set([49, 2, 14])p: 1.0
+--- testing 165 : set([49, 2, 105])p: 1.0
+--- testing 166 : set([49, 2, 14, 105])p: 1.0
+--- testing 167 : set([49, 2, 37])p: 1.0
+--- testing 168 : set([49, 2, 37, 14])p: 1.0
+--- testing 169 : set([49, 2, 37, 105])p: 1.0
+--- testing 170 : set([49, 2, 33])p: 1.0
+--- testing 171 : set([49, 2, 14, 33])p: 1.0
+--- testing 172 : set([49, 2, 105, 33])p: 1.0
+--- testing 173 : set([25, 2])p: 1.0
+--- testing 174 : set([25, 2, 14])p: 1.0
+--- testing 175 : set([25, 2, 105])p: 1.0
+--- testing 176 : set([25, 2, 14, 105])p: 1.0
+--- testing 177 : set([25, 2, 37])p: 1.0
+--- testing 178 : set([25, 2, 37, 14])p: 1.0
+--- testing 179 : set([25, 2, 37, 105])p: 1.0
+--- testing 180 : set([25, 2, 33])p: 1.0
+--- testing 181 : set([25, 2, 49])p: 1.0
+--- testing 182 : set([25, 2, 105, 49])p: 1.0
+--- testing 183 : set([2, 52])p: 0.0229412157811
+--- testing 184 : set([2, 52, 14])p: 0.00737233307026
+--- testing 185 : set([105, 2, 52])p: 0.0151836942891
+--- testing 186 : set([105, 2, 52, 14])p: 0.00639211139346
+--- testing 187 : set([2, 52, 37])p: 1.0
+--- testing 188 : set([105, 2, 52, 37])p: 1.0
+--- testing 189 : set([33, 2, 52])p: 0.00541104284678
+--- testing 190 : set([33, 2, 52, 105])p: 0.00442912680317
+--- testing 191 : set([49, 2, 52, 105])p: 1.0
+--- testing 192 : set([49, 2, 52, 14, 105])p: 1.0
+--- testing 193 : set([2, 78])p: 1.0
+--- testing 194 : set([2, 14, 78])p: 1.0
+--- testing 195 : set([105, 2, 78])p: 1.0
+--- testing 196 : set([2, 37, 78])p: 1.0
+--- testing 197 : set([33, 2, 78])p: 1.0
+--- testing 198 : set([49, 2, 78])p: 1.0
+--- testing 199 : set([49, 2, 78, 105])p: 1.0
+--- testing 200 : set([25, 2, 78])p: 1.0
+--- testing 201 : set([63])p: 1.0
+--- testing 202 : set([14, 63])p: 1.0
+--- testing 203 : set([105, 63])p: 1.0
+--- testing 204 : set([105, 14, 63])p: 1.0
+--- testing 205 : set([37, 63])p: 1.0
+--- testing 206 : set([37, 14, 63])p: 1.0
+--- testing 207 : set([105, 37, 63])p: 1.0
+--- testing 208 : set([105, 37, 14, 63])p: 1.0
+--- testing 209 : set([33, 63])p: 1.0
+--- testing 210 : set([33, 14, 63])p: 1.0
+--- testing 211 : set([33, 105, 63])p: 1.0
+--- testing 212 : set([33, 37, 63])p: 1.0
+--- testing 213 : set([49, 63])p: 1.0
+--- testing 214 : set([49, 14, 63])p: 1.0
+--- testing 215 : set([49, 105, 63])p: 1.0
+--- testing 216 : set([49, 105, 14, 63])p: 1.0
+--- testing 217 : set([49, 37, 63])p: 1.0
+--- testing 218 : set([49, 33, 63])p: 1.0
+--- testing 219 : set([25, 63])p: 1.0
+--- testing 220 : set([25, 14, 63])p: 1.0
+--- testing 221 : set([25, 105, 63])p: 1.0
+--- testing 222 : set([25, 37, 63])p: 1.0
+--- testing 223 : set([25, 33, 63])p: 1.0
+--- testing 224 : set([25, 49, 63])p: 1.0
+--- testing 225 : set([52, 63])p: 1.0
+--- testing 226 : set([52, 14, 63])p: 1.0
+--- testing 227 : set([105, 52, 63])p: 1.0
+--- testing 228 : set([52, 37, 63])p: 1.0
+--- testing 229 : set([49, 52, 63])p: 1.0
+--- testing 230 : set([49, 52, 105, 63])p: 1.0
+--- testing 231 : set([78, 63])p: 1.0
+--- testing 232 : set([14, 78, 63])p: 1.0
+--- testing 233 : set([105, 78, 63])p: 1.0
+--- testing 234 : set([105, 14, 78, 63])p: 1.0
+--- testing 235 : set([37, 78, 63])p: 1.0
+--- testing 236 : set([49, 78, 63])p: 1.0
+--- testing 237 : set([49, 105, 78, 63])p: 1.0
+--- testing 238 : set([2, 63])p: 1.0
+--- testing 239 : set([2, 14, 63])p: 1.0
+--- testing 240 : set([105, 2, 63])p: 1.0
+--- testing 241 : set([2, 37, 63])p: 1.0
+--- testing 242 : set([2, 37, 14, 63])p: 1.0
+--- testing 243 : set([33, 2, 63])p: 1.0
+--- testing 244 : set([49, 2, 63])p: 1.0
+--- testing 245 : set([49, 2, 14, 63])p: 1.0
+--- testing 246 : set([49, 2, 105, 63])p: 1.0
+--- testing 247 : set([25, 2, 63])p: 1.0
+--- testing 248 : set([2, 78, 63])p: 1.0
+--- testing 249 : set([80])p: 1.0
+--- testing 250 : set([80, 14])p: 1.0
+--- testing 251 : set([80, 105])p: 1.0
+--- testing 252 : set([80, 105, 14])p: 1.0
+--- testing 253 : set([80, 37])p: 1.0
+--- testing 254 : set([80, 37, 14])p: 1.0
+--- testing 255 : set([80, 105, 37])p: 1.0
+--- testing 256 : set([80, 105, 37, 14])p: 1.0
+--- testing 257 : set([80, 33])p: 1.0
+--- testing 258 : set([80, 33, 14])p: 1.0
+--- testing 259 : set([80, 33, 105])p: 1.0
+--- testing 260 : set([80, 33, 37])p: 1.0
+--- testing 261 : set([80, 49])p: 1.0
+--- testing 262 : set([80, 49, 14])p: 1.0
+--- testing 263 : set([80, 49, 105])p: 1.0
+--- testing 264 : set([80, 49, 14, 105])p: 1.0
+--- testing 265 : set([80, 49, 37])p: 1.0
+--- testing 266 : set([80, 25])p: 1.0
+--- testing 267 : set([80, 25, 14])p: 1.0
+--- testing 268 : set([80, 25, 105])p: 1.0
+--- testing 269 : set([80, 25, 37])p: 1.0
+--- testing 270 : set([80, 25, 33])p: 1.0
+--- testing 271 : set([80, 52])p: 1.0
+--- testing 272 : set([80, 52, 14])p: 1.0
+--- testing 273 : set([80, 105, 52])p: 1.0
+--- testing 274 : set([80, 52, 37])p: 1.0
+--- testing 275 : set([80, 49, 52])p: 1.0
+--- testing 276 : set([80, 49, 52, 105])p: 1.0
+--- testing 277 : set([80, 78])p: 1.0
+--- testing 278 : set([80, 14, 78])p: 1.0
+--- testing 279 : set([80, 105, 78])p: 1.0
+--- testing 280 : set([80, 37, 78])p: 1.0
+--- testing 281 : set([80, 33, 78])p: 1.0
+--- testing 282 : set([80, 49, 78])p: 1.0
+--- testing 283 : set([80, 49, 78, 105])p: 1.0
+--- testing 284 : set([80, 25, 78])p: 1.0
+--- testing 285 : set([80, 52, 78])p: 1.0
+--- testing 286 : set([80, 2])p: 1.0
+--- testing 287 : set([80, 2, 14])p: 1.0
+--- testing 288 : set([80, 2, 37])p: 1.0
+--- testing 289 : set([80, 33, 2])p: 1.0
+--- testing 290 : set([80, 25, 2])p: 1.0
+--- testing 291 : set([80, 63])p: 1.0
+--- testing 292 : set([80, 14, 63])p: 1.0
+--- testing 293 : set([80, 37, 63])p: 1.0
+--- testing 294 : set([10])p: 1.0
+--- testing 295 : set([10, 14])p: 1.0
+--- testing 296 : set([105, 10])p: 1.0
+--- testing 297 : set([105, 10, 14])p: 1.0
+--- testing 298 : set([10, 37])p: 1.0
+--- testing 299 : set([10, 37, 14])p: 1.0
+--- testing 300 : set([105, 10, 37])p: 1.0
+--- testing 301 : set([105, 10, 37, 14])p: 1.0
+--- testing 302 : set([33, 10])p: 1.0
+--- testing 303 : set([33, 10, 14])p: 1.0
+--- testing 304 : set([33, 10, 105])p: 1.0
+--- testing 305 : set([33, 10, 37])p: 1.0
+--- testing 306 : set([33, 10, 37, 14])p: 1.0
+--- testing 307 : set([33, 10, 37, 105])p: 1.0
+--- testing 308 : set([49, 10])p: 1.0
+--- testing 309 : set([49, 10, 14])p: 1.0
+--- testing 310 : set([49, 10, 105])p: 1.0
+--- testing 311 : set([49, 10, 14, 105])p: 1.0
+--- testing 312 : set([49, 10, 37])p: 1.0
+--- testing 313 : set([49, 10, 37, 14])p: 1.0
+--- testing 314 : set([49, 10, 37, 105])p: 1.0
+--- testing 315 : set([25, 10])p: 1.0
+--- testing 316 : set([25, 10, 14])p: 1.0
+--- testing 317 : set([25, 10, 105])p: 1.0
+--- testing 318 : set([25, 10, 14, 105])p: 1.0
+--- testing 319 : set([25, 10, 37])p: 1.0
+--- testing 320 : set([25, 10, 37, 14])p: 1.0
+--- testing 321 : set([10, 52])p: 1.0
+--- testing 322 : set([105, 10, 52])p: 1.0
+--- testing 323 : set([10, 78])p: 1.0
+--- testing 324 : set([10, 14, 78])p: 1.0
+--- testing 325 : set([105, 10, 78])p: 1.0
+--- testing 326 : set([10, 37, 78])p: 1.0
+--- testing 327 : set([33, 10, 78])p: 1.0
+--- testing 328 : set([10, 2])p: 1.0
+--- testing 329 : set([10, 2, 14])p: 1.0
+--- testing 330 : set([10, 2, 37])p: 1.0
+--- testing 331 : set([10, 2, 14, 37])p: 1.0
+--- testing 332 : set([10, 63])p: 1.0
+--- testing 333 : set([10, 14, 63])p: 1.0
+--- testing 334 : set([105, 10, 63])p: 1.0
+--- testing 335 : set([10, 37, 63])p: 1.0
+--- testing 336 : set([10, 37, 14, 63])p: 1.0
+--- testing 337 : set([105, 10, 37, 63])p: 1.0
+--- testing 338 : set([80, 10])p: 1.0
+--- testing 339 : set([80, 10, 14])p: 1.0
+--- testing 340 : set([80, 10, 37])p: 1.0
+--- testing 341 : set([96])p: 1.0
+--- testing 342 : set([96, 14])p: 1.0
+--- testing 343 : set([96, 105])p: 1.0
+--- testing 344 : set([96, 105, 14])p: 1.0
+--- testing 345 : set([96, 37])p: 1.0
+--- testing 346 : set([96, 37, 14])p: 1.0
+--- testing 347 : set([96, 105, 37])p: 1.0
+--- testing 348 : set([96, 105, 37, 14])p: 1.0
+--- testing 349 : set([96, 33])p: 1.0
+--- testing 350 : set([96, 33, 14])p: 1.0
+--- testing 351 : set([96, 33, 105])p: 1.0
+--- testing 352 : set([96, 33, 37])p: 1.0
+--- testing 353 : set([96, 33, 37, 105])p: 1.0
+--- testing 354 : set([96, 49])p: 1.0
+--- testing 355 : set([96, 49, 14])p: 1.0
+--- testing 356 : set([96, 49, 105])p: 1.0
+--- testing 357 : set([96, 49, 14, 105])p: 1.0
+--- testing 358 : set([96, 49, 37])p: 1.0
+--- testing 359 : set([96, 49, 33])p: 1.0
+--- testing 360 : set([96, 25])p: 1.0
+--- testing 361 : set([96, 25, 14])p: 1.0
+--- testing 362 : set([96, 25, 105])p: 1.0
+--- testing 363 : set([96, 25, 37])p: 1.0
+--- testing 364 : set([96, 25, 33])p: 1.0
+--- testing 365 : set([96, 52])p: 1.0
+--- testing 366 : set([96, 105, 52])p: 1.0
+--- testing 367 : set([96, 49, 52, 105])p: 1.0
+--- testing 368 : set([96, 78])p: 1.0
+--- testing 369 : set([96, 14, 78])p: 1.0
+--- testing 370 : set([96, 105, 78])p: 1.0
+--- testing 371 : set([96, 37, 78])p: 1.0
+--- testing 372 : set([96, 33, 78])p: 1.0
+--- testing 373 : set([96, 49, 78])p: 1.0
+--- testing 374 : set([96, 49, 78, 105])p: 1.0
+--- testing 375 : set([96, 2])p: 1.0
+--- testing 376 : set([96, 2, 14])p: 1.0
+--- testing 377 : set([96, 105, 2])p: 1.0
+--- testing 378 : set([96, 2, 37])p: 1.0
+--- testing 379 : set([96, 33, 2])p: 1.0
+--- testing 380 : set([96, 49, 2])p: 1.0
+--- testing 381 : set([96, 63])p: 1.0
+--- testing 382 : set([96, 14, 63])p: 1.0
+--- testing 383 : set([96, 37, 63])p: 1.0
+--- testing 384 : set([96, 33, 63])p: 1.0
+--- testing 385 : set([96, 49, 63])p: 1.0
+--- testing 386 : set([96, 25, 63])p: 1.0
+--- testing 387 : set([96, 2, 63])p: 1.0
+--- testing 388 : set([96, 80])p: 1.0
+--- testing 389 : set([96, 80, 14])p: 1.0
+--- testing 390 : set([96, 10])p: 1.0
+--- testing 391 : set([96, 10, 14])p: 1.0
+--- testing 392 : set([96, 10, 37])p: 1.0
+--- testing 393 : set([85])p: 1.0
+--- testing 394 : set([85, 14])p: 1.0
+--- testing 395 : set([105, 85])p: 1.0
+--- testing 396 : set([105, 85, 14])p: 1.0
+--- testing 397 : set([85, 37])p: 1.0
+--- testing 398 : set([85, 14, 37])p: 1.0
+--- testing 399 : set([105, 85, 37])p: 1.0
+--- testing 400 : set([105, 85, 14, 37])p: 1.0
+--- testing 401 : set([33, 85])p: 1.0
+--- testing 402 : set([33, 85, 14])p: 1.0
+--- testing 403 : set([33, 85, 105])p: 1.0
+--- testing 404 : set([33, 85, 37])p: 1.0
+--- testing 405 : set([33, 85, 14, 37])p: 1.0
+--- testing 406 : set([49, 85])p: 1.0
+--- testing 407 : set([49, 85, 14])p: 1.0
+--- testing 408 : set([49, 85, 105])p: 1.0
+--- testing 409 : set([49, 85, 14, 105])p: 1.0
+--- testing 410 : set([49, 85, 37])p: 1.0
+--- testing 411 : set([49, 85, 14, 37])p: 1.0
+--- testing 412 : set([49, 105, 85, 37])p: 1.0
+--- testing 413 : set([49, 85, 33])p: 1.0
+--- testing 414 : set([49, 105, 85, 33])p: 1.0
+--- testing 415 : set([25, 85])p: 1.0
+--- testing 416 : set([25, 85, 14])p: 1.0
+--- testing 417 : set([25, 85, 105])p: 1.0
+--- testing 418 : set([25, 85, 14, 105])p: 1.0
+--- testing 419 : set([25, 85, 37])p: 1.0
+--- testing 420 : set([25, 85, 33])p: 1.0
+--- testing 421 : set([52, 85])p: 1.0
+--- testing 422 : set([52, 85, 14])p: 1.0
+--- testing 423 : set([105, 52, 85])p: 1.0
+--- testing 424 : set([52, 85, 37])p: 1.0
+--- testing 425 : set([49, 52, 85, 105])p: 1.0
+--- testing 426 : set([85, 78])p: 1.0
+--- testing 427 : set([14, 85, 78])p: 1.0
+--- testing 428 : set([105, 85, 78])p: 1.0
+--- testing 429 : set([85, 78, 37])p: 1.0
+--- testing 430 : set([33, 85, 78])p: 1.0
+--- testing 431 : set([49, 85, 78])p: 1.0
+--- testing 432 : set([49, 85, 78, 105])p: 1.0
+--- testing 433 : set([25, 85, 78])p: 1.0
+--- testing 434 : set([2, 85])p: 1.0
+--- testing 435 : set([2, 85, 14])p: 1.0
+--- testing 436 : set([105, 2, 85])p: 1.0
+--- testing 437 : set([2, 85, 37])p: 1.0
+--- testing 438 : set([49, 2, 85])p: 1.0
+--- testing 439 : set([85, 63])p: 1.0
+--- testing 440 : set([85, 14, 63])p: 1.0
+--- testing 441 : set([105, 85, 63])p: 1.0
+--- testing 442 : set([37, 85, 63])p: 1.0
+--- testing 443 : set([37, 85, 14, 63])p: 1.0
+--- testing 444 : set([49, 85, 63])p: 1.0
+--- testing 445 : set([25, 85, 63])p: 1.0
+--- testing 446 : set([80, 85])p: 1.0
+--- testing 447 : set([80, 85, 14])p: 1.0
+--- testing 448 : set([80, 105, 85])p: 1.0
+--- testing 449 : set([80, 85, 37])p: 1.0
+--- testing 450 : set([80, 49, 85])p: 1.0
+--- testing 451 : set([80, 49, 85, 105])p: 1.0
+--- testing 452 : set([80, 85, 78])p: 1.0
+--- testing 453 : set([80, 2, 85])p: 1.0
+--- testing 454 : set([10, 85])p: 1.0
+--- testing 455 : set([10, 85, 14])p: 1.0
+--- testing 456 : set([105, 10, 85])p: 1.0
+--- testing 457 : set([10, 85, 37])p: 1.0
+--- testing 458 : set([10, 85, 14, 37])p: 1.0
+--- testing 459 : set([96, 85])p: 1.0
+--- testing 460 : set([96, 85, 14])p: 1.0
+--- testing 461 : set([96, 105, 85])p: 1.0
+--- testing 462 : set([96, 85, 37])p: 1.0
+--- testing 463 : set([96, 33, 85])p: 1.0
+--- testing 464 : set([96, 49, 85])p: 1.0
+--- testing 465 : set([96, 25, 85])p: 1.0
+--- testing 466 : set([96, 85, 63])p: 1.0
+--- testing 467 : set([4])p: 0.163053918928
+--- testing 468 : set([4, 14])p: 1.0
+--- testing 469 : set([105, 4])p: 1.0
+--- testing 470 : set([105, 4, 14])p: 1.0
+--- testing 471 : set([4, 37])p: 1.0
+--- testing 472 : set([4, 37, 14])p: 1.0
+--- testing 473 : set([105, 4, 37])p: 1.0
+--- testing 474 : set([33, 4])p: 1.0
+--- testing 475 : set([33, 4, 105])p: 1.0
+--- testing 476 : set([33, 4, 37])p: 1.0
+--- testing 477 : set([49, 4])p: 1.0
+--- testing 478 : set([49, 4, 105])p: 1.0
+--- testing 479 : set([25, 4])p: 0.0166423210204
+--- testing 480 : set([25, 4, 105])p: 1.0
+--- testing 481 : set([25, 4, 37])p: 1.0
+--- testing 482 : set([52, 4])p: 1.0
+--- testing 483 : set([52, 4, 105])p: 1.0
+--- testing 484 : set([4, 78])p: 1.0
+--- testing 485 : set([105, 4, 78])p: 1.0
+--- testing 486 : set([2, 4])p: 1.0
+--- testing 487 : set([4, 63])p: 1.0
+--- testing 488 : set([80, 4])p: 1.0
+--- testing 489 : set([10, 4])p: 1.0
+--- testing 490 : set([10, 4, 37])p: 1.0
+--- testing 491 : set([96, 4])p: 1.0
+--- testing 492 : set([4, 85])p: 1.0
+--- testing 493 : set([6])p: 1.0
+--- testing 494 : set([14, 6])p: 1.0
+--- testing 495 : set([105, 6])p: 1.0
+--- testing 496 : set([105, 14, 6])p: 1.0
+--- testing 497 : set([37, 6])p: 1.0
+--- testing 498 : set([14, 37, 6])p: 1.0
+--- testing 499 : set([33, 6])p: 1.0
+--- testing 500 : set([33, 37, 6])p: 1.0
+--- testing 501 : set([49, 6])p: 1.0
+--- testing 502 : set([25, 6])p: 1.0
+--- testing 503 : set([25, 14, 6])p: 1.0
+--- testing 504 : set([78, 6])p: 1.0
+--- testing 505 : set([80, 6])p: 1.0
+--- testing 506 : set([96, 6])p: 1.0
+--- testing 507 : set([85, 6])p: 1.0
+--- testing 508 : set([22])p: 0.0780615688573
+--- testing 509 : set([14, 22])p: 0.0185842159435
+--- testing 510 : set([105, 22])p: 0.0156701134066
+--- testing 511 : set([105, 14, 22])p: 0.00590168301803
+--- testing 512 : set([37, 22])p: 1.0
+--- testing 513 : set([14, 37, 22])p: 1.0
+--- testing 514 : set([33, 22])p: 0.0117728673949
+--- testing 515 : set([49, 22])p: 1.0
+--- testing 516 : set([49, 22, 105])p: 1.0
+--- testing 517 : set([25, 22])p: 1.0
+--- testing 518 : set([52, 22])p: 0.00737233307026
+--- testing 519 : set([78, 22])p: 1.0
+--- testing 520 : set([2, 22])p: 0.00442912680317
+--- testing 521 : set([22, 63])p: 1.0
+--- testing 522 : set([8])p: 1.0
+--- testing 523 : set([8, 14])p: 1.0
+--- testing 524 : set([8, 105])p: 1.0
+--- testing 525 : set([8, 105, 14])p: 1.0
+--- testing 526 : set([8, 37])p: 1.0
+--- testing 527 : set([8, 37, 14])p: 1.0
+--- testing 528 : set([8, 33])p: 1.0
+--- testing 529 : set([8, 33, 14])p: 1.0
+--- testing 530 : set([8, 49])p: 1.0
+--- testing 531 : set([8, 49, 105])p: 1.0
+--- testing 532 : set([8, 25])p: 1.0
+--- testing 533 : set([8, 25, 14])p: 1.0
+--- testing 534 : set([8, 25, 33])p: 1.0
+--- testing 535 : set([8, 52])p: 1.0
+--- testing 536 : set([8, 78])p: 1.0
+--- testing 537 : set([8, 2])p: 1.0
+--- testing 538 : set([8, 2, 14])p: 1.0
+--- testing 539 : set([8, 63])p: 1.0
+--- testing 540 : set([8, 10])p: 1.0
+--- testing 541 : set([8, 96])p: 1.0
+--- testing 542 : set([8, 96, 14])p: 1.0
+--- testing 543 : set([8, 22])p: 1.0
+--- testing 544 : set([106])p: 1.0
+--- testing 545 : set([106, 14])p: 1.0
+--- testing 546 : set([105, 106])p: 1.0
+--- testing 547 : set([105, 106, 14])p: 1.0
+--- testing 548 : set([106, 37])p: 1.0
+--- testing 549 : set([33, 106])p: 1.0
+--- testing 550 : set([33, 106, 105])p: 1.0
+--- testing 551 : set([49, 106])p: 1.0
+--- testing 552 : set([49, 106, 105])p: 1.0
+--- testing 553 : set([25, 106])p: 1.0
+--- testing 554 : set([106, 52])p: 1.0
+--- testing 555 : set([105, 106, 52])p: 1.0
+--- testing 556 : set([106, 78])p: 1.0
+--- testing 557 : set([106, 63])p: 1.0
+--- testing 558 : set([80, 106])p: 1.0
+--- testing 559 : set([96, 106])p: 1.0
+--- testing 560 : set([106, 85])p: 1.0
+--- testing 561 : set([30])p: 1.0
+--- testing 562 : set([14, 30])p: 1.0
+--- testing 563 : set([105, 30])p: 1.0
+--- testing 564 : set([105, 14, 30])p: 1.0
+--- testing 565 : set([37, 30])p: 1.0
+--- testing 566 : set([14, 37, 30])p: 1.0
+--- testing 567 : set([33, 30])p: 1.0
+--- testing 568 : set([49, 30])p: 1.0
+--- testing 569 : set([49, 30, 105])p: 1.0
+--- testing 570 : set([25, 30])p: 1.0
+--- testing 571 : set([25, 14, 30])p: 1.0
+--- testing 572 : set([25, 30, 105])p: 1.0
+--- testing 573 : set([25, 30, 33])p: 1.0
+--- testing 574 : set([52, 30])p: 1.0
+--- testing 575 : set([2, 30])p: 1.0
+--- testing 576 : set([30, 63])p: 1.0
+--- testing 577 : set([96, 30])p: 1.0
+--- testing 578 : set([85, 30])p: 1.0
+--- testing 579 : set([4, 30])p: 1.0
+--- testing 580 : set([86])p: 1.0
+--- testing 581 : set([14, 86])p: 1.0
+--- testing 582 : set([105, 86])p: 1.0
+--- testing 583 : set([105, 14, 86])p: 1.0
+--- testing 584 : set([37, 86])p: 1.0
+--- testing 585 : set([14, 37, 86])p: 1.0
+--- testing 586 : set([105, 37, 86])p: 1.0
+--- testing 587 : set([33, 86])p: 1.0
+--- testing 588 : set([49, 86])p: 1.0
+--- testing 589 : set([49, 86, 105])p: 1.0
+--- testing 590 : set([25, 86])p: 1.0
+--- testing 591 : set([52, 86])p: 1.0
+--- testing 592 : set([78, 86])p: 1.0
+--- testing 593 : set([86, 63])p: 1.0
+--- testing 594 : set([96, 86])p: 1.0
+--- testing 595 : set([95])p: 1.0
+--- testing 596 : set([14, 95])p: 1.0
+--- testing 597 : set([105, 95])p: 1.0
+--- testing 598 : set([105, 14, 95])p: 1.0
+--- testing 599 : set([37, 95])p: 1.0
+--- testing 600 : set([37, 14, 95])p: 1.0
+--- testing 601 : set([33, 95])p: 1.0
+--- testing 602 : set([33, 14, 95])p: 1.0
+--- testing 603 : set([33, 105, 95])p: 1.0
+--- testing 604 : set([33, 37, 95])p: 1.0
+--- testing 605 : set([49, 95])p: 1.0
+--- testing 606 : set([25, 95])p: 1.0
+--- testing 607 : set([25, 14, 95])p: 1.0
+--- testing 608 : set([25, 37, 95])p: 1.0
+--- testing 609 : set([25, 33, 95])p: 1.0
+--- testing 610 : set([52, 95])p: 1.0
+--- testing 611 : set([78, 95])p: 1.0
+--- testing 612 : set([2, 95])p: 1.0
+--- testing 613 : set([80, 95])p: 1.0
+--- testing 614 : set([96, 95])p: 1.0
+--- testing 615 : set([85, 95])p: 1.0
+--- testing 616 : set([30, 95])p: 1.0
+--- testing 617 : set([59])p: 1.0
+--- testing 618 : set([59, 14])p: 1.0
+--- testing 619 : set([105, 59])p: 1.0
+--- testing 620 : set([59, 37])p: 1.0
+--- testing 621 : set([59, 37, 14])p: 1.0
+--- testing 622 : set([33, 59])p: 1.0
+--- testing 623 : set([49, 59])p: 1.0
+--- testing 624 : set([49, 59, 14])p: 1.0
+--- testing 625 : set([49, 59, 105])p: 1.0
+--- testing 626 : set([25, 59])p: 1.0
+--- testing 627 : set([59, 52])p: 1.0
+--- testing 628 : set([59, 78])p: 1.0
+--- testing 629 : set([2, 59])p: 1.0
+--- testing 630 : set([59, 63])p: 1.0
+--- testing 631 : set([19])p: 1.0
+--- testing 632 : set([19, 14])p: 1.0
+--- testing 633 : set([105, 19])p: 1.0
+--- testing 634 : set([19, 37])p: 1.0
+--- testing 635 : set([33, 19])p: 1.0
+--- testing 636 : set([49, 19])p: 1.0
+--- testing 637 : set([19, 78])p: 1.0
+--- testing 638 : set([71])p: 1.0
+--- testing 639 : set([14, 71])p: 1.0
+--- testing 640 : set([105, 71])p: 1.0
+--- testing 641 : set([37, 71])p: 1.0
+--- testing 642 : set([37, 14, 71])p: 1.0
+--- testing 643 : set([63, 71])p: 1.0
+--- testing 644 : set([53])p: 1.0
+--- testing 645 : set([53, 14])p: 1.0
+--- testing 646 : set([105, 53])p: 1.0
+--- testing 647 : set([53, 37])p: 1.0
+--- testing 648 : set([53, 14, 37])p: 1.0
+--- testing 649 : set([25, 53])p: 1.0
+--- testing 650 : set([53, 63])p: 1.0
+--- testing 651 : set([96, 53])p: 1.0
+--- testing 652 : set([35])p: 1.0
+--- testing 653 : set([35, 14])p: 1.0
+--- testing 654 : set([105, 35])p: 1.0
+--- testing 655 : set([35, 37])p: 1.0
+--- testing 656 : set([33, 35])p: 1.0
+--- testing 657 : set([49, 35])p: 1.0
+--- testing 658 : set([92])p: 1.0
+--- testing 659 : set([92, 14])p: 1.0
+--- testing 660 : set([105, 92])p: 1.0
+--- testing 661 : set([92, 37])p: 1.0
+--- testing 662 : set([33, 92])p: 1.0
+--- testing 663 : set([49, 92])p: 1.0
+--- testing 664 : set([49, 92, 105])p: 1.0
+--- testing 665 : set([25, 92])p: 1.0
+--- testing 666 : set([52, 92])p: 1.0
+--- testing 667 : set([92, 78])p: 1.0
+--- testing 668 : set([90])p: 1.0
+--- testing 669 : set([90, 14])p: 1.0
+--- testing 670 : set([105, 90])p: 1.0
+--- testing 671 : set([90, 37])p: 1.0
+--- testing 672 : set([49, 90])p: 1.0
+--- testing 673 : set([25, 90])p: 1.0
+--- testing 674 : set([31])p: 1.0
+--- testing 675 : set([14, 31])p: 1.0
+--- testing 676 : set([105, 31])p: 1.0
+--- testing 677 : set([37, 31])p: 1.0
+--- testing 678 : set([33, 31])p: 1.0
+--- testing 679 : set([38])p: 1.0
+--- testing 680 : set([14, 38])p: 1.0
+--- testing 681 : set([105, 38])p: 1.0
+--- testing 682 : set([37, 38])p: 1.0
+--- testing 683 : set([14, 37, 38])p: 1.0
+--- testing 684 : set([33, 38])p: 1.0
+--- testing 685 : set([25, 38])p: 1.0
+--- testing 686 : set([10, 38])p: 1.0
+--- testing 687 : set([98])p: 1.0
+--- testing 688 : set([98, 14])p: 1.0
+--- testing 689 : set([105, 98])p: 1.0
+--- testing 690 : set([98, 37])p: 1.0
+--- testing 691 : set([33, 98])p: 1.0
+--- testing 692 : set([49, 98])p: 1.0
+--- testing 693 : set([25, 98])p: 1.0
+--- testing 694 : set([98, 2])p: 1.0
+--- testing 695 : set([54])p: 1.0
+--- testing 696 : set([14, 54])p: 1.0
+--- testing 697 : set([105, 54])p: 1.0
+--- testing 698 : set([37, 54])p: 1.0
+--- testing 699 : set([49, 54])p: 1.0
+--- testing 700 : set([49, 54, 105])p: 1.0
+--- testing 701 : set([56])p: 1.0
+--- testing 702 : set([56, 14])p: 1.0
+--- testing 703 : set([56, 105])p: 1.0
+--- testing 704 : set([56, 37])p: 1.0
+--- testing 705 : set([56, 49])p: 1.0
+--- testing 706 : set([56, 25])p: 1.0
+--- testing 707 : set([15])p: 1.0
+--- testing 708 : set([14, 15])p: 1.0
+--- testing 709 : set([105, 15])p: 1.0
+--- testing 710 : set([37, 15])p: 1.0
+--- testing 711 : set([37, 14, 15])p: 1.0
+--- testing 712 : set([40])p: 1.0
+--- testing 713 : set([40, 14])p: 1.0
+--- testing 714 : set([40, 105])p: 1.0
+--- testing 715 : set([40, 37])p: 1.0
+--- testing 716 : set([40, 33])p: 1.0
+--- testing 717 : set([40, 25])p: 1.0
+--- testing 718 : set([61])p: 1.0
+--- testing 719 : set([74])p: 1.0
+--- testing 720 : set([64])p: 1.0
+--- testing 721 : set([64, 14])p: 1.0
+--- testing 722 : set([64, 105])p: 1.0
+--- testing 723 : set([69])p: 1.0
+--- testing 724 : set([69, 14])p: 1.0
+--- testing 725 : set([69, 37])p: 1.0
+--- testing 726 : set([84])p: 1.0
+--- testing 727 : set([105, 84])p: 1.0
+--- testing 728 : set([55])p: 1.0
+--- testing 729 : set([21])p: 1.0
+--- testing 730 : set([7])p: 1.0
+--- testing 731 : set([103])p: 1.0
+--- testing 732 : set([72])p: 1.0
+--- testing 733 : set([101])p: 1.0
+--- testing 734 : set([100])p: 1.0
+--- testing 735 : set([24])p: 1.0
+--- testing 736 : set([60])p: 1.0
+--- testing 737 : set([91])p: 1.0
+--- testing 738 : set([16])p: 1.0
+--- testing 739 : set([47])p: 1.0
+--- testing 740 : set([105, 47])p: 1.0
+--- testing 741 : set([66])p: 1.0
+--- testing 742 : set([20])p: 1.0
+--- testing 743 : set([62])p: 1.0
+--- testing 744 : set([73])p: 1.0
+--- testing 745 : set([45])p: 1.0
+--- testing 746 : set([5])p: 0.00590168301803
+--- testing 747 : set([12])p: 1.0
+--- testing 748 : set([32])p: 1.0
+--- testing 749 : set([88])p: 1.0
+--- testing 750 : set([41])p: 1.0
+--- testing 751 : set([42])p: 1.0
+--- testing 752 : set([70])p: 1.0
+--- testing 753 : set([1])p: 1.0
+--- testing 754 : set([13])p: 1.0
+--- testing 755 : set([43])p: 1.0
+--- testing 756 : set([48])p: 1.0
+--- testing 757 : set([51])p: 1.0
+--- testing 758 : set([67])p: 1.0
+--- testing 759 : set([79])p: 1.0
+--- testing 760 : set([93])p: 1.0
+--- testing 761 : set([9])p: 0.00393785077396
+--- testing 762 : set([65])p: 1.0
+--- testing 763 : set([82])p: 1.0
+--- testing 764 : set([94])p: 1.0
+--- testing 765 : set([25, 37, 105, 33, 49])p: 1.0
+--- testing 766 : set([25, 105, 52, 37, 49])p: 1.0
+--- testing 767 : set([25, 14, 78, 49])p: 1.0
+--- testing 768 : set([25, 52, 105, 78, 49])p: 1.0
+--- testing 769 : set([49, 2, 105, 14, 33])p: 1.0
+--- testing 770 : set([25, 2, 14, 33])p: 1.0
+--- testing 771 : set([25, 2, 14, 49])p: 1.0
+--- testing 772 : set([33, 2, 78, 105])p: 1.0
+--- testing 773 : set([49, 2, 14, 78])p: 1.0
+--- testing 774 : set([49, 2, 78, 33])p: 1.0
+--- testing 775 : set([25, 2, 14, 78])p: 1.0
+--- testing 776 : set([2, 52, 78])p: 1.0
+--- testing 777 : set([25, 105, 14, 63])p: 1.0
+--- testing 778 : set([25, 105, 33, 63])p: 1.0
+--- testing 779 : set([105, 52, 14, 63])p: 1.0
+--- testing 780 : set([49, 14, 78, 63])p: 1.0
+--- testing 781 : set([25, 78, 63])p: 1.0
+--- testing 782 : set([2, 52, 63])p: 1.0
+--- testing 783 : set([80, 105, 52, 14])p: 1.0
+--- testing 784 : set([80, 105, 2])p: 1.0
+--- testing 785 : set([80, 37, 14, 63])p: 1.0
+--- testing 786 : set([80, 2, 63])p: 1.0
+--- testing 787 : set([49, 10, 33])p: 1.0
+--- testing 788 : set([25, 10, 33])p: 1.0
+--- testing 789 : set([10, 52, 14])p: 1.0
+--- testing 790 : set([10, 52, 37])p: 1.0
+--- testing 791 : set([33, 10, 78, 105])p: 1.0
+--- testing 792 : set([80, 10, 37, 14])p: 1.0
+--- testing 793 : set([96, 33, 37, 14])p: 1.0
+--- testing 794 : set([96, 25, 14, 105])p: 1.0
+--- testing 795 : set([96, 25, 14, 33])p: 1.0
+--- testing 796 : set([96, 25, 105, 33])p: 1.0
+--- testing 797 : set([96, 52, 14])p: 1.0
+--- testing 798 : set([96, 105, 14, 78])p: 1.0
+--- testing 799 : set([96, 78, 63])p: 1.0
+--- testing 800 : set([33, 85, 14, 105])p: 1.0
+--- testing 801 : set([33, 105, 85, 37])p: 1.0
+--- testing 802 : set([49, 85, 14, 33])p: 1.0
+--- testing 803 : set([25, 85, 14, 37])p: 1.0
+--- testing 804 : set([105, 52, 85, 14])p: 1.0
+--- testing 805 : set([105, 52, 85, 37])p: 1.0
+--- testing 806 : set([33, 52, 85])p: 1.0
+--- testing 807 : set([2, 85, 63])p: 1.0
+--- testing 808 : set([25, 4, 14])p: 1.0
+--- testing 809 : set([2, 4, 14])p: 1.0
+--- testing 810 : set([10, 4, 14])p: 1.0
+--- testing 811 : set([33, 6, 105])p: 1.0
+--- testing 812 : set([105, 37, 22])p: 1.0
+--- testing 813 : set([33, 14, 22])p: 0.0034463626352
+--- testing 814 : set([6, 22])p: 1.0
+--- testing 815 : set([8, 49, 14])p: 1.0
+--- testing 816 : set([49, 106, 52])p: 1.0
+--- testing 817 : set([106, 10])p: 1.0
+--- testing 818 : set([33, 30, 105])p: 1.0
+--- testing 819 : set([105, 52, 30])p: 1.0
+--- testing 820 : set([78, 30])p: 1.0
+--- testing 821 : set([80, 30])p: 1.0
+--- testing 822 : set([10, 30])p: 1.0
+--- testing 823 : set([105, 14, 37, 86])p: 1.0
+--- testing 824 : set([2, 86])p: 1.0
+--- testing 825 : set([80, 86])p: 1.0
+--- testing 826 : set([49, 105, 95])p: 1.0
+--- testing 827 : set([25, 37, 33, 95])p: 1.0
+--- testing 828 : set([96, 25, 95])p: 1.0
+--- testing 829 : set([4, 95])p: 1.0
+--- testing 830 : set([105, 59, 14])p: 1.0
+--- testing 831 : set([25, 59, 14])p: 1.0
+--- testing 832 : set([49, 19, 105])p: 1.0
+--- testing 833 : set([80, 19])p: 1.0
+--- testing 834 : set([33, 53])p: 1.0
+--- testing 835 : set([10, 53])p: 1.0
+--- testing 836 : set([33, 35, 37])p: 1.0
+--- testing 837 : set([49, 35, 105])p: 1.0
+--- testing 838 : set([25, 35])p: 1.0
+--- testing 839 : set([35, 85])p: 1.0
+--- testing 840 : set([90, 78])p: 1.0
+--- testing 841 : set([90, 2])p: 1.0
+--- testing 842 : set([2, 38])p: 1.0
+--- testing 843 : set([96, 38])p: 1.0
+--- testing 844 : set([33, 98, 14])p: 1.0
+--- testing 845 : set([98, 52])p: 1.0
+--- testing 846 : set([98, 85])p: 1.0
+--- testing 847 : set([33, 54])p: 1.0
+--- testing 848 : set([25, 54])p: 1.0
+--- testing 849 : set([2, 54])p: 1.0
+--- testing 850 : set([56, 33])p: 1.0
+--- testing 851 : set([105, 61])p: 1.0
+--- testing 852 : set([33, 61])p: 1.0
+--- testing 853 : set([37, 103])p: 1.0
+--- testing 854 : set([101, 37])p: 1.0
+--- testing 855 : set([18])p: 1.0
+--- testing 856 : set([27])p: 1.0
+--- testing 857 : set([44])p: 1.0
+--- testing 858 : set([89])p: 1.0
+--- testing 859 : set([97])p: 1.0
+--- testing 860 : set([99])p: 1.0
+--- testing 861 : set([25, 105, 37, 14, 33])p: 1.0
+--- testing 862 : set([25, 105, 33, 14, 49])p: 1.0
+--- testing 863 : set([33, 52, 37, 14, 105])p: 1.0
+--- testing 864 : set([49, 14, 37, 78, 105])p: 1.0
+--- testing 865 : set([49, 105, 37, 78, 33])p: 1.0
+--- testing 866 : set([25, 14, 37, 78])p: 1.0
+--- testing 867 : set([25, 105, 14, 78, 49])p: 1.0
+--- testing 868 : set([25, 37, 78, 49])p: 0.00295466230839
+--- testing 869 : set([49, 52, 37, 78, 105])p: 1.0
+--- testing 870 : set([49, 52, 105, 78, 33])p: 1.0
+--- testing 871 : set([33, 2, 37, 14, 105])p: 1.0
+--- testing 872 : set([49, 2, 37, 14, 105])p: 1.0
+--- testing 873 : set([25, 2, 37, 14, 105])p: 1.0
+--- testing 874 : set([25, 2, 37, 33])p: 1.0
+--- testing 875 : set([2, 52, 37, 14])p: 1.0
+--- testing 876 : set([25, 2, 52])p: 1.0
+--- testing 877 : set([105, 2, 52, 78])p: 1.0
+--- testing 878 : set([49, 37, 14, 63])p: 1.0
+--- testing 879 : set([49, 33, 14, 63])p: 1.0
+--- testing 880 : set([25, 37, 14, 63])p: 1.0
+--- testing 881 : set([49, 52, 14, 63])p: 1.0
+--- testing 882 : set([14, 37, 78, 63])p: 1.0
+--- testing 883 : set([105, 37, 78, 63])p: 1.0
+--- testing 884 : set([105, 2, 14, 63])p: 1.0
+--- testing 885 : set([33, 2, 14, 63])p: 1.0
+--- testing 886 : set([25, 2, 14, 63])p: 1.0
+--- testing 887 : set([80, 49, 33])p: 1.0
+--- testing 888 : set([80, 25, 49])p: 1.0
+--- testing 889 : set([80, 105, 52, 37])p: 1.0
+--- testing 890 : set([80, 105, 14, 78])p: 1.0
+--- testing 891 : set([80, 33, 78, 105])p: 1.0
+--- testing 892 : set([80, 49, 2])p: 1.0
+--- testing 893 : set([80, 105, 63])p: 1.0
+--- testing 894 : set([25, 10, 37, 105])p: 1.0
+--- testing 895 : set([49, 10, 52])p: 1.0
+--- testing 896 : set([105, 10, 14, 78])p: 1.0
+--- testing 897 : set([10, 14, 37, 78])p: 1.0
+--- testing 898 : set([105, 10, 37, 78])p: 1.0
+--- testing 899 : set([49, 10, 78])p: 1.0
+--- testing 900 : set([105, 10, 37, 14, 63])p: 1.0
+--- testing 901 : set([10, 2, 63])p: 1.0
+--- testing 902 : set([96, 33, 14, 105])p: 1.0
+--- testing 903 : set([96, 49, 37, 14])p: 1.0
+--- testing 904 : set([96, 105, 52, 14])p: 1.0
+--- testing 905 : set([96, 52, 37])p: 1.0
+--- testing 906 : set([96, 105, 52, 78])p: 1.0
+--- testing 907 : set([96, 37, 14, 63])p: 1.0
+--- testing 908 : set([49, 105, 85, 14, 33])p: 1.0
+--- testing 909 : set([49, 37, 85, 33])p: 1.0
+--- testing 910 : set([25, 85, 49])p: 1.0
+--- testing 911 : set([33, 52, 85, 105])p: 1.0
+--- testing 912 : set([33, 85, 78, 105])p: 1.0
+--- testing 913 : set([33, 2, 85])p: 1.0
+--- testing 914 : set([49, 2, 85, 14])p: 1.0
+--- testing 915 : set([33, 85, 63])p: 1.0
+--- testing 916 : set([49, 105, 85, 63])p: 1.0
+--- testing 917 : set([80, 105, 85, 14])p: 1.0
+--- testing 918 : set([80, 85, 14, 37])p: 1.0
+--- testing 919 : set([80, 33, 85])p: 1.0
+--- testing 920 : set([80, 25, 85])p: 1.0
+--- testing 921 : set([80, 2, 85, 14])p: 1.0
+--- testing 922 : set([25, 10, 85])p: 1.0
+--- testing 923 : set([96, 85, 14, 37])p: 1.0
+--- testing 924 : set([96, 49, 85, 14])p: 1.0
+--- testing 925 : set([96, 2, 85])p: 1.0
+--- testing 926 : set([105, 4, 37, 14])p: 1.0
+--- testing 927 : set([33, 4, 14])p: 1.0
+--- testing 928 : set([49, 4, 33])p: 1.0
+--- testing 929 : set([52, 4, 105, 49])p: 1.0
+--- testing 930 : set([33, 4, 78])p: 1.0
+--- testing 931 : set([25, 4, 78])p: 1.0
+--- testing 932 : set([4, 14, 63])p: 1.0
+--- testing 933 : set([4, 37, 63])p: 1.0
+--- testing 934 : set([96, 4, 14])p: 1.0
+--- testing 935 : set([96, 33, 4])p: 1.0
+--- testing 936 : set([4, 85, 37])p: 1.0
+--- testing 937 : set([33, 14, 6])p: 1.0
+--- testing 938 : set([33, 37, 22])p: 1.0
+--- testing 939 : set([105, 52, 22])p: 0.00295466230839
+--- testing 940 : set([96, 22])p: 1.0
+--- testing 941 : set([8, 33, 105])p: 1.0
+--- testing 942 : set([8, 33, 37])p: 1.0
+--- testing 943 : set([8, 14, 78])p: 1.0
+--- testing 944 : set([8, 105, 78])p: 1.0
+--- testing 945 : set([8, 96, 105])p: 1.0
+--- testing 946 : set([8, 4])p: 1.0
+--- testing 947 : set([106, 2])p: 1.0
+--- testing 948 : set([49, 14, 30])p: 1.0
+--- testing 949 : set([25, 37, 30])p: 1.0
+--- testing 950 : set([10, 14, 30])p: 1.0
+--- testing 951 : set([105, 52, 86])p: 1.0
+--- testing 952 : set([10, 86])p: 1.0
+--- testing 953 : set([49, 14, 95])p: 1.0
+--- testing 954 : set([49, 37, 95])p: 1.0
+--- testing 955 : set([49, 33, 95])p: 1.0
+--- testing 956 : set([25, 49, 95])p: 1.0
+--- testing 957 : set([105, 52, 95])p: 1.0
+--- testing 958 : set([86, 95])p: 1.0
+--- testing 959 : set([105, 59, 52])p: 1.0
+--- testing 960 : set([2, 59, 14])p: 1.0
+--- testing 961 : set([105, 53, 14])p: 1.0
+--- testing 962 : set([105, 53, 37])p: 1.0
+--- testing 963 : set([25, 53, 37])p: 1.0
+--- testing 964 : set([52, 53])p: 1.0
+--- testing 965 : set([35, 37, 14])p: 1.0
+--- testing 966 : set([92, 37, 14])p: 1.0
+--- testing 967 : set([105, 37, 38])p: 1.0
+--- testing 968 : set([33, 14, 38])p: 1.0
+--- testing 969 : set([33, 37, 38])p: 1.0
+--- testing 970 : set([52, 38])p: 1.0
+--- testing 971 : set([2, 37, 38])p: 1.0
+--- testing 972 : set([38, 63])p: 1.0
+--- testing 973 : set([10, 14, 38])p: 1.0
+--- testing 974 : set([105, 98, 14])p: 1.0
+--- testing 975 : set([98, 63])p: 1.0
+--- testing 976 : set([105, 14, 54])p: 1.0
+--- testing 977 : set([52, 54])p: 1.0
+--- testing 978 : set([78, 54])p: 1.0
+--- testing 979 : set([54, 63])p: 1.0
+--- testing 980 : set([40, 37, 14])p: 1.0
+--- testing 981 : set([40, 33, 14])p: 1.0
+--- testing 982 : set([40, 38])p: 1.0
+--- testing 983 : set([61, 37])p: 1.0
+--- testing 984 : set([25, 61])p: 1.0
+--- testing 985 : set([25, 74])p: 1.0
+--- testing 986 : set([64, 37])p: 1.0
+--- testing 987 : set([69, 63])p: 1.0
+--- testing 988 : set([33, 84])p: 1.0
+--- testing 989 : set([25, 84])p: 1.0
+--- testing 990 : set([100, 14])p: 1.0
+--- testing 991 : set([12, 14])p: 1.0
+--- testing 992 : set([3])p: 1.0
+--- testing 993 : set([17])p: 1.0
+--- testing 994 : set([23])p: 1.0
+--- testing 995 : set([26])p: 1.0
+--- testing 996 : set([81])p: 1.0
+--- testing 997 : set([83])p: 1.0
+--- testing 998 : set([49, 105, 52, 37, 33])p: 1.0
+--- testing 999 : set([25, 52, 37, 14, 105])p: 1.0
+--- testing 1000 : set([25, 52, 14, 33])p: 1.0
+--- testing 1001 : set([25, 105, 52, 33, 49])p: 1.0
+--- testing 1002 : set([49, 14, 78, 33])p: 1.0
+--- testing 1003 : set([25, 14, 37, 78, 105])p: 1.0
+--- testing 1004 : set([25, 105, 14, 78, 33])p: 1.0
+--- testing 1005 : set([25, 105, 37, 78, 49])p: 0.00246274971501
+--- testing 1006 : set([14, 52, 37, 78])p: 1.0
+--- testing 1007 : set([25, 52, 14, 78])p: 1.0
+--- testing 1008 : set([25, 2, 105, 14, 49])p: 1.0
+--- testing 1009 : set([105, 2, 52, 37, 14])p: 1.0
+--- testing 1010 : set([33, 2, 52, 14, 105])p: 0.00246274971501
+--- testing 1011 : set([49, 2, 52, 105, 33])p: 1.0
+--- testing 1012 : set([105, 2, 14, 78])p: 1.0
+--- testing 1013 : set([105, 2, 37, 78])p: 1.0
+--- testing 1014 : set([49, 2, 105, 78, 33])p: 1.0
+--- testing 1015 : set([33, 105, 14, 63])p: 1.0
+--- testing 1016 : set([49, 105, 33, 63])p: 1.0
+--- testing 1017 : set([25, 105, 49, 63])p: 1.0
+--- testing 1018 : set([49, 52, 105, 14, 63])p: 1.0
+--- testing 1019 : set([49, 105, 14, 78, 63])p: 1.0
+--- testing 1020 : set([25, 14, 78, 63])p: 1.0
+--- testing 1021 : set([2, 14, 78, 63])p: 1.0
+--- testing 1022 : set([80, 49, 37, 105])p: 1.0
+--- testing 1023 : set([80, 25, 37, 14])p: 1.0
+--- testing 1024 : set([80, 33, 52])p: 1.0
+--- testing 1025 : set([80, 49, 52, 14, 105])p: 1.0
+--- testing 1026 : set([80, 25, 52])p: 1.0
+--- testing 1027 : set([80, 105, 52, 78])p: 1.0
+--- testing 1028 : set([80, 2, 37, 14])p: 1.0
+--- testing 1029 : set([80, 25, 2, 14])p: 1.0
+--- testing 1030 : set([80, 2, 14, 63])p: 1.0
+--- testing 1031 : set([33, 10, 14, 105])p: 1.0
+--- testing 1032 : set([49, 10, 105, 33])p: 1.0
+--- testing 1033 : set([49, 10, 52, 105])p: 1.0
+--- testing 1034 : set([33, 10, 37, 78])p: 1.0
+--- testing 1035 : set([105, 10, 2])p: 1.0
+--- testing 1036 : set([33, 10, 63])p: 1.0
+--- testing 1037 : set([10, 2, 14, 63])p: 1.0
+--- testing 1038 : set([80, 105, 10])p: 1.0
+--- testing 1039 : set([80, 33, 10])p: 1.0
+--- testing 1040 : set([96, 25, 37, 14])p: 1.0
+--- testing 1041 : set([96, 33, 14, 78])p: 1.0
+--- testing 1042 : set([96, 49, 14, 78])p: 1.0
+--- testing 1043 : set([96, 25, 78])p: 1.0
+--- testing 1044 : set([96, 105, 2, 37])p: 1.0
+--- testing 1045 : set([96, 49, 2, 105])p: 1.0
+--- testing 1046 : set([96, 25, 2])p: 1.0
+--- testing 1047 : set([96, 2, 78])p: 1.0
+--- testing 1048 : set([96, 105, 63])p: 1.0
+--- testing 1049 : set([96, 25, 33, 63])p: 1.0
+--- testing 1050 : set([96, 80, 37])p: 1.0
+--- testing 1051 : set([96, 105, 10])p: 1.0
+--- testing 1052 : set([96, 10, 37, 14])p: 1.0
+--- testing 1053 : set([96, 33, 10])p: 1.0
+--- testing 1054 : set([49, 37, 105, 85, 33])p: 1.0
+--- testing 1055 : set([25, 105, 85, 37])p: 1.0
+--- testing 1056 : set([33, 52, 85, 37])p: 1.0
+--- testing 1057 : set([49, 52, 85, 14, 105])p: 1.0
+--- testing 1058 : set([105, 14, 85, 78])p: 1.0
+--- testing 1059 : set([49, 14, 85, 78])p: 1.0
+--- testing 1060 : set([105, 2, 85, 14])p: 1.0
+--- testing 1061 : set([2, 85, 14, 37])p: 1.0
+--- testing 1062 : set([33, 2, 85, 105])p: 1.0
+--- testing 1063 : set([49, 2, 85, 105])p: 1.0
+--- testing 1064 : set([25, 2, 85])p: 1.0
+--- testing 1065 : set([2, 85, 78])p: 1.0
+--- testing 1066 : set([80, 33, 85, 105])p: 1.0
+--- testing 1067 : set([80, 49, 85, 14])p: 1.0
+--- testing 1068 : set([80, 52, 85])p: 1.0
+--- testing 1069 : set([80, 105, 85, 78])p: 1.0
+--- testing 1070 : set([80, 85, 63])p: 1.0
+--- testing 1071 : set([105, 10, 85, 37])p: 1.0
+--- testing 1072 : set([25, 10, 85, 14])p: 1.0
+--- testing 1073 : set([105, 10, 85, 78])p: 1.0
+--- testing 1074 : set([96, 49, 85, 105])p: 1.0
+--- testing 1075 : set([96, 85, 78])p: 1.0
+--- testing 1076 : set([96, 85, 14, 63])p: 1.0
+--- testing 1077 : set([49, 4, 14])p: 1.0
+--- testing 1078 : set([49, 4, 37])p: 1.0
+--- testing 1079 : set([25, 4, 37, 105])p: 1.0
+--- testing 1080 : set([52, 4, 14])p: 1.0
+--- testing 1081 : set([4, 37, 78])p: 1.0
+--- testing 1082 : set([2, 4, 37])p: 1.0
+--- testing 1083 : set([33, 4, 63])p: 1.0
+--- testing 1084 : set([25, 4, 63])p: 1.0
+--- testing 1085 : set([105, 10, 4])p: 1.0
+--- testing 1086 : set([10, 4, 37, 14])p: 1.0
+--- testing 1087 : set([96, 4, 37])p: 1.0
+--- testing 1088 : set([96, 2, 4])p: 1.0
+--- testing 1089 : set([33, 4, 85])p: 1.0
+--- testing 1090 : set([105, 37, 6])p: 1.0
+--- testing 1091 : set([49, 14, 6])p: 1.0
+--- testing 1092 : set([25, 37, 6])p: 1.0
+--- testing 1093 : set([52, 6])p: 1.0
+--- testing 1094 : set([105, 78, 6])p: 1.0
+--- testing 1095 : set([2, 6])p: 1.0
+--- testing 1096 : set([6, 63])p: 1.0
+--- testing 1097 : set([4, 6])p: 1.0
+--- testing 1098 : set([33, 22, 105])p: 0.00246274971501
+--- testing 1099 : set([49, 14, 22])p: 1.0
+--- testing 1100 : set([49, 37, 22])p: 1.0
+--- testing 1101 : set([52, 14, 22])p: 0.00246274971501
+--- testing 1102 : set([49, 52, 22])p: 1.0
+--- testing 1103 : set([105, 78, 22])p: 1.0
+--- testing 1104 : set([105, 2, 22])p: 0.00246274971501
+--- testing 1105 : set([85, 22])p: 1.0
+--- testing 1106 : set([6, 22, 37])p: 1.0
+--- testing 1107 : set([8, 105, 37])p: 1.0
+--- testing 1108 : set([8, 105, 52])p: 1.0
+--- testing 1109 : set([8, 14, 63])p: 1.0
+--- testing 1110 : set([8, 80])p: 1.0
+--- testing 1111 : set([8, 96, 33])p: 1.0
+--- testing 1112 : set([8, 85])p: 1.0
+--- testing 1113 : set([106, 37, 14])p: 1.0
+--- testing 1114 : set([49, 106, 14])p: 1.0
+--- testing 1115 : set([49, 106, 52, 105])p: 1.0
+--- testing 1116 : set([25, 106, 78])p: 1.0
+--- testing 1117 : set([105, 106, 10])p: 1.0
+--- testing 1118 : set([96, 106, 14])p: 1.0
+--- testing 1119 : set([33, 14, 30])p: 1.0
+--- testing 1120 : set([25, 14, 30, 105])p: 1.0
+--- testing 1121 : set([96, 14, 30])p: 1.0
+--- testing 1122 : set([14, 85, 30])p: 1.0
+--- testing 1123 : set([96, 85, 30])p: 1.0
+--- testing 1124 : set([105, 78, 86])p: 1.0
+--- testing 1125 : set([49, 78, 86])p: 1.0
+--- testing 1126 : set([14, 86, 63])p: 1.0
+--- testing 1127 : set([37, 86, 63])p: 1.0
+--- testing 1128 : set([4, 86])p: 1.0
+--- testing 1129 : set([6, 86])p: 1.0
+--- testing 1130 : set([25, 105, 95])p: 1.0
+--- testing 1131 : set([25, 37, 14, 95])p: 1.0
+--- testing 1132 : set([25, 33, 14, 95])p: 1.0
+--- testing 1133 : set([25, 2, 95])p: 1.0
+--- testing 1134 : set([10, 95])p: 1.0
+--- testing 1135 : set([96, 37, 95])p: 1.0
+--- testing 1136 : set([8, 95])p: 1.0
+--- testing 1137 : set([106, 95])p: 1.0
+--- testing 1138 : set([33, 59, 37])p: 1.0
+--- testing 1139 : set([25, 59, 37])p: 1.0
+--- testing 1140 : set([10, 59, 14])p: 1.0
+--- testing 1141 : set([19, 52])p: 1.0
+--- testing 1142 : set([33, 19, 78])p: 1.0
+--- testing 1143 : set([2, 19])p: 1.0
+--- testing 1144 : set([10, 19])p: 1.0
+--- testing 1145 : set([19, 6])p: 1.0
+--- testing 1146 : set([2, 37, 71])p: 1.0
+--- testing 1147 : set([63, 14, 71])p: 1.0
+--- testing 1148 : set([37, 53, 63])p: 1.0
+--- testing 1149 : set([80, 53])p: 1.0
+--- testing 1150 : set([4, 53])p: 1.0
+--- testing 1151 : set([105, 35, 52, 49])p: 1.0
+--- testing 1152 : set([2, 35])p: 1.0
+--- testing 1153 : set([80, 35])p: 1.0
+--- testing 1154 : set([10, 35, 14])p: 1.0
+--- testing 1155 : set([96, 35])p: 1.0
+--- testing 1156 : set([25, 92, 37, 14])p: 1.0
+--- testing 1157 : set([25, 92, 33])p: 1.0
+--- testing 1158 : set([52, 92, 105, 49])p: 1.0
+--- testing 1159 : set([105, 92, 78])p: 1.0
+--- testing 1160 : set([2, 92])p: 1.0
+--- testing 1161 : set([90, 63])p: 1.0
+--- testing 1162 : set([33, 105, 31])p: 1.0
+--- testing 1163 : set([49, 31])p: 1.0
+--- testing 1164 : set([33, 14, 37, 38])p: 1.0
+--- testing 1165 : set([37, 38, 63])p: 1.0
+--- testing 1166 : set([80, 38])p: 1.0
+--- testing 1167 : set([49, 98, 105])p: 1.0
+--- testing 1168 : set([98, 2, 14])p: 1.0
+--- testing 1169 : set([98, 85, 14])p: 1.0
+--- testing 1170 : set([14, 37, 54])p: 1.0
+--- testing 1171 : set([49, 52, 54, 105])p: 1.0
+--- testing 1172 : set([56, 49, 105])p: 1.0
+--- testing 1173 : set([56, 2])p: 1.0
+--- testing 1174 : set([33, 15])p: 1.0
+--- testing 1175 : set([63, 15])p: 1.0
+--- testing 1176 : set([40, 49])p: 1.0
+--- testing 1177 : set([40, 10])p: 1.0
+--- testing 1178 : set([40, 96])p: 1.0
+--- testing 1179 : set([61, 14])p: 1.0
+--- testing 1180 : set([74, 14])p: 1.0
+--- testing 1181 : set([64, 33])p: 1.0
+--- testing 1182 : set([84, 37])p: 1.0
+--- testing 1183 : set([14, 55])p: 1.0
+--- testing 1184 : set([2, 55])p: 1.0
+--- testing 1185 : set([14, 7])p: 1.0
+--- testing 1186 : set([37, 7])p: 1.0
+--- testing 1187 : set([14, 103])p: 1.0
+--- testing 1188 : set([25, 103])p: 1.0
+--- testing 1189 : set([72, 105])p: 1.0
+--- testing 1190 : set([24, 14])p: 1.0
+--- testing 1191 : set([105, 60])p: 1.0
+--- testing 1192 : set([91, 14])p: 1.0
+--- testing 1193 : set([105, 91])p: 1.0
+--- testing 1194 : set([37, 47])p: 1.0
+--- testing 1195 : set([105, 62])p: 1.0
+--- testing 1196 : set([33, 67])p: 1.0
+--- testing 1197 : set([65, 37])p: 1.0
+--- testing 1198 : set([11])p: 1.0
+--- testing 1199 : set([46])p: 1.0
+--- testing 1200 : set([68])p: 1.0
+--- testing 1201 : set([25, 37, 33, 14, 49])p: 1.0
+--- testing 1202 : set([37, 105, 14, 49, 52, 25])p: 1.0
+--- testing 1203 : set([37, 105, 14, 49, 78, 25])p: 1.0
+--- testing 1204 : set([25, 33, 78, 49])p: 1.0
+--- testing 1205 : set([105, 14, 52, 37, 78])p: 1.0
+--- testing 1206 : set([33, 52, 37, 78])p: 1.0
+--- testing 1207 : set([25, 52, 14, 78, 105])p: 1.0
+--- testing 1208 : set([49, 2, 105, 37, 33])p: 1.0
+--- testing 1209 : set([25, 2, 105, 33])p: 1.0
+--- testing 1210 : set([25, 2, 37, 14, 49])p: 1.0
+--- testing 1211 : set([25, 2, 33, 49])p: 1.0
+--- testing 1212 : set([2, 37, 105, 14, 49, 52])p: 1.0
+--- testing 1213 : set([25, 2, 52, 14])p: 1.0
+--- testing 1214 : set([25, 2, 52, 105, 49])p: 1.0
+--- testing 1215 : set([33, 2, 37, 78])p: 1.0
+--- testing 1216 : set([49, 2, 14, 78, 105])p: 1.0
+--- testing 1217 : set([49, 2, 37, 78, 105])p: 1.0
+--- testing 1218 : set([25, 2, 78, 33])p: 1.0
+--- testing 1219 : set([25, 2, 78, 49])p: 1.0
+--- testing 1220 : set([49, 2, 52, 78, 105])p: 1.0
+--- testing 1221 : set([49, 105, 37, 63])p: 1.0
+--- testing 1222 : set([25, 105, 37, 14, 63])p: 1.0
+--- testing 1223 : set([25, 33, 14, 63])p: 1.0
+--- testing 1224 : set([25, 33, 49, 63])p: 1.0
+--- testing 1225 : set([105, 52, 37, 63])p: 1.0
+--- testing 1226 : set([105, 14, 37, 78, 63])p: 1.0
+--- testing 1227 : set([33, 78, 63])p: 1.0
+--- testing 1228 : set([49, 37, 78, 63])p: 1.0
+--- testing 1229 : set([105, 52, 49, 78, 63])p: 1.0
+--- testing 1230 : set([49, 2, 33, 63])p: 1.0
+--- testing 1231 : set([25, 2, 33, 63])p: 1.0
+--- testing 1232 : set([2, 52, 14, 63])p: 1.0
+--- testing 1233 : set([80, 33, 37, 14])p: 1.0
+--- testing 1234 : set([80, 49, 105, 33])p: 1.0
+--- testing 1235 : set([80, 25, 37, 105])p: 1.0
+--- testing 1236 : set([80, 25, 52, 37])p: 1.0
+--- testing 1237 : set([80, 49, 14, 78, 105])p: 1.0
+--- testing 1238 : set([80, 49, 2, 14])p: 1.0
+--- testing 1239 : set([80, 2, 78])p: 1.0
+--- testing 1240 : set([80, 52, 63])p: 1.0
+--- testing 1241 : set([49, 10, 37, 14, 105])p: 1.0
+--- testing 1242 : set([49, 10, 105, 37, 33])p: 1.0
+--- testing 1243 : set([25, 10, 37, 14, 105])p: 1.0
+--- testing 1244 : set([25, 10, 14, 33])p: 1.0
+--- testing 1245 : set([25, 10, 105, 33])p: 1.0
+--- testing 1246 : set([25, 10, 37, 33])p: 1.0
+--- testing 1247 : set([25, 10, 49])p: 1.0
+--- testing 1248 : set([105, 10, 52, 37])p: 1.0
+--- testing 1249 : set([33, 10, 37, 78, 105])p: 1.0
+--- testing 1250 : set([49, 10, 78, 105])p: 1.0
+--- testing 1251 : set([105, 10, 2, 37])p: 1.0
+--- testing 1252 : set([33, 10, 2])p: 1.0
+--- testing 1253 : set([49, 10, 2])p: 1.0
+--- testing 1254 : set([25, 10, 2, 14, 37])p: 1.0
+--- testing 1255 : set([96, 49, 37, 105])p: 1.0
+--- testing 1256 : set([96, 49, 105, 33])p: 1.0
+--- testing 1257 : set([96, 25, 37, 105])p: 1.0
+--- testing 1258 : set([96, 25, 37, 33])p: 1.0
+--- testing 1259 : set([96, 25, 49])p: 1.0
+--- testing 1260 : set([96, 105, 52, 37])p: 1.0
+--- testing 1261 : set([96, 33, 52, 105])p: 1.0
+--- testing 1262 : set([96, 14, 37, 78])p: 1.0
+--- testing 1263 : set([96, 33, 78, 105])p: 1.0
+--- testing 1264 : set([96, 49, 14, 78, 105])p: 1.0
+--- testing 1265 : set([96, 2, 37, 14])p: 1.0
+--- testing 1266 : set([96, 33, 2, 105])p: 1.0
+--- testing 1267 : set([96, 33, 2, 37])p: 1.0
+--- testing 1268 : set([96, 2, 52])p: 1.0
+--- testing 1269 : set([96, 49, 2, 78, 105])p: 1.0
+--- testing 1270 : set([96, 80, 105])p: 1.0
+--- testing 1271 : set([96, 33, 10, 105])p: 1.0
+--- testing 1272 : set([96, 10, 78])p: 1.0
+--- testing 1273 : set([49, 105, 85, 14, 37])p: 1.0
+--- testing 1274 : set([25, 105, 85, 49])p: 1.0
+--- testing 1275 : set([52, 85, 14, 37])p: 1.0
+--- testing 1276 : set([33, 52, 85, 14])p: 1.0
+--- testing 1277 : set([33, 105, 52, 85, 37])p: 1.0
+--- testing 1278 : set([49, 105, 52, 85, 37])p: 1.0
+--- testing 1279 : set([49, 105, 52, 85, 33])p: 1.0
+--- testing 1280 : set([105, 85, 78, 37])p: 1.0
+--- testing 1281 : set([25, 14, 85, 78])p: 1.0
+--- testing 1282 : set([105, 2, 85, 37])p: 1.0
+--- testing 1283 : set([105, 85, 14, 63])p: 1.0
+--- testing 1284 : set([85, 78, 63])p: 1.0
+--- testing 1285 : set([80, 49, 85, 14, 105])p: 1.0
+--- testing 1286 : set([80, 85, 14, 63])p: 1.0
+--- testing 1287 : set([105, 10, 85, 14])p: 1.0
+--- testing 1288 : set([33, 10, 85])p: 1.0
+--- testing 1289 : set([10, 85, 63])p: 1.0
+--- testing 1290 : set([96, 33, 85, 14])p: 1.0
+--- testing 1291 : set([96, 33, 85, 37])p: 1.0
+--- testing 1292 : set([96, 49, 85, 14, 105])p: 1.0
+--- testing 1293 : set([96, 49, 85, 33])p: 1.0
+--- testing 1294 : set([96, 33, 85, 78])p: 1.0
+--- testing 1295 : set([96, 2, 85, 37])p: 1.0
+--- testing 1296 : set([96, 37, 85, 63])p: 1.0
+--- testing 1297 : set([96, 80, 85])p: 1.0
+--- testing 1298 : set([49, 4, 105, 33])p: 1.0
+--- testing 1299 : set([25, 4, 37, 14])p: 1.0
+--- testing 1300 : set([25, 4, 49])p: 1.0
+--- testing 1301 : set([52, 4, 14, 105])p: 1.0
+--- testing 1302 : set([52, 4, 25])p: 1.0
+--- testing 1303 : set([105, 4, 63])p: 1.0
+--- testing 1304 : set([49, 4, 63])p: 1.0
+--- testing 1305 : set([80, 105, 4])p: 1.0
+--- testing 1306 : set([80, 4, 37])p: 1.0
+--- testing 1307 : set([25, 10, 4])p: 1.0
+--- testing 1308 : set([105, 4, 85])p: 1.0
+--- testing 1309 : set([49, 4, 85])p: 1.0
+--- testing 1310 : set([25, 4, 85])p: 1.0
+--- testing 1311 : set([105, 14, 37, 6])p: 1.0
+--- testing 1312 : set([33, 14, 37, 6])p: 1.0
+--- testing 1313 : set([49, 6, 105])p: 1.0
+--- testing 1314 : set([25, 6, 33])p: 1.0
+--- testing 1315 : set([10, 6])p: 1.0
+--- testing 1316 : set([25, 22, 105])p: 1.0
+--- testing 1317 : set([33, 52, 22])p: 0.00197062477654
+--- testing 1318 : set([49, 52, 22, 105])p: 1.0
+--- testing 1319 : set([2, 52, 22])p: 0.00197062477654
+--- testing 1320 : set([14, 22, 63])p: 1.0
+--- testing 1321 : set([80, 22])p: 1.0
+--- testing 1322 : set([4, 22])p: 1.0
+--- testing 1323 : set([33, 6, 22])p: 1.0
+--- testing 1324 : set([8, 33, 37, 14])p: 1.0
+--- testing 1325 : set([8, 49, 14, 105])p: 1.0
+--- testing 1326 : set([8, 25, 105])p: 1.0
+--- testing 1327 : set([8, 25, 37])p: 1.0
+--- testing 1328 : set([8, 52, 78])p: 1.0
+--- testing 1329 : set([8, 2, 78])p: 1.0
+--- testing 1330 : set([8, 96, 37])p: 1.0
+--- testing 1331 : set([8, 96, 25])p: 1.0
+--- testing 1332 : set([8, 96, 78])p: 1.0
+--- testing 1333 : set([8, 96, 63])p: 1.0
+--- testing 1334 : set([8, 105, 22])p: 1.0
+--- testing 1335 : set([105, 106, 37])p: 1.0
+--- testing 1336 : set([33, 106, 14])p: 1.0
+--- testing 1337 : set([49, 106, 14, 105])p: 1.0
+--- testing 1338 : set([49, 106, 37])p: 1.0
+--- testing 1339 : set([49, 106, 33])p: 1.0
+--- testing 1340 : set([25, 106, 14])p: 1.0
+--- testing 1341 : set([25, 106, 105])p: 1.0
+--- testing 1342 : set([25, 106, 33])p: 1.0
+--- testing 1343 : set([106, 14, 78])p: 1.0
+--- testing 1344 : set([106, 4])p: 1.0
+--- testing 1345 : set([106, 6])p: 1.0
+--- testing 1346 : set([25, 14, 30, 33])p: 1.0
+--- testing 1347 : set([25, 105, 30, 33])p: 1.0
+--- testing 1348 : set([25, 30, 49])p: 1.0
+--- testing 1349 : set([25, 52, 30])p: 1.0
+--- testing 1350 : set([105, 78, 30])p: 1.0
+--- testing 1351 : set([25, 2, 30])p: 1.0
+--- testing 1352 : set([14, 30, 63])p: 1.0
+--- testing 1353 : set([105, 30, 63])p: 1.0
+--- testing 1354 : set([85, 30, 37])p: 1.0
+--- testing 1355 : set([33, 86, 105])p: 1.0
+--- testing 1356 : set([49, 37, 86])p: 1.0
+--- testing 1357 : set([49, 78, 86, 105])p: 1.0
+--- testing 1358 : set([96, 105, 86])p: 1.0
+--- testing 1359 : set([85, 86])p: 1.0
+--- testing 1360 : set([22, 86])p: 1.0
+--- testing 1361 : set([8, 86])p: 1.0
+--- testing 1362 : set([105, 37, 95])p: 1.0
+--- testing 1363 : set([33, 37, 14, 95])p: 1.0
+--- testing 1364 : set([49, 37, 14, 95])p: 1.0
+--- testing 1365 : set([49, 105, 33, 95])p: 1.0
+--- testing 1366 : set([49, 37, 33, 95])p: 1.0
+--- testing 1367 : set([25, 37, 49, 95])p: 1.0
+--- testing 1368 : set([25, 33, 49, 95])p: 1.0
+--- testing 1369 : set([52, 14, 95])p: 1.0
+--- testing 1370 : set([33, 52, 95])p: 1.0
+--- testing 1371 : set([105, 2, 95])p: 1.0
+--- testing 1372 : set([33, 2, 95])p: 1.0
+--- testing 1373 : set([96, 25, 14, 95])p: 1.0
+--- testing 1374 : set([96, 25, 37, 95])p: 1.0
+--- testing 1375 : set([105, 85, 95])p: 1.0
+--- testing 1376 : set([33, 85, 95])p: 1.0
+--- testing 1377 : set([25, 85, 95])p: 1.0
+--- testing 1378 : set([8, 25, 95])p: 1.0
+--- testing 1379 : set([33, 106, 95])p: 1.0
+--- testing 1380 : set([25, 30, 95])p: 1.0
+--- testing 1381 : set([49, 59, 37])p: 1.0
+--- testing 1382 : set([49, 59, 52, 105])p: 1.0
+--- testing 1383 : set([59, 14, 78])p: 1.0
+--- testing 1384 : set([59, 14, 63])p: 1.0
+--- testing 1385 : set([59, 85])p: 1.0
+--- testing 1386 : set([33, 19, 105])p: 1.0
+--- testing 1387 : set([25, 19])p: 1.0
+--- testing 1388 : set([105, 19, 52])p: 1.0
+--- testing 1389 : set([96, 19])p: 1.0
+--- testing 1390 : set([105, 14, 71])p: 1.0
+--- testing 1391 : set([105, 37, 71])p: 1.0
+--- testing 1392 : set([33, 71])p: 1.0
+--- testing 1393 : set([25, 71])p: 1.0
+--- testing 1394 : set([63, 37, 71])p: 1.0
+--- testing 1395 : set([10, 71])p: 1.0
+--- testing 1396 : set([4, 71])p: 1.0
+--- testing 1397 : set([49, 53])p: 1.0
+--- testing 1398 : set([53, 78])p: 1.0
+--- testing 1399 : set([53, 14, 63])p: 1.0
+--- testing 1400 : set([96, 53, 37])p: 1.0
+--- testing 1401 : set([53, 85])p: 1.0
+--- testing 1402 : set([105, 35, 14])p: 1.0
+--- testing 1403 : set([33, 35, 105])p: 1.0
+--- testing 1404 : set([52, 92, 25])p: 1.0
+--- testing 1405 : set([49, 92, 78, 105])p: 1.0
+--- testing 1406 : set([92, 63])p: 1.0
+--- testing 1407 : set([92, 86])p: 1.0
+--- testing 1408 : set([90, 37, 14])p: 1.0
+--- testing 1409 : set([33, 90])p: 1.0
+--- testing 1410 : set([49, 90, 105])p: 1.0
+--- testing 1411 : set([25, 90, 14])p: 1.0
+--- testing 1412 : set([90, 85])p: 1.0
+--- testing 1413 : set([25, 31])p: 1.0
+--- testing 1414 : set([52, 31])p: 1.0
+--- testing 1415 : set([105, 14, 38])p: 1.0
+--- testing 1416 : set([49, 38])p: 1.0
+--- testing 1417 : set([25, 38, 33])p: 1.0
+--- testing 1418 : set([52, 37, 38])p: 1.0
+--- testing 1419 : set([2, 14, 38])p: 1.0
+--- testing 1420 : set([80, 37, 38])p: 1.0
+--- testing 1421 : set([10, 37, 38])p: 1.0
+--- testing 1422 : set([96, 14, 38])p: 1.0
+--- testing 1423 : set([96, 105, 38])p: 1.0
+--- testing 1424 : set([96, 37, 38])p: 1.0
+--- testing 1425 : set([49, 98, 14])p: 1.0
+--- testing 1426 : set([25, 98, 14])p: 1.0
+--- testing 1427 : set([105, 98, 52])p: 1.0
+--- testing 1428 : set([49, 98, 52])p: 1.0
+--- testing 1429 : set([98, 78])p: 1.0
+--- testing 1430 : set([33, 98, 2])p: 1.0
+--- testing 1431 : set([98, 14, 63])p: 1.0
+--- testing 1432 : set([98, 22])p: 1.0
+--- testing 1433 : set([98, 30])p: 1.0
+--- testing 1434 : set([14, 54, 63])p: 1.0
+--- testing 1435 : set([80, 54])p: 1.0
+--- testing 1436 : set([4, 54])p: 1.0
+--- testing 1437 : set([56, 105, 14])p: 1.0
+--- testing 1438 : set([56, 37, 14])p: 1.0
+--- testing 1439 : set([56, 105, 37])p: 1.0
+--- testing 1440 : set([56, 25, 14])p: 1.0
+--- testing 1441 : set([56, 25, 105])p: 1.0
+--- testing 1442 : set([56, 52])p: 1.0
+--- testing 1443 : set([56, 105, 78])p: 1.0
+--- testing 1444 : set([49, 15])p: 1.0
+--- testing 1445 : set([80, 15])p: 1.0
+--- testing 1446 : set([40, 105, 14])p: 1.0
+--- testing 1447 : set([40, 49, 33])p: 1.0
+--- testing 1448 : set([40, 25, 14])p: 1.0
+--- testing 1449 : set([40, 25, 33])p: 1.0
+--- testing 1450 : set([40, 106])p: 1.0
+--- testing 1451 : set([40, 33, 95])p: 1.0
+--- testing 1452 : set([40, 37, 38])p: 1.0
+--- testing 1453 : set([61, 63])p: 1.0
+--- testing 1454 : set([33, 74])p: 1.0
+--- testing 1455 : set([96, 74])p: 1.0
+--- testing 1456 : set([64, 96])p: 1.0
+--- testing 1457 : set([2, 69])p: 1.0
+--- testing 1458 : set([84, 78])p: 1.0
+--- testing 1459 : set([33, 55])p: 1.0
+--- testing 1460 : set([21, 14])p: 1.0
+--- testing 1461 : set([72, 33])p: 1.0
+--- testing 1462 : set([72, 49])p: 1.0
+--- testing 1463 : set([10, 101])p: 1.0
+--- testing 1464 : set([10, 100])p: 1.0
+--- testing 1465 : set([60, 63])p: 1.0
+--- testing 1466 : set([91, 37])p: 1.0
+--- testing 1467 : set([16, 37])p: 1.0
+--- testing 1468 : set([105, 66])p: 1.0
+--- testing 1469 : set([20, 14])p: 1.0
+--- testing 1470 : set([25, 20])p: 1.0
+--- testing 1471 : set([33, 62])p: 1.0
+--- testing 1472 : set([73, 105])p: 1.0
+--- testing 1473 : set([12, 37])p: 1.0
+--- testing 1474 : set([14, 70])p: 1.0
+--- testing 1475 : set([33, 67, 105])p: 1.0
+--- testing 1476 : set([82, 14])p: 1.0
+--- testing 1477 : set([105, 44])p: 1.0
+--- testing 1478 : set([25, 99])p: 1.0
+--- testing 1479 : set([36])p: 1.0
+--- testing 1480 : set([39])p: 1.0
+--- testing 1481 : set([50])p: 1.0
+--- testing 1482 : set([58])p: 1.0
+--- testing 1483 : set([87])p: 1.0
+--- testing 1484 : set([33, 37, 105, 14, 49, 25])p: 1.0
+--- testing 1485 : set([33, 37, 105, 14, 49, 52])p: 1.0
+--- testing 1486 : set([25, 52, 105, 14, 33])p: 1.0
+--- testing 1487 : set([25, 52, 37, 33])p: 1.0
+--- testing 1488 : set([33, 14, 37, 78, 105])p: 1.0
+--- testing 1489 : set([49, 105, 14, 78, 33])p: 1.0
+--- testing 1490 : set([25, 37, 78, 33])p: 1.0
+--- testing 1491 : set([25, 14, 33, 78, 49])p: 1.0
+--- testing 1492 : set([33, 52, 37, 78, 105])p: 1.0
+--- testing 1493 : set([37, 105, 14, 49, 52, 78])p: 1.0
+--- testing 1494 : set([25, 52, 78, 33])p: 1.0
+--- testing 1495 : set([105, 14, 49, 52, 78, 25])p: 1.0
+--- testing 1496 : set([25, 2, 105, 14, 33])p: 1.0
+--- testing 1497 : set([25, 2, 37, 14, 33])p: 1.0
+--- testing 1498 : set([25, 2, 105, 37, 33])p: 1.0
+--- testing 1499 : set([25, 2, 33, 14, 49])p: 1.0
+--- testing 1500 : set([33, 2, 52, 37, 105])p: 1.0
+--- testing 1501 : set([33, 2, 105, 14, 49, 52])p: 1.0
+--- testing 1502 : set([2, 37, 105, 14, 49, 52, 25])p: 1.0
+--- testing 1503 : set([2, 14, 37, 78])p: 1.0
+--- testing 1504 : set([33, 2, 37, 78, 105])p: 1.0
+--- testing 1505 : set([25, 2, 14, 78, 33])p: 1.0
+--- testing 1506 : set([25, 2, 14, 78, 49])p: 1.0
+--- testing 1507 : set([25, 2, 105, 78, 49])p: 1.0
+--- testing 1508 : set([33, 2, 52, 78, 105])p: 1.0
+--- testing 1509 : set([49, 37, 33, 63])p: 1.0
+--- testing 1510 : set([25, 105, 33, 14, 63])p: 1.0
+--- testing 1511 : set([25, 37, 49, 63])p: 1.0
+--- testing 1512 : set([33, 52, 63])p: 1.0
+--- testing 1513 : set([49, 14, 37, 78, 63])p: 1.0
+--- testing 1514 : set([49, 105, 37, 78, 63])p: 1.0
+--- testing 1515 : set([37, 105, 14, 78, 25, 63])p: 1.0
+--- testing 1516 : set([25, 14, 49, 78, 63])p: 1.0
+--- testing 1517 : set([105, 2, 37, 63])p: 1.0
+--- testing 1518 : set([33, 2, 37, 63])p: 1.0
+--- testing 1519 : set([49, 2, 37, 63])p: 1.0
+--- testing 1520 : set([25, 2, 37, 63])p: 1.0
+--- testing 1521 : set([25, 2, 49, 63])p: 1.0
+--- testing 1522 : set([2, 105, 14, 49, 52, 63])p: 1.0
+--- testing 1523 : set([25, 2, 52, 63])p: 1.0
+--- testing 1524 : set([2, 37, 78, 63])p: 1.0
+--- testing 1525 : set([49, 2, 78, 63])p: 1.0
+--- testing 1526 : set([25, 2, 14, 78, 63])p: 1.0
+--- testing 1527 : set([80, 33, 14, 105])p: 1.0
+--- testing 1528 : set([80, 49, 37, 14])p: 1.0
+--- testing 1529 : set([80, 49, 14, 33])p: 1.0
+--- testing 1530 : set([80, 25, 14, 105])p: 1.0
+--- testing 1531 : set([80, 25, 14, 33])p: 1.0
+--- testing 1532 : set([80, 25, 105, 33])p: 1.0
+--- testing 1533 : set([80, 33, 52, 14])p: 1.0
+--- testing 1534 : set([80, 33, 52, 105])p: 1.0
+--- testing 1535 : set([80, 25, 14, 78])p: 1.0
+--- testing 1536 : set([80, 25, 78, 33])p: 1.0
+--- testing 1537 : set([80, 49, 52, 78, 105])p: 1.0
+--- testing 1538 : set([80, 33, 2, 105])p: 1.0
+--- testing 1539 : set([80, 49, 2, 105])p: 1.0
+--- testing 1540 : set([80, 25, 2, 78])p: 1.0
+--- testing 1541 : set([80, 105, 14, 63])p: 1.0
+--- testing 1542 : set([80, 33, 63])p: 1.0
+--- testing 1543 : set([80, 49, 63])p: 1.0
+--- testing 1544 : set([80, 52, 14, 63])p: 1.0
+--- testing 1545 : set([80, 105, 52, 63])p: 1.0
+--- testing 1546 : set([80, 78, 63])p: 1.0
+--- testing 1547 : set([80, 2, 37, 14, 63])p: 1.0
+--- testing 1548 : set([33, 10, 37, 14, 105])p: 1.0
+--- testing 1549 : set([25, 10, 37, 14, 33])p: 1.0
+--- testing 1550 : set([25, 10, 14, 49])p: 1.0
+--- testing 1551 : set([25, 10, 105, 49])p: 1.0
+--- testing 1552 : set([25, 10, 37, 49])p: 1.0
+--- testing 1553 : set([105, 10, 52, 14])p: 1.0
+--- testing 1554 : set([33, 10, 52])p: 1.0
+--- testing 1555 : set([25, 10, 78])p: 1.0
+--- testing 1556 : set([105, 10, 52, 78])p: 1.0
+--- testing 1557 : set([105, 10, 2, 14])p: 1.0
+--- testing 1558 : set([33, 10, 105, 2, 37])p: 1.0
+--- testing 1559 : set([49, 10, 2, 14])p: 1.0
+--- testing 1560 : set([49, 10, 2, 105])p: 1.0
+--- testing 1561 : set([49, 10, 2, 37])p: 1.0
+--- testing 1562 : set([10, 52, 2, 37])p: 1.0
+--- testing 1563 : set([33, 10, 105, 63])p: 1.0
+--- testing 1564 : set([25, 10, 63])p: 1.0
+--- testing 1565 : set([10, 78, 63])p: 1.0
+--- testing 1566 : set([10, 37, 2, 63])p: 1.0
+--- testing 1567 : set([80, 105, 10, 37])p: 1.0
+--- testing 1568 : set([80, 33, 10, 14])p: 1.0
+--- testing 1569 : set([80, 10, 52])p: 1.0
+--- testing 1570 : set([80, 10, 78])p: 1.0
+--- testing 1571 : set([80, 10, 14, 63])p: 1.0
+--- testing 1572 : set([96, 33, 37, 14, 105])p: 1.0
+--- testing 1573 : set([96, 49, 37, 14, 105])p: 1.0
+--- testing 1574 : set([96, 25, 105, 14, 33])p: 1.0
+--- testing 1575 : set([96, 25, 105, 37, 33])p: 1.0
+--- testing 1576 : set([96, 25, 105, 14, 49])p: 1.0
+--- testing 1577 : set([96, 49, 52, 14, 105])p: 1.0
+--- testing 1578 : set([96, 25, 52, 105])p: 1.0
+--- testing 1579 : set([96, 105, 37, 78])p: 1.0
+--- testing 1580 : set([96, 33, 37, 78])p: 1.0
+--- testing 1581 : set([96, 25, 78, 33])p: 1.0
+--- testing 1582 : set([96, 105, 52, 14, 78])p: 1.0
+--- testing 1583 : set([96, 49, 52, 78, 105])p: 1.0
+--- testing 1584 : set([96, 105, 2, 14])p: 1.0
+--- testing 1585 : set([96, 33, 2, 14])p: 1.0
+--- testing 1586 : set([96, 33, 2, 37, 105])p: 1.0
+--- testing 1587 : set([96, 49, 2, 14])p: 1.0
+--- testing 1588 : set([96, 49, 2, 33])p: 1.0
+--- testing 1589 : set([96, 25, 2, 33])p: 1.0
+--- testing 1590 : set([96, 105, 2, 52])p: 1.0
+--- testing 1591 : set([96, 49, 14, 63])p: 1.0
+--- testing 1592 : set([96, 49, 105, 63])p: 1.0
+--- testing 1593 : set([96, 49, 37, 63])p: 1.0
+--- testing 1594 : set([96, 52, 63])p: 1.0
+--- testing 1595 : set([96, 105, 78, 63])p: 1.0
+--- testing 1596 : set([96, 33, 2, 63])p: 1.0
+--- testing 1597 : set([96, 80, 14, 105])p: 1.0
+--- testing 1598 : set([96, 80, 78])p: 1.0
+--- testing 1599 : set([96, 80, 2])p: 1.0
+--- testing 1600 : set([96, 33, 10, 37, 105])p: 1.0
+--- testing 1601 : set([96, 105, 10, 78])p: 1.0
+--- testing 1602 : set([96, 10, 37, 78])p: 1.0
+--- testing 1603 : set([96, 10, 63])p: 1.0
+--- testing 1604 : set([33, 37, 105, 14, 49, 85])p: 1.0
+--- testing 1605 : set([25, 105, 85, 14, 37])p: 1.0
+--- testing 1606 : set([25, 37, 85, 33])p: 1.0
+--- testing 1607 : set([105, 52, 85, 14, 37])p: 1.0
+--- testing 1608 : set([33, 52, 85, 14, 37])p: 1.0
+--- testing 1609 : set([33, 105, 14, 49, 52, 85])p: 1.0
+--- testing 1610 : set([33, 37, 105, 49, 52, 85])p: 1.0
+--- testing 1611 : set([33, 105, 85, 78, 37])p: 1.0
+--- testing 1612 : set([49, 85, 78, 37])p: 1.0
+--- testing 1613 : set([49, 105, 85, 78, 33])p: 1.0
+--- testing 1614 : set([33, 2, 85, 14])p: 1.0
+--- testing 1615 : set([33, 2, 105, 85, 37])p: 1.0
+--- testing 1616 : set([49, 2, 85, 14, 105])p: 1.0
+--- testing 1617 : set([49, 2, 85, 37])p: 1.0
+--- testing 1618 : set([49, 2, 105, 85, 33])p: 1.0
+--- testing 1619 : set([105, 2, 85, 78])p: 1.0
+--- testing 1620 : set([105, 37, 85, 63])p: 1.0
+--- testing 1621 : set([33, 105, 85, 63])p: 1.0
+--- testing 1622 : set([49, 85, 14, 63])p: 1.0
+--- testing 1623 : set([49, 33, 85, 63])p: 1.0
+--- testing 1624 : set([25, 105, 85, 63])p: 1.0
+--- testing 1625 : set([25, 33, 85, 63])p: 1.0
+--- testing 1626 : set([49, 105, 85, 78, 63])p: 1.0
+--- testing 1627 : set([2, 85, 14, 63])p: 1.0
+--- testing 1628 : set([80, 33, 85, 14])p: 1.0
+--- testing 1629 : set([80, 25, 85, 14])p: 1.0
+--- testing 1630 : set([80, 52, 85, 14])p: 1.0
+--- testing 1631 : set([80, 105, 52, 85])p: 1.0
+--- testing 1632 : set([80, 33, 52, 85])p: 1.0
+--- testing 1633 : set([80, 14, 85, 78])p: 1.0
+--- testing 1634 : set([80, 49, 85, 78, 105])p: 1.0
+--- testing 1635 : set([80, 25, 85, 78])p: 1.0
+--- testing 1636 : set([80, 49, 2, 85])p: 1.0
+--- testing 1637 : set([80, 37, 85, 14, 63])p: 1.0
+--- testing 1638 : set([80, 2, 85, 63])p: 1.0
+--- testing 1639 : set([105, 10, 85, 14, 37])p: 1.0
+--- testing 1640 : set([33, 10, 85, 37])p: 1.0
+--- testing 1641 : set([49, 10, 85, 105])p: 1.0
+--- testing 1642 : set([25, 10, 85, 14, 37])p: 1.0
+--- testing 1643 : set([33, 10, 85, 78, 105])p: 1.0
+--- testing 1644 : set([105, 10, 85, 63])p: 1.0
+--- testing 1645 : set([10, 37, 85, 63])p: 1.0
+--- testing 1646 : set([80, 10, 85])p: 1.0
+--- testing 1647 : set([96, 105, 85, 37])p: 1.0
+--- testing 1648 : set([96, 33, 85, 105])p: 1.0
+--- testing 1649 : set([96, 25, 85, 105])p: 1.0
+--- testing 1650 : set([96, 25, 85, 37])p: 1.0
+--- testing 1651 : set([96, 25, 85, 33])p: 1.0
+--- testing 1652 : set([96, 33, 37, 85, 63])p: 1.0
+--- testing 1653 : set([96, 49, 85, 63])p: 1.0
+--- testing 1654 : set([33, 4, 37, 14])p: 1.0
+--- testing 1655 : set([33, 4, 37, 105])p: 1.0
+--- testing 1656 : set([49, 4, 14, 105])p: 1.0
+--- testing 1657 : set([49, 4, 37, 105])p: 1.0
+--- testing 1658 : set([25, 4, 33])p: 1.0
+--- testing 1659 : set([105, 4, 37, 78])p: 1.0
+--- testing 1660 : set([33, 4, 78, 105])p: 1.0
+--- testing 1661 : set([49, 4, 78])p: 1.0
+--- testing 1662 : set([25, 4, 78, 105])p: 1.0
+--- testing 1663 : set([25, 4, 37, 78])p: 1.0
+--- testing 1664 : set([2, 4, 37, 14])p: 1.0
+--- testing 1665 : set([25, 2, 4])p: 1.0
+--- testing 1666 : set([4, 37, 14, 63])p: 1.0
+--- testing 1667 : set([49, 4, 105, 63])p: 1.0
+--- testing 1668 : set([25, 4, 37, 63])p: 1.0
+--- testing 1669 : set([2, 4, 63])p: 1.0
+--- testing 1670 : set([80, 4, 14])p: 1.0
+--- testing 1671 : set([80, 4, 78])p: 1.0
+--- testing 1672 : set([105, 10, 4, 14])p: 1.0
+--- testing 1673 : set([25, 10, 4, 37, 14])p: 1.0
+--- testing 1674 : set([96, 49, 4])p: 1.0
+--- testing 1675 : set([96, 4, 78])p: 1.0
+--- testing 1676 : set([96, 4, 63])p: 1.0
+--- testing 1677 : set([4, 85, 14])p: 1.0
+--- testing 1678 : set([105, 4, 85, 37])p: 1.0
+--- testing 1679 : set([49, 4, 85, 37])p: 1.0
+--- testing 1680 : set([37, 4, 85, 63])p: 1.0
+--- testing 1681 : set([96, 4, 85])p: 1.0
+--- testing 1682 : set([33, 14, 6, 105])p: 1.0
+--- testing 1683 : set([49, 14, 6, 105])p: 1.0
+--- testing 1684 : set([25, 14, 37, 6])p: 1.0
+--- testing 1685 : set([33, 78, 6, 105])p: 1.0
+--- testing 1686 : set([14, 6, 63])p: 1.0
+--- testing 1687 : set([37, 6, 63])p: 1.0
+--- testing 1688 : set([80, 14, 6])p: 1.0
+--- testing 1689 : set([80, 105, 6])p: 1.0
+--- testing 1690 : set([96, 14, 6])p: 1.0
+--- testing 1691 : set([96, 105, 6])p: 1.0
+--- testing 1692 : set([96, 85, 6])p: 1.0
+--- testing 1693 : set([105, 14, 37, 22])p: 1.0
+--- testing 1694 : set([33, 14, 22, 105])p: 0.0014782874144
+--- testing 1695 : set([49, 14, 37, 22])p: 1.0
+--- testing 1696 : set([105, 52, 14, 22])p: 0.0014782874144
+--- testing 1697 : set([25, 78, 22])p: 1.0
+--- testing 1698 : set([52, 78, 22])p: 1.0
+--- testing 1699 : set([2, 14, 22])p: 0.0014782874144
+--- testing 1700 : set([105, 2, 52, 22])p: 0.0014782874144
+--- testing 1701 : set([37, 22, 63])p: 1.0
+--- testing 1702 : set([80, 14, 37, 22])p: 1.0
+--- testing 1703 : set([10, 22])p: 1.0
+--- testing 1704 : set([96, 14, 22])p: 1.0
+--- testing 1705 : set([14, 85, 22])p: 1.0
+--- testing 1706 : set([105, 85, 22])p: 1.0
+--- testing 1707 : set([33, 6, 22, 37])p: 1.0
+--- testing 1708 : set([8, 105, 37, 14])p: 1.0
+--- testing 1709 : set([8, 49, 37])p: 1.0
+--- testing 1710 : set([8, 25, 37, 14])p: 1.0
+--- testing 1711 : set([8, 25, 49])p: 1.0
+--- testing 1712 : set([8, 105, 52, 14])p: 1.0
+--- testing 1713 : set([8, 49, 52])p: 1.0
+--- testing 1714 : set([8, 25, 52])p: 1.0
+--- testing 1715 : set([8, 105, 52, 78])p: 1.0
+--- testing 1716 : set([8, 49, 2, 105])p: 1.0
+--- testing 1717 : set([8, 2, 52])p: 1.0
+--- testing 1718 : set([8, 2, 14, 78])p: 1.0
+--- testing 1719 : set([8, 78, 63])p: 1.0
+--- testing 1720 : set([8, 105, 10])p: 1.0
+--- testing 1721 : set([8, 96, 37, 14])p: 1.0
+--- testing 1722 : set([8, 96, 14, 49])p: 1.0
+--- testing 1723 : set([8, 96, 14, 25])p: 1.0
+--- testing 1724 : set([8, 4, 14])p: 1.0
+--- testing 1725 : set([33, 106, 37])p: 1.0
+--- testing 1726 : set([105, 106, 78])p: 1.0
+--- testing 1727 : set([106, 2, 14])p: 1.0
+--- testing 1728 : set([105, 106, 2])p: 1.0
+--- testing 1729 : set([106, 14, 63])p: 1.0
+--- testing 1730 : set([105, 106, 10, 14])p: 1.0
+--- testing 1731 : set([96, 105, 106, 14])p: 1.0
+--- testing 1732 : set([33, 37, 30])p: 1.0
+--- testing 1733 : set([25, 14, 37, 30])p: 1.0
+--- testing 1734 : set([25, 105, 14, 30, 33])p: 1.0
+--- testing 1735 : set([25, 105, 30, 49])p: 1.0
+--- testing 1736 : set([49, 52, 30, 105])p: 1.0
+--- testing 1737 : set([25, 52, 30, 105])p: 1.0
+--- testing 1738 : set([33, 78, 30])p: 1.0
+--- testing 1739 : set([2, 37, 30])p: 1.0
+--- testing 1740 : set([49, 2, 30])p: 1.0
+--- testing 1741 : set([37, 30, 63])p: 1.0
+--- testing 1742 : set([25, 30, 63])p: 1.0
+--- testing 1743 : set([80, 14, 30])p: 1.0
+--- testing 1744 : set([105, 10, 14, 30])p: 1.0
+--- testing 1745 : set([25, 10, 14, 30])p: 1.0
+--- testing 1746 : set([96, 33, 30])p: 1.0
+--- testing 1747 : set([49, 85, 30])p: 1.0
+--- testing 1748 : set([96, 85, 30, 37])p: 1.0
+--- testing 1749 : set([22, 30])p: 1.0
+--- testing 1750 : set([106, 30])p: 1.0
+--- testing 1751 : set([33, 14, 86])p: 1.0
+--- testing 1752 : set([33, 37, 86])p: 1.0
+--- testing 1753 : set([49, 14, 37, 86])p: 1.0
+--- testing 1754 : set([49, 86, 33])p: 1.0
+--- testing 1755 : set([25, 86, 105])p: 1.0
+--- testing 1756 : set([25, 37, 86])p: 1.0
+--- testing 1757 : set([25, 86, 33])p: 1.0
+--- testing 1758 : set([52, 14, 86])p: 1.0
+--- testing 1759 : set([49, 52, 86, 105])p: 1.0
+--- testing 1760 : set([14, 78, 86])p: 1.0
+--- testing 1761 : set([33, 78, 86])p: 1.0
+--- testing 1762 : set([25, 2, 86])p: 1.0
+--- testing 1763 : set([14, 37, 86, 63])p: 1.0
+--- testing 1764 : set([6, 86, 37])p: 1.0
+--- testing 1765 : set([30, 86])p: 1.0
+--- testing 1766 : set([33, 105, 37, 95])p: 1.0
+--- testing 1767 : set([49, 105, 37, 95])p: 1.0
+--- testing 1768 : set([25, 105, 37, 95])p: 1.0
+--- testing 1769 : set([25, 105, 33, 95])p: 1.0
+--- testing 1770 : set([25, 49, 14, 95])p: 1.0
+--- testing 1771 : set([25, 105, 49, 95])p: 1.0
+--- testing 1772 : set([25, 33, 37, 49, 95])p: 1.0
+--- testing 1773 : set([105, 52, 14, 95])p: 1.0
+--- testing 1774 : set([49, 52, 105, 95])p: 1.0
+--- testing 1775 : set([25, 52, 95])p: 1.0
+--- testing 1776 : set([14, 78, 95])p: 1.0
+--- testing 1777 : set([105, 78, 95])p: 1.0
+--- testing 1778 : set([33, 78, 95])p: 1.0
+--- testing 1779 : set([25, 2, 33, 95])p: 1.0
+--- testing 1780 : set([80, 33, 105, 95])p: 1.0
+--- testing 1781 : set([96, 105, 95])p: 1.0
+--- testing 1782 : set([96, 33, 95])p: 1.0
+--- testing 1783 : set([85, 14, 95])p: 1.0
+--- testing 1784 : set([37, 85, 95])p: 1.0
+--- testing 1785 : set([33, 105, 85, 95])p: 1.0
+--- testing 1786 : set([96, 25, 85, 95])p: 1.0
+--- testing 1787 : set([6, 95])p: 1.0
+--- testing 1788 : set([8, 25, 14, 95])p: 1.0
+--- testing 1789 : set([105, 30, 95])p: 1.0
+--- testing 1790 : set([49, 30, 95])p: 1.0
+--- testing 1791 : set([2, 30, 95])p: 1.0
+--- testing 1792 : set([14, 86, 95])p: 1.0
+--- testing 1793 : set([105, 59, 37])p: 1.0
+--- testing 1794 : set([33, 59, 14])p: 1.0
+--- testing 1795 : set([49, 59, 14, 105])p: 1.0
+--- testing 1796 : set([49, 59, 37, 14])p: 1.0
+--- testing 1797 : set([49, 59, 33])p: 1.0
+--- testing 1798 : set([25, 59, 37, 14])p: 1.0
+--- testing 1799 : set([25, 59, 37, 33])p: 1.0
+--- testing 1800 : set([59, 37, 78])p: 1.0
+--- testing 1801 : set([105, 2, 59])p: 1.0
+--- testing 1802 : set([2, 59, 37])p: 1.0
+--- testing 1803 : set([49, 2, 59])p: 1.0
+--- testing 1804 : set([25, 2, 59])p: 1.0
+--- testing 1805 : set([2, 59, 78])p: 1.0
+--- testing 1806 : set([2, 59, 63])p: 1.0
+--- testing 1807 : set([80, 59])p: 1.0
+--- testing 1808 : set([59, 85, 14])p: 1.0
+--- testing 1809 : set([25, 106, 59])p: 1.0
+--- testing 1810 : set([25, 59, 95])p: 1.0
+--- testing 1811 : set([19, 37, 14])p: 1.0
+--- testing 1812 : set([33, 19, 37])p: 1.0
+--- testing 1813 : set([49, 19, 33])p: 1.0
+--- testing 1814 : set([105, 19, 78])p: 1.0
+--- testing 1815 : set([49, 19, 78])p: 1.0
+--- testing 1816 : set([25, 19, 78])p: 1.0
+--- testing 1817 : set([19, 63])p: 1.0
+--- testing 1818 : set([19, 85])p: 1.0
+--- testing 1819 : set([33, 19, 6])p: 1.0
+--- testing 1820 : set([8, 19])p: 1.0
+--- testing 1821 : set([19, 95])p: 1.0
+--- testing 1822 : set([33, 14, 71])p: 1.0
+--- testing 1823 : set([2, 37, 14, 71])p: 1.0
+--- testing 1824 : set([63, 37, 14, 71])p: 1.0
+--- testing 1825 : set([2, 63, 37, 71])p: 1.0
+--- testing 1826 : set([80, 37, 71])p: 1.0
+--- testing 1827 : set([85, 71])p: 1.0
+--- testing 1828 : set([33, 53, 37])p: 1.0
+--- testing 1829 : set([49, 53, 105])p: 1.0
+--- testing 1830 : set([25, 53, 14])p: 1.0
+--- testing 1831 : set([105, 52, 53, 37])p: 1.0
+--- testing 1832 : set([37, 53, 14, 63])p: 1.0
+--- testing 1833 : set([105, 10, 53, 37])p: 1.0
+--- testing 1834 : set([8, 53])p: 1.0
+--- testing 1835 : set([49, 35, 14])p: 1.0
+--- testing 1836 : set([25, 35, 105])p: 1.0
+--- testing 1837 : set([35, 78])p: 1.0
+--- testing 1838 : set([2, 35, 14])p: 1.0
+--- testing 1839 : set([35, 63])p: 1.0
+--- testing 1840 : set([35, 85, 14])p: 1.0
+--- testing 1841 : set([25, 92, 105])p: 1.0
+--- testing 1842 : set([25, 92, 49])p: 1.0
+--- testing 1843 : set([52, 92, 33])p: 1.0
+--- testing 1844 : set([52, 92, 37, 14, 25])p: 1.0
+--- testing 1845 : set([2, 92, 37])p: 1.0
+--- testing 1846 : set([52, 59, 92])p: 1.0
+--- testing 1847 : set([105, 90, 14])p: 1.0
+--- testing 1848 : set([105, 90, 52])p: 1.0
+--- testing 1849 : set([105, 90, 78])p: 1.0
+--- testing 1850 : set([90, 2, 63])p: 1.0
+--- testing 1851 : set([80, 90])p: 1.0
+--- testing 1852 : set([37, 14, 31])p: 1.0
+--- testing 1853 : set([33, 37, 31])p: 1.0
+--- testing 1854 : set([49, 14, 31])p: 1.0
+--- testing 1855 : set([96, 31])p: 1.0
+--- testing 1856 : set([22, 31])p: 1.0
+--- testing 1857 : set([105, 14, 37, 38])p: 1.0
+--- testing 1858 : set([33, 14, 38, 105])p: 1.0
+--- testing 1859 : set([49, 14, 37, 38])p: 1.0
+--- testing 1860 : set([25, 38, 105])p: 1.0
+--- testing 1861 : set([105, 52, 37, 38])p: 1.0
+--- testing 1862 : set([78, 38])p: 1.0
+--- testing 1863 : set([2, 14, 37, 38])p: 1.0
+--- testing 1864 : set([14, 37, 38, 63])p: 1.0
+--- testing 1865 : set([80, 14, 37, 38])p: 1.0
+--- testing 1866 : set([10, 14, 37, 38])p: 1.0
+--- testing 1867 : set([96, 52, 37, 38])p: 1.0
+--- testing 1868 : set([85, 38])p: 1.0
+--- testing 1869 : set([38, 71])p: 1.0
+--- testing 1870 : set([98, 37, 14])p: 1.0
+--- testing 1871 : set([105, 98, 37])p: 1.0
+--- testing 1872 : set([33, 98, 105])p: 1.0
+--- testing 1873 : set([49, 98, 14, 105])p: 1.0
+--- testing 1874 : set([25, 98, 105])p: 1.0
+--- testing 1875 : set([25, 98, 33])p: 1.0
+--- testing 1876 : set([49, 98, 52, 105])p: 1.0
+--- testing 1877 : set([98, 14, 78])p: 1.0
+--- testing 1878 : set([105, 98, 78])p: 1.0
+--- testing 1879 : set([49, 98, 78])p: 1.0
+--- testing 1880 : set([33, 98, 2, 14])p: 1.0
+--- testing 1881 : set([33, 98, 63])p: 1.0
+--- testing 1882 : set([25, 98, 63])p: 1.0
+--- testing 1883 : set([98, 2, 14, 63])p: 1.0
+--- testing 1884 : set([96, 98])p: 1.0
+--- testing 1885 : set([33, 98, 85])p: 1.0
+--- testing 1886 : set([98, 6])p: 1.0
+--- testing 1887 : set([98, 95])p: 1.0
+--- testing 1888 : set([49, 14, 54])p: 1.0
+--- testing 1889 : set([49, 54, 33])p: 1.0
+--- testing 1890 : set([25, 14, 54])p: 1.0
+--- testing 1891 : set([78, 54, 37])p: 1.0
+--- testing 1892 : set([49, 78, 54])p: 1.0
+--- testing 1893 : set([105, 2, 54])p: 1.0
+--- testing 1894 : set([14, 37, 54, 63])p: 1.0
+--- testing 1895 : set([10, 54])p: 1.0
+--- testing 1896 : set([106, 54])p: 1.0
+--- testing 1897 : set([56, 49, 2])p: 1.0
+--- testing 1898 : set([56, 63])p: 1.0
+--- testing 1899 : set([56, 37, 22])p: 1.0
+--- testing 1900 : set([33, 14, 15])p: 1.0
+--- testing 1901 : set([33, 37, 15])p: 1.0
+--- testing 1902 : set([25, 15])p: 1.0
+--- testing 1903 : set([2, 15])p: 1.0
+--- testing 1904 : set([63, 14, 15])p: 1.0
+--- testing 1905 : set([40, 105, 37])p: 1.0
+--- testing 1906 : set([40, 25, 105])p: 1.0
+--- testing 1907 : set([40, 25, 37])p: 1.0
+--- testing 1908 : set([40, 25, 33, 49])p: 1.0
+--- testing 1909 : set([40, 52])p: 1.0
+--- testing 1910 : set([40, 78])p: 1.0
+--- testing 1911 : set([40, 2, 37])p: 1.0
+--- testing 1912 : set([40, 63])p: 1.0
+--- testing 1913 : set([40, 80])p: 1.0
+--- testing 1914 : set([40, 96, 37])p: 1.0
+--- testing 1915 : set([40, 33, 14, 95])p: 1.0
+--- testing 1916 : set([40, 10, 38])p: 1.0
+--- testing 1917 : set([25, 61, 33])p: 1.0
+--- testing 1918 : set([2, 61])p: 1.0
+--- testing 1919 : set([105, 74])p: 1.0
+--- testing 1920 : set([49, 74])p: 1.0
+--- testing 1921 : set([74, 2])p: 1.0
+--- testing 1922 : set([74, 85])p: 1.0
+--- testing 1923 : set([64, 33, 14, 105])p: 1.0
+--- testing 1924 : set([64, 49])p: 1.0
+--- testing 1925 : set([64, 63])p: 1.0
+--- testing 1926 : set([64, 80])p: 1.0
+--- testing 1927 : set([64, 10])p: 1.0
+--- testing 1928 : set([69, 14, 37])p: 1.0
+--- testing 1929 : set([49, 69, 37])p: 1.0
+--- testing 1930 : set([69, 14, 63])p: 1.0
+--- testing 1931 : set([84, 14])p: 1.0
+--- testing 1932 : set([105, 84, 37])p: 1.0
+--- testing 1933 : set([33, 84, 105])p: 1.0
+--- testing 1934 : set([33, 84, 37])p: 1.0
+--- testing 1935 : set([25, 84, 37])p: 1.0
+--- testing 1936 : set([2, 84])p: 1.0
+--- testing 1937 : set([37, 55])p: 1.0
+--- testing 1938 : set([49, 105, 55])p: 1.0
+--- testing 1939 : set([21, 37])p: 1.0
+--- testing 1940 : set([25, 21])p: 1.0
+--- testing 1941 : set([10, 21])p: 1.0
+--- testing 1942 : set([85, 103])p: 1.0
+--- testing 1943 : set([72, 2])p: 1.0
+--- testing 1944 : set([72, 80])p: 1.0
+--- testing 1945 : set([101, 14])p: 1.0
+--- testing 1946 : set([105, 101])p: 1.0
+--- testing 1947 : set([33, 101])p: 1.0
+--- testing 1948 : set([25, 101, 37])p: 1.0
+--- testing 1949 : set([105, 100])p: 1.0
+--- testing 1950 : set([100, 37])p: 1.0
+--- testing 1951 : set([10, 100, 14])p: 1.0
+--- testing 1952 : set([24, 37])p: 1.0
+--- testing 1953 : set([24, 33])p: 1.0
+--- testing 1954 : set([60, 37])p: 1.0
+--- testing 1955 : set([49, 60, 105])p: 1.0
+--- testing 1956 : set([2, 60])p: 1.0
+--- testing 1957 : set([105, 91, 14])p: 1.0
+--- testing 1958 : set([14, 47])p: 1.0
+--- testing 1959 : set([10, 20, 37, 14])p: 1.0
+--- testing 1960 : set([49, 62, 105])p: 1.0
+--- testing 1961 : set([25, 62])p: 1.0
+--- testing 1962 : set([73, 14])p: 1.0
+--- testing 1963 : set([73, 33])p: 1.0
+--- testing 1964 : set([49, 5, 33])p: 0.0014782874144
+--- testing 1965 : set([12, 37, 14])p: 1.0
+--- testing 1966 : set([32, 33])p: 1.0
+--- testing 1967 : set([88, 33])p: 1.0
+--- testing 1968 : set([88, 25])p: 1.0
+--- testing 1969 : set([88, 52])p: 1.0
+--- testing 1970 : set([41, 105])p: 1.0
+--- testing 1971 : set([42, 14])p: 1.0
+--- testing 1972 : set([42, 37])p: 1.0
+--- testing 1973 : set([1, 105])p: 1.0
+--- testing 1974 : set([13, 14, 37])p: 1.0
+--- testing 1975 : set([48, 14])p: 1.0
+--- testing 1976 : set([48, 105])p: 1.0
+--- testing 1977 : set([67, 37])p: 1.0
+--- testing 1978 : set([49, 67, 33])p: 1.0
+--- testing 1979 : set([14, 79])p: 1.0
+--- testing 1980 : set([9, 14])p: 1.0
+--- testing 1981 : set([9, 49])p: 0.0014782874144
+--- testing 1982 : set([18, 37])p: 1.0
+--- testing 1983 : set([97, 105])p: 1.0
+--- testing 1984 : set([97, 25])p: 1.0
+--- testing 1985 : set([99, 14])p: 1.0
+--- testing 1986 : set([25, 99, 37])p: 1.0
+--- testing 1987 : set([33, 3])p: 1.0
+--- testing 1988 : set([17, 14])p: 1.0
+--- testing 1989 : set([26, 14])p: 1.0
+--- testing 1990 : set([25, 29])p: 1.0
+--- testing 1991 : set([57])p: 1.0
+--- testing 1992 : set([76])p: 1.0
+--- testing 1993 : set([77])p: 1.0
+--- testing 1994 : set([33, 105, 14, 49, 52, 25])p: 1.0
+--- testing 1995 : set([33, 37, 105, 49, 52, 25])p: 1.0
+--- testing 1996 : set([25, 105, 37, 78, 33])p: 1.0
+--- testing 1997 : set([33, 105, 14, 49, 78, 25])p: 1.0
+--- testing 1998 : set([33, 14, 52, 37, 78])p: 1.0
+--- testing 1999 : set([25, 52, 105, 78, 33])p: 1.0
+--- testing 2000 : set([37, 105, 14, 49, 52, 78, 25])p: 1.0
+--- testing 2001 : set([33, 2, 37, 105, 14, 49])p: 1.0
+--- testing 2002 : set([33, 2, 37, 105, 14, 25])p: 1.0
+--- testing 2003 : set([33, 2, 105, 14, 49, 25])p: 1.0
+--- testing 2004 : set([33, 2, 37, 105, 14, 52])p: 1.0
+--- testing 2005 : set([2, 37, 105, 14, 49, 78])p: 1.0
+--- testing 2006 : set([33, 2, 37, 105, 78, 49])p: 1.0
+--- testing 2007 : set([2, 105, 14, 49, 78, 25])p: 1.0
+--- testing 2008 : set([33, 2, 14, 49, 78, 25])p: 1.0
+--- testing 2009 : set([105, 2, 52, 37, 78])p: 1.0
+--- testing 2010 : set([2, 105, 14, 49, 52, 78])p: 1.0
+--- testing 2011 : set([2, 105, 78, 49, 52, 25])p: 1.0
+--- testing 2012 : set([33, 37, 14, 63])p: 1.0
+--- testing 2013 : set([49, 105, 33, 14, 63])p: 1.0
+--- testing 2014 : set([25, 37, 33, 63])p: 1.0
+--- testing 2015 : set([105, 52, 37, 14, 63])p: 1.0
+--- testing 2016 : set([49, 52, 37, 63])p: 1.0
+--- testing 2017 : set([49, 52, 33, 14, 63])p: 1.0
+--- testing 2018 : set([33, 14, 78, 63])p: 1.0
+--- testing 2019 : set([25, 33, 78, 63])p: 1.0
+--- testing 2020 : set([37, 105, 14, 49, 78, 25, 63])p: 1.0
+--- testing 2021 : set([105, 14, 49, 52, 78, 63])p: 1.0
+--- testing 2022 : set([105, 2, 37, 14, 63])p: 1.0
+--- testing 2023 : set([49, 2, 37, 14, 63])p: 1.0
+--- testing 2024 : set([49, 2, 33, 14, 63])p: 1.0
+--- testing 2025 : set([25, 2, 37, 14, 63])p: 1.0
+--- testing 2026 : set([25, 2, 33, 49, 63])p: 1.0
+--- testing 2027 : set([2, 52, 37, 63])p: 1.0
+--- testing 2028 : set([33, 2, 52, 63])p: 1.0
+--- testing 2029 : set([25, 2, 52, 14, 63])p: 1.0
+--- testing 2030 : set([2, 37, 105, 78, 49, 63])p: 1.0
+--- testing 2031 : set([49, 2, 33, 78, 63])p: 1.0
+--- testing 2032 : set([2, 14, 49, 78, 25, 63])p: 1.0
+--- testing 2033 : set([80, 25, 37, 14, 105])p: 1.0
+--- testing 2034 : set([80, 25, 37, 33])p: 1.0
+--- testing 2035 : set([80, 52, 37, 14])p: 1.0
+--- testing 2036 : set([80, 49, 52, 37])p: 1.0
+--- testing 2037 : set([80, 49, 52, 105, 33])p: 1.0
+--- testing 2038 : set([80, 25, 52, 37, 105])p: 1.0
+--- testing 2039 : set([80, 14, 37, 78])p: 1.0
+--- testing 2040 : set([80, 33, 14, 78])p: 1.0
+--- testing 2041 : set([80, 49, 105, 78, 33])p: 1.0
+--- testing 2042 : set([80, 25, 78, 105])p: 1.0
+--- testing 2043 : set([80, 25, 37, 78])p: 1.0
+--- testing 2044 : set([80, 105, 52, 14, 78])p: 1.0
+--- testing 2045 : set([80, 49, 2, 14, 33])p: 1.0
+--- testing 2046 : set([80, 25, 2, 37, 14])p: 1.0
+--- testing 2047 : set([80, 105, 37, 63])p: 1.0
+--- testing 2048 : set([80, 33, 14, 63])p: 1.0
+--- testing 2049 : set([80, 33, 2, 63])p: 1.0
+--- testing 2050 : set([2, 105, 14, 80, 49, 52, 63])p: 1.0
+--- testing 2051 : set([49, 10, 14, 33])p: 1.0
+--- testing 2052 : set([25, 10, 105, 14, 33])p: 1.0
+--- testing 2053 : set([25, 10, 105, 37, 33])p: 1.0
+--- testing 2054 : set([25, 10, 105, 14, 49])p: 1.0
+--- testing 2055 : set([25, 10, 37, 14, 49])p: 1.0
+--- testing 2056 : set([25, 10, 105, 37, 49])p: 1.0
+--- testing 2057 : set([25, 10, 105, 33, 49])p: 1.0
+--- testing 2058 : set([10, 52, 37, 14])p: 1.0
+--- testing 2059 : set([33, 10, 52, 105])p: 1.0
+--- testing 2060 : set([49, 10, 52, 14])p: 1.0
+--- testing 2061 : set([25, 10, 52, 37, 105])p: 1.0
+--- testing 2062 : set([105, 10, 14, 37, 78])p: 1.0
+--- testing 2063 : set([33, 10, 14, 78])p: 1.0
+--- testing 2064 : set([33, 37, 105, 10, 78, 49])p: 1.0
+--- testing 2065 : set([25, 10, 14, 78, 105])p: 1.0
+--- testing 2066 : set([33, 10, 2, 14])p: 1.0
+--- testing 2067 : set([49, 10, 2, 14, 105])p: 1.0
+--- testing 2068 : set([49, 10, 2, 14, 37])p: 1.0
+--- testing 2069 : set([49, 10, 105, 2, 37])p: 1.0
+--- testing 2070 : set([2, 37, 105, 10, 14, 25])p: 1.0
+--- testing 2071 : set([105, 10, 52, 2, 37])p: 1.0
+--- testing 2072 : set([33, 10, 14, 63])p: 1.0
+--- testing 2073 : set([33, 10, 105, 37, 63])p: 1.0
+--- testing 2074 : set([25, 10, 37, 14, 63])p: 1.0
+--- testing 2075 : set([10, 37, 2, 14, 63])p: 1.0
+--- testing 2076 : set([33, 10, 2, 63])p: 1.0
+--- testing 2077 : set([80, 105, 10, 37, 14])p: 1.0
+--- testing 2078 : set([80, 33, 10, 37, 14])p: 1.0
+--- testing 2079 : set([80, 49, 10, 105])p: 1.0
+--- testing 2080 : set([80, 25, 10, 37, 14])p: 1.0
+--- testing 2081 : set([80, 10, 52, 14])p: 1.0
+--- testing 2082 : set([80, 105, 10, 78])p: 1.0
+--- testing 2083 : set([96, 25, 37, 14, 105])p: 1.0
+--- testing 2084 : set([96, 25, 37, 49])p: 1.0
+--- testing 2085 : set([96, 105, 52, 37, 14])p: 1.0
+--- testing 2086 : set([96, 25, 52, 14, 105])p: 1.0
+--- testing 2087 : set([96, 25, 14, 78])p: 1.0
+--- testing 2088 : set([96, 105, 14, 49, 52, 78])p: 1.0
+--- testing 2089 : set([96, 25, 52, 78, 105])p: 1.0
+--- testing 2090 : set([96, 105, 2, 37, 14])p: 1.0
+--- testing 2091 : set([96, 33, 2, 37, 14])p: 1.0
+--- testing 2092 : set([96, 49, 2, 105, 33])p: 1.0
+--- testing 2093 : set([96, 25, 2, 14])p: 1.0
+--- testing 2094 : set([96, 105, 2, 52, 14])p: 1.0
+--- testing 2095 : set([96, 33, 2, 52, 105])p: 1.0
+--- testing 2096 : set([96, 49, 2, 52, 105])p: 1.0
+--- testing 2097 : set([96, 2, 105, 14, 49, 78])p: 1.0
+--- testing 2098 : set([96, 2, 37, 105, 78, 49])p: 1.0
+--- testing 2099 : set([96, 25, 37, 63])p: 1.0
+--- testing 2100 : set([96, 49, 52, 105, 63])p: 1.0
+--- testing 2101 : set([96, 14, 78, 63])p: 1.0
+--- testing 2102 : set([96, 33, 78, 63])p: 1.0
+--- testing 2103 : set([96, 49, 105, 78, 63])p: 1.0
+--- testing 2104 : set([96, 2, 14, 63])p: 1.0
+--- testing 2105 : set([96, 49, 2, 63])p: 1.0
+--- testing 2106 : set([96, 25, 2, 63])p: 1.0
+--- testing 2107 : set([96, 80, 14, 33])p: 1.0
+--- testing 2108 : set([96, 80, 25])p: 1.0
+--- testing 2109 : set([96, 80, 78, 49])p: 1.0
+--- testing 2110 : set([96, 10, 52])p: 1.0
+--- testing 2111 : set([96, 10, 14, 78])p: 1.0
+--- testing 2112 : set([96, 33, 37, 105, 10, 78])p: 1.0
+--- testing 2113 : set([96, 10, 2, 37])p: 1.0
+--- testing 2114 : set([96, 33, 10, 105, 63])p: 1.0
+--- testing 2115 : set([96, 10, 37, 78, 63])p: 1.0
+--- testing 2116 : set([25, 105, 85, 33])p: 1.0
+--- testing 2117 : set([25, 105, 85, 14, 49])p: 1.0
+--- testing 2118 : set([33, 37, 105, 14, 49, 52, 85])p: 1.0
+--- testing 2119 : set([25, 52, 85, 105])p: 1.0
+--- testing 2120 : set([14, 85, 78, 37])p: 1.0
+--- testing 2121 : set([49, 14, 85, 78, 105])p: 1.0
+--- testing 2122 : set([33, 37, 105, 78, 49, 85])p: 1.0
+--- testing 2123 : set([25, 85, 78, 105])p: 1.0
+--- testing 2124 : set([33, 37, 105, 78, 52, 85])p: 1.0
+--- testing 2125 : set([49, 2, 85, 14, 37])p: 1.0
+--- testing 2126 : set([33, 2, 105, 14, 49, 85])p: 1.0
+--- testing 2127 : set([25, 2, 85, 14])p: 1.0
+--- testing 2128 : set([25, 2, 105, 85, 37])p: 1.0
+--- testing 2129 : set([105, 2, 52, 85, 33])p: 1.0
+--- testing 2130 : set([105, 37, 85, 14, 63])p: 1.0
+--- testing 2131 : set([33, 85, 14, 63])p: 1.0
+--- testing 2132 : set([49, 105, 85, 14, 63])p: 1.0
+--- testing 2133 : set([25, 49, 85, 63])p: 1.0
+--- testing 2134 : set([52, 85, 63])p: 1.0
+--- testing 2135 : set([2, 37, 85, 63])p: 1.0
+--- testing 2136 : set([33, 2, 105, 49, 85, 63])p: 1.0
+--- testing 2137 : set([25, 2, 85, 63])p: 1.0
+--- testing 2138 : set([80, 105, 85, 37])p: 1.0
+--- testing 2139 : set([80, 49, 85, 37])p: 1.0
+--- testing 2140 : set([33, 105, 14, 80, 49, 85])p: 1.0
+--- testing 2141 : set([80, 25, 85, 105])p: 1.0
+--- testing 2142 : set([80, 33, 52, 85, 14])p: 1.0
+--- testing 2143 : set([80, 33, 52, 85, 105])p: 1.0
+--- testing 2144 : set([105, 14, 80, 49, 52, 85])p: 1.0
+--- testing 2145 : set([80, 33, 85, 78, 105])p: 1.0
+--- testing 2146 : set([80, 25, 14, 85, 78])p: 1.0
+--- testing 2147 : set([80, 2, 85, 14, 37])p: 1.0
+--- testing 2148 : set([80, 49, 2, 85, 14])p: 1.0
+--- testing 2149 : set([80, 49, 2, 85, 105])p: 1.0
+--- testing 2150 : set([80, 2, 85, 78])p: 1.0
+--- testing 2151 : set([80, 105, 85, 14, 63])p: 1.0
+--- testing 2152 : set([80, 2, 85, 14, 63])p: 1.0
+--- testing 2153 : set([49, 10, 105, 85, 37])p: 1.0
+--- testing 2154 : set([25, 10, 85, 14, 105])p: 1.0
+--- testing 2155 : set([33, 10, 52, 85, 37])p: 1.0
+--- testing 2156 : set([33, 2, 37, 105, 10, 78, 85])p: 1.0
+--- testing 2157 : set([10, 37, 85, 14, 63])p: 1.0
+--- testing 2158 : set([105, 10, 78, 49, 85, 63])p: 1.0
+--- testing 2159 : set([80, 33, 10, 85])p: 1.0
+--- testing 2160 : set([96, 49, 85, 14, 33])p: 1.0
+--- testing 2161 : set([96, 25, 85, 14])p: 1.0
+--- testing 2162 : set([96, 25, 37, 85, 33])p: 1.0
+--- testing 2163 : set([96, 25, 85, 49])p: 1.0
+--- testing 2164 : set([96, 52, 85])p: 1.0
+--- testing 2165 : set([96, 33, 14, 85, 78])p: 1.0
+--- testing 2166 : set([96, 33, 105, 78, 49, 85])p: 1.0
+--- testing 2167 : set([96, 33, 2, 37, 105, 85])p: 1.0
+--- testing 2168 : set([96, 37, 85, 14, 63])p: 1.0
+--- testing 2169 : set([96, 25, 85, 63])p: 1.0
+--- testing 2170 : set([96, 2, 85, 78, 63])p: 1.0
+--- testing 2171 : set([96, 80, 85, 78])p: 1.0
+--- testing 2172 : set([52, 4, 37, 105])p: 1.0
+--- testing 2173 : set([52, 4, 105, 14, 49])p: 1.0
+--- testing 2174 : set([52, 4, 105, 25])p: 1.0
+--- testing 2175 : set([4, 14, 78])p: 1.0
+--- testing 2176 : set([49, 4, 78, 105])p: 1.0
+--- testing 2177 : set([25, 4, 37, 78, 105])p: 1.0
+--- testing 2178 : set([25, 4, 78, 33])p: 1.0
+--- testing 2179 : set([33, 2, 4, 37])p: 1.0
+--- testing 2180 : set([49, 2, 4, 105])p: 1.0
+--- testing 2181 : set([25, 2, 4, 14])p: 1.0
+--- testing 2182 : set([52, 2, 4])p: 1.0
+--- testing 2183 : set([2, 4, 78])p: 1.0
+--- testing 2184 : set([25, 4, 14, 63])p: 1.0
+--- testing 2185 : set([52, 4, 63])p: 1.0
+--- testing 2186 : set([52, 10, 4, 105])p: 1.0
+--- testing 2187 : set([10, 4, 2, 37])p: 1.0
+--- testing 2188 : set([96, 33, 4, 105])p: 1.0
+--- testing 2189 : set([96, 2, 4, 14])p: 1.0
+--- testing 2190 : set([96, 10, 4, 37])p: 1.0
+--- testing 2191 : set([49, 105, 4, 85, 37])p: 1.0
+--- testing 2192 : set([25, 4, 85, 14])p: 1.0
+--- testing 2193 : set([25, 37, 4, 85, 63])p: 1.0
+--- testing 2194 : set([4, 37, 105, 10, 85, 63])p: 1.0
+--- testing 2195 : set([96, 25, 4, 85])p: 1.0
+--- testing 2196 : set([96, 33, 4, 37, 49, 85, 63])p: 1.0
+--- testing 2197 : set([33, 14, 37, 6, 105])p: 1.0
+--- testing 2198 : set([25, 105, 14, 6, 33])p: 1.0
+--- testing 2199 : set([25, 37, 6, 33])p: 1.0
+--- testing 2200 : set([33, 52, 6, 105])p: 1.0
+--- testing 2201 : set([25, 52, 14, 6])p: 1.0
+--- testing 2202 : set([2, 14, 6])p: 1.0
+--- testing 2203 : set([14, 37, 6, 63])p: 1.0
+--- testing 2204 : set([25, 6, 63])p: 1.0
+--- testing 2205 : set([2, 6, 63])p: 1.0
+--- testing 2206 : set([80, 14, 37, 6])p: 1.0
+--- testing 2207 : set([80, 25, 14, 6])p: 1.0
+--- testing 2208 : set([80, 78, 6])p: 1.0
+--- testing 2209 : set([10, 14, 6])p: 1.0
+--- testing 2210 : set([10, 37, 6])p: 1.0
+--- testing 2211 : set([96, 33, 6])p: 1.0
+--- testing 2212 : set([96, 25, 6])p: 1.0
+--- testing 2213 : set([14, 85, 6])p: 1.0
+--- testing 2214 : set([85, 6, 37])p: 1.0
+--- testing 2215 : set([4, 14, 6])p: 1.0
+--- testing 2216 : set([4, 37, 6])p: 1.0
+--- testing 2217 : set([49, 22, 33])p: 1.0
+--- testing 2218 : set([25, 14, 22])p: 1.0
+--- testing 2219 : set([25, 37, 22])p: 1.0
+--- testing 2220 : set([33, 52, 14, 22])p: 0.000985737550013
+--- testing 2221 : set([33, 52, 22, 105])p: 0.000985737550013
+--- testing 2222 : set([49, 52, 14, 22, 105])p: 1.0
+--- testing 2223 : set([49, 52, 37, 22, 105])p: 1.0
+--- testing 2224 : set([78, 22, 37])p: 1.0
+--- testing 2225 : set([33, 78, 22])p: 1.0
+--- testing 2226 : set([49, 78, 22])p: 1.0
+--- testing 2227 : set([105, 52, 78, 22])p: 1.0
+--- testing 2228 : set([33, 2, 14, 22])p: 0.000985737550013
+--- testing 2229 : set([105, 2, 52, 14, 22])p: 0.000985737550013
+--- testing 2230 : set([49, 2, 52, 22, 105])p: 1.0
+--- testing 2231 : set([105, 2, 78, 22])p: 1.0
+--- testing 2232 : set([14, 37, 22, 63])p: 1.0
+--- testing 2233 : set([49, 14, 22, 63])p: 1.0
+--- testing 2234 : set([2, 22, 63])p: 1.0
+--- testing 2235 : set([10, 14, 22])p: 1.0
+--- testing 2236 : set([10, 37, 22])p: 1.0
+--- testing 2237 : set([96, 33, 22])p: 1.0
+--- testing 2238 : set([96, 49, 14, 22])p: 1.0
+--- testing 2239 : set([105, 14, 85, 22])p: 1.0
+--- testing 2240 : set([25, 85, 22])p: 1.0
+--- testing 2241 : set([14, 85, 22, 63])p: 1.0
+--- testing 2242 : set([8, 33, 37, 105])p: 1.0
+--- testing 2243 : set([8, 49, 37, 105])p: 1.0
+--- testing 2244 : set([8, 49, 33])p: 1.0
+--- testing 2245 : set([8, 25, 37, 14, 105])p: 1.0
+--- testing 2246 : set([8, 25, 14, 33])p: 1.0
+--- testing 2247 : set([8, 49, 78, 105])p: 1.0
+--- testing 2248 : set([8, 25, 78])p: 1.0
+--- testing 2249 : set([8, 105, 52, 14, 78])p: 1.0
+--- testing 2250 : set([8, 2, 37, 14])p: 1.0
+--- testing 2251 : set([8, 33, 2, 14])p: 1.0
+--- testing 2252 : set([8, 49, 2, 14, 105])p: 1.0
+--- testing 2253 : set([8, 25, 2])p: 1.0
+--- testing 2254 : set([8, 49, 2, 52, 105])p: 1.0
+--- testing 2255 : set([8, 2, 52, 78])p: 1.0
+--- testing 2256 : set([8, 33, 14, 63])p: 1.0
+--- testing 2257 : set([8, 2, 14, 63])p: 1.0
+--- testing 2258 : set([8, 80, 14])p: 1.0
+--- testing 2259 : set([8, 80, 33])p: 1.0
+--- testing 2260 : set([8, 80, 25])p: 1.0
+--- testing 2261 : set([8, 80, 78])p: 1.0
+--- testing 2262 : set([8, 10, 14])p: 1.0
+--- testing 2263 : set([8, 33, 10])p: 1.0
+--- testing 2264 : set([8, 96, 37, 105])p: 1.0
+--- testing 2265 : set([8, 96, 14, 33])p: 1.0
+--- testing 2266 : set([8, 96, 105, 33])p: 1.0
+--- testing 2267 : set([8, 96, 37, 33])p: 1.0
+--- testing 2268 : set([8, 96, 105, 14, 49])p: 1.0
+--- testing 2269 : set([8, 96, 105, 25])p: 1.0
+--- testing 2270 : set([8, 96, 14, 78])p: 1.0
+--- testing 2271 : set([8, 96, 78, 33])p: 1.0
+--- testing 2272 : set([8, 96, 52, 78, 105])p: 1.0
+--- testing 2273 : set([8, 96, 14, 63])p: 1.0
+--- testing 2274 : set([8, 85, 14])p: 1.0
+--- testing 2275 : set([8, 49, 85])p: 1.0
+--- testing 2276 : set([8, 14, 22])p: 1.0
+--- testing 2277 : set([8, 96, 22, 105])p: 1.0
+--- testing 2278 : set([105, 106, 37, 14])p: 1.0
+--- testing 2279 : set([33, 106, 14, 105])p: 1.0
+--- testing 2280 : set([33, 106, 37, 14])p: 1.0
+--- testing 2281 : set([49, 106, 105, 33])p: 1.0
+--- testing 2282 : set([25, 106, 14, 105])p: 1.0
+--- testing 2283 : set([25, 106, 37])p: 1.0
+--- testing 2284 : set([25, 106, 14, 33])p: 1.0
+--- testing 2285 : set([25, 106, 49])p: 1.0
+--- testing 2286 : set([106, 52, 14])p: 1.0
+--- testing 2287 : set([106, 52, 37])p: 1.0
+--- testing 2288 : set([33, 106, 52, 105])p: 1.0
+--- testing 2289 : set([105, 106, 14, 78])p: 1.0
+--- testing 2290 : set([106, 37, 78])p: 1.0
+--- testing 2291 : set([25, 106, 14, 78])p: 1.0
+--- testing 2292 : set([25, 106, 78, 105])p: 1.0
+--- testing 2293 : set([25, 106, 2])p: 1.0
+--- testing 2294 : set([105, 106, 52, 2, 49])p: 1.0
+--- testing 2295 : set([106, 14, 2, 78])p: 1.0
+--- testing 2296 : set([105, 106, 63])p: 1.0
+--- testing 2297 : set([25, 106, 63])p: 1.0
+--- testing 2298 : set([49, 106, 52, 63])p: 1.0
+--- testing 2299 : set([106, 78, 63])p: 1.0
+--- testing 2300 : set([106, 2, 14, 63])p: 1.0
+--- testing 2301 : set([80, 106, 37])p: 1.0
+--- testing 2302 : set([80, 106, 78])p: 1.0
+--- testing 2303 : set([49, 106, 10])p: 1.0
+--- testing 2304 : set([96, 33, 106, 14])p: 1.0
+--- testing 2305 : set([96, 106, 2, 14])p: 1.0
+--- testing 2306 : set([106, 85, 14])p: 1.0
+--- testing 2307 : set([105, 106, 85])p: 1.0
+--- testing 2308 : set([106, 85, 37])p: 1.0
+--- testing 2309 : set([25, 106, 85])p: 1.0
+--- testing 2310 : set([106, 85, 78])p: 1.0
+--- testing 2311 : set([80, 106, 85])p: 1.0
+--- testing 2312 : set([106, 10, 85])p: 1.0
+--- testing 2313 : set([106, 4, 37])p: 1.0
+--- testing 2314 : set([96, 106, 6])p: 1.0
+--- testing 2315 : set([8, 106])p: 1.0
+--- testing 2316 : set([49, 14, 30, 105])p: 1.0
+--- testing 2317 : set([49, 37, 30])p: 1.0
+--- testing 2318 : set([49, 30, 33])p: 1.0
+--- testing 2319 : set([52, 14, 30])p: 1.0
+--- testing 2320 : set([52, 37, 30])p: 1.0
+--- testing 2321 : set([25, 52, 30, 33])p: 1.0
+--- testing 2322 : set([78, 30, 37])p: 1.0
+--- testing 2323 : set([33, 78, 30, 105])p: 1.0
+--- testing 2324 : set([49, 78, 30])p: 1.0
+--- testing 2325 : set([25, 78, 30, 105])p: 1.0
+--- testing 2326 : set([2, 14, 30])p: 1.0
+--- testing 2327 : set([105, 14, 30, 63])p: 1.0
+--- testing 2328 : set([33, 14, 30, 63])p: 1.0
+--- testing 2329 : set([49, 105, 30, 63])p: 1.0
+--- testing 2330 : set([25, 14, 30, 63])p: 1.0
+--- testing 2331 : set([25, 105, 30, 63])p: 1.0
+--- testing 2332 : set([2, 30, 63])p: 1.0
+--- testing 2333 : set([25, 10, 14, 30, 105])p: 1.0
+--- testing 2334 : set([25, 10, 14, 30, 49])p: 1.0
+--- testing 2335 : set([96, 105, 14, 30])p: 1.0
+--- testing 2336 : set([96, 33, 14, 30])p: 1.0
+--- testing 2337 : set([96, 25, 30])p: 1.0
+--- testing 2338 : set([105, 85, 30])p: 1.0
+--- testing 2339 : set([52, 85, 30])p: 1.0
+--- testing 2340 : set([2, 85, 30])p: 1.0
+--- testing 2341 : set([96, 14, 85, 30, 37])p: 1.0
+--- testing 2342 : set([4, 14, 30])p: 1.0
+--- testing 2343 : set([105, 4, 30])p: 1.0
+--- testing 2344 : set([4, 30, 63])p: 1.0
+--- testing 2345 : set([22, 30, 37])p: 1.0
+--- testing 2346 : set([22, 30, 63])p: 1.0
+--- testing 2347 : set([106, 37, 30])p: 1.0
+--- testing 2348 : set([25, 106, 30])p: 1.0
+--- testing 2349 : set([33, 14, 37, 86])p: 1.0
+--- testing 2350 : set([49, 105, 86, 33])p: 1.0
+--- testing 2351 : set([25, 86, 49])p: 1.0
+--- testing 2352 : set([105, 52, 14, 86])p: 1.0
+--- testing 2353 : set([105, 52, 78, 86, 49])p: 1.0
+--- testing 2354 : set([105, 2, 86])p: 1.0
+--- testing 2355 : set([2, 37, 86])p: 1.0
+--- testing 2356 : set([33, 2, 86])p: 1.0
+--- testing 2357 : set([25, 2, 78, 86])p: 1.0
+--- testing 2358 : set([105, 86, 63])p: 1.0
+--- testing 2359 : set([25, 37, 86, 63])p: 1.0
+--- testing 2360 : set([80, 25, 86])p: 1.0
+--- testing 2361 : set([105, 10, 14, 37, 86])p: 1.0
+--- testing 2362 : set([10, 86, 63])p: 1.0
+--- testing 2363 : set([96, 14, 86])p: 1.0
+--- testing 2364 : set([96, 37, 86])p: 1.0
+--- testing 2365 : set([96, 25, 86, 33])p: 1.0
+--- testing 2366 : set([96, 78, 86])p: 1.0
+--- testing 2367 : set([25, 85, 86, 37])p: 1.0
+--- testing 2368 : set([4, 14, 86])p: 1.0
+--- testing 2369 : set([4, 37, 86])p: 1.0
+--- testing 2370 : set([96, 4, 86])p: 1.0
+--- testing 2371 : set([14, 6, 86])p: 1.0
+--- testing 2372 : set([37, 6, 86, 63])p: 1.0
+--- testing 2373 : set([105, 22, 86])p: 1.0
+--- testing 2374 : set([8, 105, 86])p: 1.0
+--- testing 2375 : set([8, 2, 86])p: 1.0
+--- testing 2376 : set([33, 105, 14, 95])p: 1.0
+--- testing 2377 : set([49, 105, 37, 14, 95])p: 1.0
+--- testing 2378 : set([49, 37, 33, 14, 95])p: 1.0
+--- testing 2379 : set([49, 37, 105, 33, 95])p: 1.0
+--- testing 2380 : set([25, 105, 14, 95])p: 1.0
+--- testing 2381 : set([25, 37, 33, 14, 95])p: 1.0
+--- testing 2382 : set([25, 37, 105, 33, 95])p: 1.0
+--- testing 2383 : set([25, 37, 49, 14, 95])p: 1.0
+--- testing 2384 : set([25, 37, 105, 49, 95])p: 1.0
+--- testing 2385 : set([25, 33, 105, 49, 95])p: 1.0
+--- testing 2386 : set([33, 105, 78, 95])p: 1.0
+--- testing 2387 : set([49, 78, 95])p: 1.0
+--- testing 2388 : set([25, 78, 95])p: 1.0
+--- testing 2389 : set([49, 2, 95])p: 1.0
+--- testing 2390 : set([25, 2, 14, 95])p: 1.0
+--- testing 2391 : set([25, 2, 37, 33, 95])p: 1.0
+--- testing 2392 : set([2, 52, 95])p: 1.0
+--- testing 2393 : set([2, 78, 95])p: 1.0
+--- testing 2394 : set([63, 14, 95])p: 1.0
+--- testing 2395 : set([80, 14, 95])p: 1.0
+--- testing 2396 : set([25, 10, 14, 95])p: 1.0
+--- testing 2397 : set([96, 49, 95])p: 1.0
+--- testing 2398 : set([96, 25, 105, 37, 95])p: 1.0
+--- testing 2399 : set([96, 25, 33, 95])p: 1.0
+--- testing 2400 : set([96, 105, 2, 95])p: 1.0
+--- testing 2401 : set([33, 37, 105, 85, 95])p: 1.0
+--- testing 2402 : set([49, 105, 85, 95])p: 1.0
+--- testing 2403 : set([25, 33, 85, 95])p: 1.0
+--- testing 2404 : set([80, 85, 95])p: 1.0
+--- testing 2405 : set([96, 25, 37, 85, 95])p: 1.0
+--- testing 2406 : set([4, 14, 95])p: 1.0
+--- testing 2407 : set([33, 4, 95])p: 1.0
+--- testing 2408 : set([8, 105, 95])p: 1.0
+--- testing 2409 : set([8, 25, 49, 14, 95])p: 1.0
+--- testing 2410 : set([96, 37, 8, 14, 25, 95])p: 1.0
+--- testing 2411 : set([33, 106, 37, 95])p: 1.0
+--- testing 2412 : set([37, 30, 95])p: 1.0
+--- testing 2413 : set([33, 30, 95])p: 1.0
+--- testing 2414 : set([25, 14, 30, 95])p: 1.0
+--- testing 2415 : set([105, 52, 49, 30, 95])p: 1.0
+--- testing 2416 : set([25, 2, 30, 95])p: 1.0
+--- testing 2417 : set([105, 86, 95])p: 1.0
+--- testing 2418 : set([25, 86, 95])p: 1.0
+--- testing 2419 : set([8, 86, 95])p: 1.0
+--- testing 2420 : set([33, 59, 105])p: 1.0
+--- testing 2421 : set([49, 59, 14, 33])p: 1.0
+--- testing 2422 : set([25, 59, 37, 14, 33])p: 1.0
+--- testing 2423 : set([14, 59, 37, 78])p: 1.0
+--- testing 2424 : set([2, 59, 37, 14])p: 1.0
+--- testing 2425 : set([33, 2, 59])p: 1.0
+--- testing 2426 : set([49, 2, 59, 14])p: 1.0
+--- testing 2427 : set([2, 59, 52])p: 1.0
+--- testing 2428 : set([25, 2, 59, 78])p: 1.0
+--- testing 2429 : set([105, 59, 63])p: 1.0
+--- testing 2430 : set([59, 37, 63])p: 1.0
+--- testing 2431 : set([2, 59, 14, 63])p: 1.0
+--- testing 2432 : set([25, 2, 59, 63])p: 1.0
+--- testing 2433 : set([80, 49, 59, 14])p: 1.0
+--- testing 2434 : set([80, 2, 59])p: 1.0
+--- testing 2435 : set([49, 10, 59, 14, 105])p: 1.0
+--- testing 2436 : set([96, 2, 59, 63])p: 1.0
+--- testing 2437 : set([49, 59, 85])p: 1.0
+--- testing 2438 : set([59, 4])p: 1.0
+--- testing 2439 : set([59, 30])p: 1.0
+--- testing 2440 : set([59, 86])p: 1.0
+--- testing 2441 : set([33, 59, 25, 37, 95])p: 1.0
+--- testing 2442 : set([25, 106, 59, 14, 95])p: 1.0
+--- testing 2443 : set([49, 19, 37])p: 1.0
+--- testing 2444 : set([49, 19, 105, 33])p: 1.0
+--- testing 2445 : set([33, 19, 52])p: 1.0
+--- testing 2446 : set([49, 19, 52, 105])p: 1.0
+--- testing 2447 : set([19, 14, 78])p: 1.0
+--- testing 2448 : set([33, 19, 78, 105])p: 1.0
+--- testing 2449 : set([49, 19, 78, 105])p: 1.0
+--- testing 2450 : set([49, 19, 78, 33])p: 1.0
+--- testing 2451 : set([25, 19, 78, 33])p: 1.0
+--- testing 2452 : set([33, 2, 19])p: 1.0
+--- testing 2453 : set([25, 2, 19])p: 1.0
+--- testing 2454 : set([2, 19, 52])p: 1.0
+--- testing 2455 : set([80, 19, 14])p: 1.0
+--- testing 2456 : set([80, 19, 78])p: 1.0
+--- testing 2457 : set([96, 19, 14])p: 1.0
+--- testing 2458 : set([96, 19, 37])p: 1.0
+--- testing 2459 : set([33, 19, 37, 6])p: 1.0
+--- testing 2460 : set([96, 19, 6])p: 1.0
+--- testing 2461 : set([19, 22])p: 1.0
+--- testing 2462 : set([19, 30])p: 1.0
+--- testing 2463 : set([52, 71])p: 1.0
+--- testing 2464 : set([105, 63, 71])p: 1.0
+--- testing 2465 : set([2, 63, 37, 14, 71])p: 1.0
+--- testing 2466 : set([80, 37, 14, 71])p: 1.0
+--- testing 2467 : set([85, 14, 71])p: 1.0
+--- testing 2468 : set([4, 37, 71])p: 1.0
+--- testing 2469 : set([22, 71])p: 1.0
+--- testing 2470 : set([105, 53, 14, 37])p: 1.0
+--- testing 2471 : set([33, 53, 14])p: 1.0
+--- testing 2472 : set([33, 53, 105])p: 1.0
+--- testing 2473 : set([49, 53, 14, 105])p: 1.0
+--- testing 2474 : set([25, 37, 53, 33])p: 1.0
+--- testing 2475 : set([25, 37, 52, 53, 105])p: 1.0
+--- testing 2476 : set([105, 53, 78])p: 1.0
+--- testing 2477 : set([33, 53, 78])p: 1.0
+--- testing 2478 : set([2, 53, 37])p: 1.0
+--- testing 2479 : set([105, 53, 63])p: 1.0
+--- testing 2480 : set([25, 53, 63])p: 1.0
+--- testing 2481 : set([80, 105, 53])p: 1.0
+--- testing 2482 : set([10, 53, 14])p: 1.0
+--- testing 2483 : set([10, 52, 53])p: 1.0
+--- testing 2484 : set([96, 37, 53, 63])p: 1.0
+--- testing 2485 : set([105, 53, 85])p: 1.0
+--- testing 2486 : set([14, 53, 22])p: 1.0
+--- testing 2487 : set([8, 53, 14])p: 1.0
+--- testing 2488 : set([8, 105, 53])p: 1.0
+--- testing 2489 : set([8, 33, 53])p: 1.0
+--- testing 2490 : set([53, 30])p: 1.0
+--- testing 2491 : set([53, 95])p: 1.0
+--- testing 2492 : set([33, 35, 37, 14])p: 1.0
+--- testing 2493 : set([49, 35, 14, 105])p: 1.0
+--- testing 2494 : set([25, 35, 37, 33])p: 1.0
+--- testing 2495 : set([2, 35, 37])p: 1.0
+--- testing 2496 : set([2, 35, 14, 63])p: 1.0
+--- testing 2497 : set([80, 35, 14])p: 1.0
+--- testing 2498 : set([80, 49, 35])p: 1.0
+--- testing 2499 : set([10, 35, 37, 14])p: 1.0
+--- testing 2500 : set([25, 10, 35, 14])p: 1.0
+--- testing 2501 : set([10, 35, 14, 78])p: 1.0
+--- testing 2502 : set([96, 35, 14])p: 1.0
+--- testing 2503 : set([105, 35, 85])p: 1.0
+--- testing 2504 : set([35, 85, 37])p: 1.0
+--- testing 2505 : set([2, 35, 85])p: 1.0
+--- testing 2506 : set([35, 22])p: 1.0
+--- testing 2507 : set([35, 86])p: 1.0
+--- testing 2508 : set([105, 92, 14])p: 1.0
+--- testing 2509 : set([49, 92, 33])p: 1.0
+--- testing 2510 : set([25, 92, 105, 33])p: 1.0
+--- testing 2511 : set([33, 37, 14, 52, 25, 92])p: 1.0
+--- testing 2512 : set([52, 105, 92, 49, 25])p: 1.0
+--- testing 2513 : set([33, 92, 78])p: 1.0
+--- testing 2514 : set([2, 37, 14, 49, 25, 92])p: 1.0
+--- testing 2515 : set([52, 2, 92, 33])p: 1.0
+--- testing 2516 : set([92, 14, 63])p: 1.0
+--- testing 2517 : set([80, 92, 37])p: 1.0
+--- testing 2518 : set([96, 92])p: 1.0
+--- testing 2519 : set([33, 90, 14])p: 1.0
+--- testing 2520 : set([49, 90, 37, 14])p: 1.0
+--- testing 2521 : set([25, 90, 37])p: 1.0
+--- testing 2522 : set([25, 90, 33])p: 1.0
+--- testing 2523 : set([49, 90, 52, 105])p: 1.0
+--- testing 2524 : set([105, 90, 52, 78])p: 1.0
+--- testing 2525 : set([90, 14, 63])p: 1.0
+--- testing 2526 : set([25, 90, 63])p: 1.0
+--- testing 2527 : set([33, 90, 2, 63])p: 1.0
+--- testing 2528 : set([80, 90, 14])p: 1.0
+--- testing 2529 : set([96, 90])p: 1.0
+--- testing 2530 : set([90, 30])p: 1.0
+--- testing 2531 : set([90, 37, 86])p: 1.0
+--- testing 2532 : set([90, 14, 95])p: 1.0
+--- testing 2533 : set([105, 14, 31])p: 1.0
+--- testing 2534 : set([33, 14, 31])p: 1.0
+--- testing 2535 : set([49, 105, 31])p: 1.0
+--- testing 2536 : set([49, 33, 31])p: 1.0
+--- testing 2537 : set([105, 52, 31])p: 1.0
+--- testing 2538 : set([33, 52, 31])p: 1.0
+--- testing 2539 : set([78, 31])p: 1.0
+--- testing 2540 : set([2, 14, 31])p: 1.0
+--- testing 2541 : set([85, 31])p: 1.0
+--- testing 2542 : set([4, 31])p: 1.0
+--- testing 2543 : set([33, 22, 31])p: 1.0
+--- testing 2544 : set([33, 14, 37, 38, 105])p: 1.0
+--- testing 2545 : set([49, 38, 105])p: 1.0
+--- testing 2546 : set([25, 105, 14, 38, 33])p: 1.0
+--- testing 2547 : set([25, 37, 38, 33])p: 1.0
+--- testing 2548 : set([33, 52, 38])p: 1.0
+--- testing 2549 : set([25, 78, 38])p: 1.0
+--- testing 2550 : set([10, 2, 38, 37])p: 1.0
+--- testing 2551 : set([96, 14, 37, 38])p: 1.0
+--- testing 2552 : set([96, 33, 14, 38, 105])p: 1.0
+--- testing 2553 : set([96, 25, 38, 105])p: 1.0
+--- testing 2554 : set([96, 105, 52, 37, 38])p: 1.0
+--- testing 2555 : set([96, 2, 52, 37, 38])p: 1.0
+--- testing 2556 : set([106, 38])p: 1.0
+--- testing 2557 : set([25, 30, 38])p: 1.0
+--- testing 2558 : set([14, 38, 71])p: 1.0
+--- testing 2559 : set([105, 98, 37, 14])p: 1.0
+--- testing 2560 : set([33, 98, 14, 105])p: 1.0
+--- testing 2561 : set([33, 98, 37])p: 1.0
+--- testing 2562 : set([49, 98, 37])p: 1.0
+--- testing 2563 : set([25, 98, 14, 33])p: 1.0
+--- testing 2564 : set([98, 52, 37])p: 1.0
+--- testing 2565 : set([105, 98, 14, 78])p: 1.0
+--- testing 2566 : set([49, 98, 14, 78, 33])p: 1.0
+--- testing 2567 : set([105, 98, 2])p: 1.0
+--- testing 2568 : set([49, 98, 2, 14])p: 1.0
+--- testing 2569 : set([25, 98, 105, 63])p: 1.0
+--- testing 2570 : set([25, 98, 33, 63])p: 1.0
+--- testing 2571 : set([25, 98, 14, 78, 63])p: 1.0
+--- testing 2572 : set([33, 98, 2, 14, 63])p: 1.0
+--- testing 2573 : set([80, 105, 98, 78, 49])p: 1.0
+--- testing 2574 : set([96, 33, 98, 14])p: 1.0
+--- testing 2575 : set([33, 98, 85, 14])p: 1.0
+--- testing 2576 : set([33, 98, 85, 105])p: 1.0
+--- testing 2577 : set([98, 2, 85, 14])p: 1.0
+--- testing 2578 : set([98, 85, 63])p: 1.0
+--- testing 2579 : set([96, 98, 85])p: 1.0
+--- testing 2580 : set([33, 98, 6])p: 1.0
+--- testing 2581 : set([105, 98, 14, 22])p: 1.0
+--- testing 2582 : set([25, 98, 30])p: 1.0
+--- testing 2583 : set([25, 98, 95])p: 1.0
+--- testing 2584 : set([33, 54, 105])p: 1.0
+--- testing 2585 : set([33, 37, 54])p: 1.0
+--- testing 2586 : set([49, 14, 54, 105])p: 1.0
+--- testing 2587 : set([25, 14, 54, 105])p: 1.0
+--- testing 2588 : set([25, 37, 54])p: 1.0
+--- testing 2589 : set([25, 78, 54])p: 1.0
+--- testing 2590 : set([33, 2, 54])p: 1.0
+--- testing 2591 : set([49, 2, 54, 105])p: 1.0
+--- testing 2592 : set([105, 14, 54, 63])p: 1.0
+--- testing 2593 : set([49, 14, 54, 63])p: 1.0
+--- testing 2594 : set([80, 78, 54, 37])p: 1.0
+--- testing 2595 : set([25, 85, 54, 63])p: 1.0
+--- testing 2596 : set([4, 14, 54])p: 1.0
+--- testing 2597 : set([105, 4, 54])p: 1.0
+--- testing 2598 : set([4, 37, 54])p: 1.0
+--- testing 2599 : set([49, 106, 54, 105])p: 1.0
+--- testing 2600 : set([56, 105, 37, 14])p: 1.0
+--- testing 2601 : set([56, 33, 105])p: 1.0
+--- testing 2602 : set([56, 25, 14, 105])p: 1.0
+--- testing 2603 : set([56, 25, 37, 14])p: 1.0
+--- testing 2604 : set([56, 25, 33])p: 1.0
+--- testing 2605 : set([56, 25, 105, 49])p: 1.0
+--- testing 2606 : set([56, 105, 52])p: 1.0
+--- testing 2607 : set([56, 49, 2, 105])p: 1.0
+--- testing 2608 : set([56, 14, 63])p: 1.0
+--- testing 2609 : set([56, 80])p: 1.0
+--- testing 2610 : set([56, 96])p: 1.0
+--- testing 2611 : set([56, 8])p: 1.0
+--- testing 2612 : set([56, 95])p: 1.0
+--- testing 2613 : set([105, 14, 15])p: 1.0
+--- testing 2614 : set([49, 105, 15])p: 1.0
+--- testing 2615 : set([49, 37, 14, 15])p: 1.0
+--- testing 2616 : set([25, 14, 15])p: 1.0
+--- testing 2617 : set([25, 105, 15])p: 1.0
+--- testing 2618 : set([105, 52, 15])p: 1.0
+--- testing 2619 : set([78, 15])p: 1.0
+--- testing 2620 : set([80, 37, 15])p: 1.0
+--- testing 2621 : set([80, 63, 15])p: 1.0
+--- testing 2622 : set([10, 15])p: 1.0
+--- testing 2623 : set([85, 15])p: 1.0
+--- testing 2624 : set([95, 15])p: 1.0
+--- testing 2625 : set([71, 14, 15])p: 1.0
+--- testing 2626 : set([40, 105, 37, 14])p: 1.0
+--- testing 2627 : set([40, 33, 105])p: 1.0
+--- testing 2628 : set([40, 49, 105])p: 1.0
+--- testing 2629 : set([40, 49, 14, 33])p: 1.0
+--- testing 2630 : set([40, 25, 14, 105])p: 1.0
+--- testing 2631 : set([40, 25, 37, 14])p: 1.0
+--- testing 2632 : set([40, 105, 52])p: 1.0
+--- testing 2633 : set([40, 14, 78])p: 1.0
+--- testing 2634 : set([40, 14, 63])p: 1.0
+--- testing 2635 : set([40, 105, 10, 14])p: 1.0
+--- testing 2636 : set([40, 96, 14])p: 1.0
+--- testing 2637 : set([40, 96, 78])p: 1.0
+--- testing 2638 : set([40, 96, 2, 37])p: 1.0
+--- testing 2639 : set([40, 25, 85])p: 1.0
+--- testing 2640 : set([40, 4])p: 1.0
+--- testing 2641 : set([40, 106, 37])p: 1.0
+--- testing 2642 : set([40, 25, 106, 14])p: 1.0
+--- testing 2643 : set([40, 33, 37, 14, 95])p: 1.0
+--- testing 2644 : set([40, 25, 33, 14, 95])p: 1.0
+--- testing 2645 : set([40, 33, 106, 95])p: 1.0
+--- testing 2646 : set([40, 105, 37, 38])p: 1.0
+--- testing 2647 : set([40, 52, 37, 38])p: 1.0
+--- testing 2648 : set([40, 10, 37, 38])p: 1.0
+--- testing 2649 : set([52, 61])p: 1.0
+--- testing 2650 : set([25, 33, 61, 63])p: 1.0
+--- testing 2651 : set([2, 61, 14, 63])p: 1.0
+--- testing 2652 : set([80, 61])p: 1.0
+--- testing 2653 : set([63, 61, 85])p: 1.0
+--- testing 2654 : set([74, 37, 14])p: 1.0
+--- testing 2655 : set([25, 74, 14])p: 1.0
+--- testing 2656 : set([25, 74, 105])p: 1.0
+--- testing 2657 : set([74, 63])p: 1.0
+--- testing 2658 : set([80, 74])p: 1.0
+--- testing 2659 : set([96, 25, 74])p: 1.0
+--- testing 2660 : set([64, 37, 14])p: 1.0
+--- testing 2661 : set([64, 78])p: 1.0
+--- testing 2662 : set([64, 2, 14])p: 1.0
+--- testing 2663 : set([64, 14, 63])p: 1.0
+--- testing 2664 : set([64, 80, 105])p: 1.0
+--- testing 2665 : set([64, 96, 37])p: 1.0
+--- testing 2666 : set([64, 96, 33])p: 1.0
+--- testing 2667 : set([64, 85])p: 1.0
+--- testing 2668 : set([105, 69])p: 1.0
+--- testing 2669 : set([25, 69])p: 1.0
+--- testing 2670 : set([2, 69, 14])p: 1.0
+--- testing 2671 : set([10, 69])p: 1.0
+--- testing 2672 : set([33, 84, 37, 105])p: 1.0
+--- testing 2673 : set([49, 84, 105])p: 1.0
+--- testing 2674 : set([25, 84, 37, 105])p: 1.0
+--- testing 2675 : set([105, 84, 78])p: 1.0
+--- testing 2676 : set([25, 84, 14, 78])p: 1.0
+--- testing 2677 : set([25, 84, 63])p: 1.0
+--- testing 2678 : set([84, 85])p: 1.0
+--- testing 2679 : set([4, 84])p: 1.0
+--- testing 2680 : set([19, 84])p: 1.0
+--- testing 2681 : set([37, 14, 55])p: 1.0
+--- testing 2682 : set([49, 105, 14, 55])p: 1.0
+--- testing 2683 : set([25, 55])p: 1.0
+--- testing 2684 : set([105, 52, 49, 55])p: 1.0
+--- testing 2685 : set([78, 55])p: 1.0
+--- testing 2686 : set([2, 14, 55])p: 1.0
+--- testing 2687 : set([33, 2, 55])p: 1.0
+--- testing 2688 : set([80, 55])p: 1.0
+--- testing 2689 : set([59, 55])p: 1.0
+--- testing 2690 : set([105, 21])p: 1.0
+--- testing 2691 : set([21, 14, 37])p: 1.0
+--- testing 2692 : set([49, 21])p: 1.0
+--- testing 2693 : set([52, 21])p: 1.0
+--- testing 2694 : set([96, 21])p: 1.0
+--- testing 2695 : set([21, 85])p: 1.0
+--- testing 2696 : set([105, 7])p: 1.0
+--- testing 2697 : set([33, 7])p: 1.0
+--- testing 2698 : set([49, 105, 103])p: 1.0
+--- testing 2699 : set([80, 37, 103])p: 1.0
+--- testing 2700 : set([37, 85, 103])p: 1.0
+--- testing 2701 : set([14, 22, 103])p: 1.0
+--- testing 2702 : set([72, 14])p: 1.0
+--- testing 2703 : set([72, 37])p: 1.0
+--- testing 2704 : set([72, 105, 52])p: 1.0
+--- testing 2705 : set([72, 105, 2])p: 1.0
+--- testing 2706 : set([72, 49, 2])p: 1.0
+--- testing 2707 : set([72, 80, 33])p: 1.0
+--- testing 2708 : set([72, 86])p: 1.0
+--- testing 2709 : set([33, 101, 37])p: 1.0
+--- testing 2710 : set([80, 101])p: 1.0
+--- testing 2711 : set([10, 101, 37])p: 1.0
+--- testing 2712 : set([96, 101])p: 1.0
+--- testing 2713 : set([8, 101])p: 1.0
+--- testing 2714 : set([25, 100])p: 1.0
+--- testing 2715 : set([105, 10, 100])p: 1.0
+--- testing 2716 : set([10, 100, 37, 14])p: 1.0
+--- testing 2717 : set([24, 37, 14])p: 1.0
+--- testing 2718 : set([24, 49])p: 1.0
+--- testing 2719 : set([24, 78])p: 1.0
+--- testing 2720 : set([24, 14, 63])p: 1.0
+--- testing 2721 : set([60, 14])p: 1.0
+--- testing 2722 : set([25, 60])p: 1.0
+--- testing 2723 : set([52, 60, 105])p: 1.0
+--- testing 2724 : set([2, 60, 37])p: 1.0
+--- testing 2725 : set([80, 60])p: 1.0
+--- testing 2726 : set([60, 85])p: 1.0
+--- testing 2727 : set([60, 61])p: 1.0
+--- testing 2728 : set([33, 91, 14, 105])p: 1.0
+--- testing 2729 : set([49, 91, 105])p: 1.0
+--- testing 2730 : set([25, 91])p: 1.0
+--- testing 2731 : set([56, 91])p: 1.0
+--- testing 2732 : set([16, 105])p: 1.0
+--- testing 2733 : set([16, 25])p: 1.0
+--- testing 2734 : set([105, 37, 47])p: 1.0
+--- testing 2735 : set([49, 105, 47])p: 1.0
+--- testing 2736 : set([105, 63, 47])p: 1.0
+--- testing 2737 : set([66, 14])p: 1.0
+--- testing 2738 : set([66, 78])p: 1.0
+--- testing 2739 : set([105, 66, 2])p: 1.0
+--- testing 2740 : set([66, 85])p: 1.0
+--- testing 2741 : set([66, 4])p: 1.0
+--- testing 2742 : set([105, 20])p: 1.0
+--- testing 2743 : set([20, 14, 78])p: 1.0
+--- testing 2744 : set([25, 2, 20])p: 1.0
+--- testing 2745 : set([37, 62])p: 1.0
+--- testing 2746 : set([105, 52, 14, 62])p: 1.0
+--- testing 2747 : set([59, 62])p: 1.0
+--- testing 2748 : set([62, 55])p: 1.0
+--- testing 2749 : set([45, 14])p: 1.0
+--- testing 2750 : set([105, 45])p: 1.0
+--- testing 2751 : set([45, 37])p: 1.0
+--- testing 2752 : set([10, 45])p: 1.0
+--- testing 2753 : set([45, 85])p: 1.0
+--- testing 2754 : set([5, 37])p: 1.0
+--- testing 2755 : set([49, 33, 5, 105])p: 0.000985737550013
+--- testing 2756 : set([5, 78])p: 1.0
+--- testing 2757 : set([12, 14, 63])p: 1.0
+--- testing 2758 : set([80, 12])p: 1.0
+--- testing 2759 : set([10, 12, 37])p: 1.0
+--- testing 2760 : set([32, 14])p: 1.0
+--- testing 2761 : set([32, 105])p: 1.0
+--- testing 2762 : set([32, 37])p: 1.0
+--- testing 2763 : set([32, 25])p: 1.0
+--- testing 2764 : set([32, 78])p: 1.0
+--- testing 2765 : set([32, 33, 2])p: 1.0
+--- testing 2766 : set([41, 14])p: 1.0
+--- testing 2767 : set([41, 37])p: 1.0
+--- testing 2768 : set([25, 42])p: 1.0
+--- testing 2769 : set([33, 70])p: 1.0
+--- testing 2770 : set([1, 25])p: 1.0
+--- testing 2771 : set([1, 52])p: 1.0
+--- testing 2772 : set([33, 13])p: 1.0
+--- testing 2773 : set([49, 13])p: 1.0
+--- testing 2774 : set([105, 13, 63])p: 1.0
+--- testing 2775 : set([10, 13])p: 1.0
+--- testing 2776 : set([33, 43])p: 1.0
+--- testing 2777 : set([48, 33])p: 1.0
+--- testing 2778 : set([48, 52, 37])p: 1.0
+--- testing 2779 : set([48, 63])p: 1.0
+--- testing 2780 : set([48, 53])p: 1.0
+--- testing 2781 : set([33, 51])p: 1.0
+--- testing 2782 : set([33, 67, 14, 105])p: 1.0
+--- testing 2783 : set([49, 67, 33, 105])p: 1.0
+--- testing 2784 : set([49, 67, 37, 33])p: 1.0
+--- testing 2785 : set([91, 67])p: 1.0
+--- testing 2786 : set([37, 79])p: 1.0
+--- testing 2787 : set([52, 79])p: 1.0
+--- testing 2788 : set([33, 93])p: 1.0
+--- testing 2789 : set([2, 93])p: 1.0
+--- testing 2790 : set([9, 105, 37, 49])p: 0.000985737550013
+--- testing 2791 : set([65, 2])p: 1.0
+--- testing 2792 : set([65, 85])p: 1.0
+--- testing 2793 : set([105, 94])p: 1.0
+--- testing 2794 : set([78, 94])p: 1.0
+--- testing 2795 : set([94, 63])p: 1.0
+--- testing 2796 : set([33, 18])p: 1.0
+--- testing 2797 : set([49, 18])p: 1.0
+--- testing 2798 : set([18, 2])p: 1.0
+--- testing 2799 : set([105, 27])p: 1.0
+--- testing 2800 : set([49, 44, 105])p: 1.0
+--- testing 2801 : set([25, 44, 105])p: 1.0
+--- testing 2802 : set([89, 14])p: 1.0
+--- testing 2803 : set([89, 85, 49])p: 1.0
+--- testing 2804 : set([97, 33, 25])p: 1.0
+--- testing 2805 : set([97, 78, 105])p: 1.0
+--- testing 2806 : set([33, 99])p: 1.0
+--- testing 2807 : set([33, 3, 52])p: 1.0
+--- testing 2808 : set([17, 105])p: 1.0
+--- testing 2809 : set([17, 37, 14])p: 1.0
+--- testing 2810 : set([33, 23])p: 1.0
+--- testing 2811 : set([26, 2])p: 1.0
+--- testing 2812 : set([81, 105, 49])p: 1.0
+--- testing 2813 : set([33, 83])p: 1.0
+--- testing 2814 : set([49, 83])p: 1.0
+--- testing 2815 : set([49, 11])p: 1.0
+--- testing 2816 : set([105, 68])p: 1.0
+--- testing 2817 : set([33, 68])p: 1.0
+--- testing 2818 : set([37, 39])p: 1.0
+--- testing 2819 : set([63, 39])p: 1.0
+--- testing 2820 : set([10, 39])p: 1.0
+--- testing 2821 : set([105, 50])p: 1.0
+--- testing 2822 : set([105, 58])p: 1.0
+--- testing 2823 : set([25, 29, 14])p: 1.0
+--- testing 2824 : set([57, 37])p: 1.0
+--- testing 2825 : set([105, 76, 37])p: 1.0
+--- testing 2826 : set([105, 52, 77])p: 1.0
+--- testing 2827 : set([34])p: 1.0
+--- testing 2828 : set([102])p: 1.0
